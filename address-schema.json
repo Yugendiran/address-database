@@ -1,0 +1,92 @@
+{
+  "$comment": "Generic address record for ANY country. Store atomic components + regionCode + languageCode. Derive labels/order/required-rules from libaddressinput metadata (address-fields.json) at render & validate time — never store those. Based on google.type.PostalAddress.",
+
+  "fieldReference": {
+    "regionCode":         "ISO 3166-1 alpha-2. REQUIRED. Selects the country's format, labels and required rules.",
+    "languageCode":       "BCP-47 tag. Picks the language variant of the format (fmt vs lfmt). Optional; defaults to country's primary language.",
+    "recipient":          "%N  person / addressee name",
+    "organization":       "%O  company or organization",
+    "addressLines":       "%A  ordered array of street lines (0..n). Preserves order; handles 1-3 line countries.",
+    "dependentLocality":  "%D  sublocality / neighborhood / village",
+    "locality":           "%C  city / town / post town",
+    "administrativeArea": "%S  state / province / emirate / prefecture / parish...",
+    "postalCode":         "%Z  postal / ZIP / PIN / Eircode",
+    "sortingCode":        "%X  sorting code (e.g. French CEDEX)",
+    "landmark":           "%T %F %L  landmark descriptor (India). Optional.",
+    "formatted":          "Optional cached display string rendered from the country's fmt. Convenience only — components are the source of truth."
+  },
+
+  "template": {
+    "regionCode": "",
+    "languageCode": "",
+    "recipient": "",
+    "organization": "",
+    "addressLines": [],
+    "dependentLocality": "",
+    "locality": "",
+    "administrativeArea": "",
+    "postalCode": "",
+    "sortingCode": "",
+    "landmark": "",
+    "formatted": ""
+  },
+
+  "examples": [
+    {
+      "regionCode": "US",
+      "languageCode": "en",
+      "recipient": "Jordan Alvarez",
+      "organization": "",
+      "addressLines": ["1600 Amphitheatre Pkwy"],
+      "dependentLocality": "",
+      "locality": "Mountain View",
+      "administrativeArea": "CA",
+      "postalCode": "94043",
+      "sortingCode": "",
+      "landmark": "",
+      "formatted": "Jordan Alvarez\n1600 Amphitheatre Pkwy\nMountain View CA 94043"
+    },
+    {
+      "regionCode": "JP",
+      "languageCode": "ja",
+      "recipient": "山田 太郎",
+      "organization": "グローベックス株式会社",
+      "addressLines": ["六本木6-10-1"],
+      "dependentLocality": "",
+      "locality": "港区",
+      "administrativeArea": "東京都",
+      "postalCode": "106-6108",
+      "sortingCode": "",
+      "landmark": "",
+      "formatted": "〒106-6108\n東京都港区六本木6-10-1\nグローベックス株式会社\n山田 太郎"
+    },
+    {
+      "regionCode": "IN",
+      "languageCode": "en",
+      "recipient": "Jordan Alvarez",
+      "organization": "Globex Pvt Ltd",
+      "addressLines": ["42 MG Road", "Tower B, Flat 7"],
+      "dependentLocality": "Indiranagar",
+      "locality": "Bengaluru",
+      "administrativeArea": "KA",
+      "postalCode": "560038",
+      "sortingCode": "",
+      "landmark": "Near City Mall",
+      "formatted": "Jordan Alvarez\nGlobex Pvt Ltd\n42 MG Road\nTower B, Flat 7\nNear City Mall\nBengaluru 560038\nKarnataka"
+    },
+    {
+      "regionCode": "AE",
+      "languageCode": "ar",
+      "recipient": "Jordan Alvarez",
+      "organization": "",
+      "addressLines": ["Sheikh Zayed Rd, Villa 12"],
+      "dependentLocality": "",
+      "locality": "",
+      "administrativeArea": "Dubai",
+      "postalCode": "",
+      "sortingCode": "",
+      "landmark": "",
+      "formatted": "Jordan Alvarez\nSheikh Zayed Rd, Villa 12\nDubai"
+    }
+  ]
+}
