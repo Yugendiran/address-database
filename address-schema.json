@@ -2,18 +2,18 @@
   "$comment": "Generic address record for ANY country. Store atomic components + regionCode + languageCode. Derive labels/order/required-rules from libaddressinput metadata (address-fields.json) at render & validate time — never store those. Based on google.type.PostalAddress.",
 
   "fieldReference": {
-    "regionCode":         "ISO 3166-1 alpha-2. REQUIRED. Selects the country's format, labels and required rules.",
-    "languageCode":       "BCP-47 tag. Picks the language variant of the format (fmt vs lfmt). Optional; defaults to country's primary language.",
-    "recipient":          "%N  person / addressee name",
-    "organization":       "%O  company or organization",
-    "addressLines":       "%A  ordered array of street lines (0..n). Preserves order; handles 1-3 line countries.",
-    "dependentLocality":  "%D  sublocality / neighborhood / village",
-    "locality":           "%C  city / town / post town",
+    "regionCode": "ISO 3166-1 alpha-2. REQUIRED. Selects the country's format, labels and required rules.",
+    "languageCode": "BCP-47 tag. Picks the language variant of the format (fmt vs lfmt). Optional; defaults to country's primary language.",
+    "recipient": "%N  person / addressee name",
+    "organization": "%O  company or organization",
+    "addressLines": "%A  ordered array of street lines (0..n). Preserves order; handles 1-3 line countries.",
+    "dependentLocality": "%D  sublocality / neighborhood / village",
+    "locality": "%C  city / town / post town",
     "administrativeArea": "%S  state / province / emirate / prefecture / parish...",
-    "postalCode":         "%Z  postal / ZIP / PIN / Eircode",
-    "sortingCode":        "%X  sorting code (e.g. French CEDEX)",
-    "landmark":           "%T %F %L  landmark descriptor (India). Optional.",
-    "formatted":          "Optional cached display string rendered from the country's fmt. Convenience only — components are the source of truth."
+    "postalCode": "%Z  postal / ZIP / PIN / Eircode",
+    "sortingCode": "%X  sorting code (e.g. French CEDEX)",
+    "landmark": "%T  landmark descriptor (India). Optional.",
+    "formatted": "Optional cached display string rendered from the country's fmt. Convenience only — components are the source of truth."
   },
 
   "template": {

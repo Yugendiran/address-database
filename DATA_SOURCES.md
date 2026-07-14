@@ -94,6 +94,24 @@ Last generated: 2026-07-14.
   generic `Administrative area / District / Sub-district`. Each entry has `curated:true|false`.
 - Used by the web UIs to label the cascading dropdowns and show the meaning chain.
 
+### `field-mapping.json` / `.js` — which schema field is a select, fed by which level
+- **Derived** from `address-fields.json`, `subregions-geonames/manifest.js`, and
+  `admin-levels.json`. Model: **reuse the schema's 3 geographic slots** — fill
+  `administrativeArea`←level1, `locality`←level2, `dependentLocality`←level3 wherever
+  that level's data exists, cascading (each level filtered by the chosen parent). Each
+  slot is **labeled with the country's real admin-level name** (India: State/District/
+  Sub-district; China: Province/Prefecture/District), so the meaning varies per country.
+  `added:true` = the slot isn't in the postal format but is shown because data exists.
+  `slotLabel` = the slot's original postal label when it's reused for a different level.
+  Dropdowns store the region **name**. Built by `scripts/gen_field_mapping.py`; consumed by `form.html`.
+- Trade-off (accepted): where level2 is a district (US county, India district), the
+  `locality` slot holds that district, so the free-text *city* has no dedicated slot.
+
+### `postal-patterns.json` / `.js` — postal-code validation
+- From **Source C** (`testdata/countryinfo.txt`): the `zip` regex + `zipex` examples
+  per country (181 countries). Built by `scripts/gen_postal.py`. Used by `form.html` to
+  validate `postalCode`.
+
 ### Derived / UI files (no external data)
 - `data.js` = `address-fields.json` as a `window.ADDRESS_DATA` script (browser/`file://`).
 - `examples.js` = `address-examples.json` as `window.ADDRESS_EXAMPLES`.

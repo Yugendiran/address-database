@@ -1,0 +1,4417 @@
+{
+  "$comment": "Per-country field mapping: which fieldReference geographic field renders as a <select> and which GeoNames sub-region level feeds it. control=select|input; source=level1|2|3 (only when select). Dropdowns store the chosen region NAME into the schema field. Only fields the country's format collects appear.",
+  "storesValue": "name",
+  "mapping": {
+    "AC": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "AD": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "AE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Emirate",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Region",
+        "added": true,
+        "slotLabel": null
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "District",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "AF": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "AG": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "AI": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "AL": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "AM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "AO": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "AQ": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "AR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Department",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Municipality",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "AS": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "AT": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State (Land)",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District (Bezirk)",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Municipality",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "AU": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State / Territory",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Local government area",
+        "added": false,
+        "slotLabel": "Suburb"
+      }
+    },
+    "AW": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "AX": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "AZ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "BA": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "BB": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Parish",
+        "added": false
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "BD": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Division",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Upazila",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "BE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Region",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Province",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Municipality",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "BF": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "BG": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "BH": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "BI": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "BJ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "BL": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "BM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "BN": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "BO": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "BQ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "BR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Municipality",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "Neighborhood"
+      }
+    },
+    "BS": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Island",
+        "added": false
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "BT": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "BV": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "BW": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "BY": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "BZ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "CA": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province / Territory",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Census division",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Municipality",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "CC": {
+      "administrativeArea": {
+        "control": "input",
+        "levelName": "Province"
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "CD": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "CF": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "CG": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "CH": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Canton",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Municipality",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "CI": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "CK": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "CL": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Region",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Province",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Commune",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "CM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "CN": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Prefecture",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "County / District",
+        "added": false,
+        "slotLabel": "District"
+      }
+    },
+    "CO": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Department",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Municipality",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Locality",
+        "added": false,
+        "slotLabel": "Suburb"
+      }
+    },
+    "CR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "CU": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "CV": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Island",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "CW": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "CX": {
+      "administrativeArea": {
+        "control": "input",
+        "levelName": "Province"
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "CY": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "CZ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "DE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State (Land)",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District (Kreis)",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Municipality (Gemeinde)",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "DJ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "DK": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Region",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Municipality",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Parish",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "DM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "DO": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "DZ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "EC": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "EE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "EG": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Governorate",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Region",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "District",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "EH": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "ER": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "ES": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Autonomous community",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Province",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Comarca / Municipality",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "ET": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "FI": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Region",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Sub-region",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Municipality",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "FJ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "FK": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "FM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "FO": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "FR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Region",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Department",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Arrondissement / Commune",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "GA": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "GB": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Nation",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "County / Council area",
+        "added": false,
+        "slotLabel": "Post town"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "District",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "GD": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "GE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "GF": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "GG": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "GH": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "GI": {},
+    "GL": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "GM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "GN": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "GP": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "GQ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "GR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Region",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Regional unit",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Municipality",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "GS": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "GT": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "GU": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "GW": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "GY": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "HK": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Region",
+        "added": false
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "District"
+      }
+    },
+    "HM": {
+      "administrativeArea": {
+        "control": "input",
+        "levelName": "Province"
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "HN": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Department",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "HR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "HT": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "HU": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "ID": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Regency / City",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "District (Kecamatan)",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "IE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "County",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "input",
+        "levelName": "Townland"
+      }
+    },
+    "IL": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "District",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Sub-district",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Locality",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "IM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "IN": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district (Taluk)",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "IO": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "IQ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "IR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": false,
+        "slotLabel": "Neighborhood"
+      }
+    },
+    "IS": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "IT": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Region",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Province",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Comune",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "JE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "JM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Parish",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "JO": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "JP": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Prefecture",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Municipality",
+        "added": true,
+        "slotLabel": null
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Ward / Town",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "KE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "County",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Sub-county",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Ward",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "KG": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "KH": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "KI": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Island",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "KM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "KN": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Island",
+        "added": false
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "KP": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "KR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Municipality",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "District (Gu)",
+        "added": false,
+        "slotLabel": "District"
+      }
+    },
+    "KW": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "KY": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Island",
+        "added": false
+      }
+    },
+    "KZ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "LA": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "LB": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "LC": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "LI": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "LK": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "LR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "LS": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "LT": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "LU": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "LV": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "LY": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "MA": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Region",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Province / Prefecture",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Municipality",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "MC": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "MD": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "ME": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "MF": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "MG": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "MH": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "MK": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "ML": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "MM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "MN": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "MO": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      }
+    },
+    "MP": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "MQ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "MR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "MS": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "MT": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "MU": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "MV": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "MW": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "MX": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Municipality",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Locality",
+        "added": false,
+        "slotLabel": "Neighborhood"
+      }
+    },
+    "MY": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Mukim",
+        "added": false,
+        "slotLabel": "Village/Township"
+      }
+    },
+    "MZ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "NA": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "NC": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "NE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "NF": {
+      "administrativeArea": {
+        "control": "input",
+        "levelName": "Province"
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "NG": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Local government area",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Ward",
+        "added": false,
+        "slotLabel": "Suburb"
+      }
+    },
+    "NI": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Department",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "NL": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Municipality",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Locality",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "NO": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "County (Fylke)",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Municipality",
+        "added": false,
+        "slotLabel": "Post town"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "District",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "NP": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "NR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "District",
+        "added": false
+      }
+    },
+    "NU": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "NZ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Region",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Locality",
+        "added": false,
+        "slotLabel": "Suburb"
+      }
+    },
+    "OM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "PA": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "PE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Region",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Province",
+        "added": false,
+        "slotLabel": "District"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "District",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "PF": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Island",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "PG": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "PH": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Municipality / City",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Barangay",
+        "added": false,
+        "slotLabel": "Suburb"
+      }
+    },
+    "PK": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Division",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "Suburb"
+      }
+    },
+    "PL": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Voivodeship",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "County (Powiat)",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Commune (Gmina)",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "PM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "PN": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "PR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "PS": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "PT": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "District",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Municipality",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Parish (Freguesia)",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "PW": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "PY": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "QA": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "RE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "RO": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "RS": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "RU": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Federal subject",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District (Raion)",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Settlement",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "RW": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "SA": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Region",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Governorate",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "SB": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "SC": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Island",
+        "added": false
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "SD": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "District"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "SE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "County (Lan)",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Municipality",
+        "added": false,
+        "slotLabel": "Post town"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "District",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "SG": {},
+    "SH": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "SI": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "SJ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "Post town"
+      }
+    },
+    "SK": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "SL": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "SM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "SN": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "SO": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "SR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "SS": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "ST": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "SV": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "SX": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "SY": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "District"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "SZ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "TA": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "TC": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "TD": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "TF": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "TG": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "TH": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District (Amphoe)",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Subdistrict (Tambon)",
+        "added": false,
+        "slotLabel": "Suburb"
+      }
+    },
+    "TJ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "TK": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "TL": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "TM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "TN": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "TO": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "TR": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province (Il)",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District (Ilce)",
+        "added": false,
+        "slotLabel": "District"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Locality",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "TT": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "TV": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Island",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "TW": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "County / City",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Township / District",
+        "added": false,
+        "slotLabel": "District"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Village",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "TZ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "UA": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Oblast",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "Raion",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Hromada",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "UG": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "UM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "US": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "County",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "County subdivision",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "UY": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "UZ": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "VA": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "VC": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "VE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "VG": {
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "VI": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "State",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "VN": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": false
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Commune",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "VU": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "WF": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "WS": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "XK": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      }
+    },
+    "YE": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "YT": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "input",
+        "levelName": "City"
+      }
+    },
+    "ZA": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Province",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District municipality",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Local municipality",
+        "added": false,
+        "slotLabel": "Suburb"
+      }
+    },
+    "ZM": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    },
+    "ZW": {
+      "administrativeArea": {
+        "control": "select",
+        "source": "level1",
+        "levelName": "Administrative area",
+        "added": true
+      },
+      "locality": {
+        "control": "select",
+        "source": "level2",
+        "levelName": "District",
+        "added": false,
+        "slotLabel": "City"
+      },
+      "dependentLocality": {
+        "control": "select",
+        "source": "level3",
+        "levelName": "Sub-district",
+        "added": true,
+        "slotLabel": null
+      }
+    }
+  }
+}
