@@ -1,0 +1,1 @@
+registerSubregions("BH",{"l1":[{"key":"15","name":"Muharraq Governorate","geonameid":290333},{"key":"16","name":"Capital Governorate","geonameid":7090954},{"key":"17","name":"Southern Governorate","geonameid":7090972},{"key":"19","name":"Northern Governorate","geonameid":7090974}],"l2":[],"l3":[]});

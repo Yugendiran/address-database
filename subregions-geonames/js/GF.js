@@ -1,0 +1,1 @@
+registerSubregions("GF",{"l1":[{"key":"GF","name":"Guyane","geonameid":6690605}],"l2":[{"key":"973","name":"Guyane","geonameid":6690606,"level1":"GF"}],"l3":[{"key":"9732","name":"Arrondissement de Saint-Laurent-du-Maroni","geonameid":3380386,"level1":"GF","level2":"973"},{"key":"9731","name":"Arrondissement de Cayenne","geonameid":3382159,"level1":"GF","level2":"973"}]});

@@ -1,0 +1,1 @@
+registerSubregions("KM",{"l1":[{"key":"03","name":"Mohéli","geonameid":921780,"lname":"Moheli"},{"key":"02","name":"Grande Comore","geonameid":921882},{"key":"01","name":"Ndzuwani","geonameid":922001}],"l2":[],"l3":[]});

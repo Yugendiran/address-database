@@ -153,6 +153,9 @@
     el("note").textContent =
       `${filled} of ${fields.length} fields populated · labels & order come entirely from the country metadata (regionCode = ${code}).`;
 
+    if (window.AdminControl)
+      AdminControl.build(code, document.getElementById("adminMount"));
+
     if (location.hash.slice(1) !== code) history.replaceState(null, "", "#" + code);
   }
 

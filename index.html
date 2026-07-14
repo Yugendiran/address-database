@@ -85,6 +85,17 @@
   .field input.up{text-transform:uppercase;letter-spacing:.03em}
   .field .tokid{font-family:var(--mono);font-size:10px;color:var(--ink-soft);margin-left:6px;opacity:.7}
   .country-fld{opacity:.85}
+  .admin-sep{margin:18px 0 12px;font-size:11px;font-weight:650;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
+  .admin-sep span{color:var(--accent);font-weight:600}
+  .ac-field{margin-bottom:13px}
+  .ac-field label{display:block;font-size:12px;font-weight:600;margin-bottom:5px;color:var(--ink)}
+  .ac-badge{float:right;font-size:9.5px;font-weight:700;letter-spacing:.03em;padding:2px 6px;border-radius:5px;text-transform:uppercase}
+  .ac-badge.select{color:var(--accent);background:var(--accent-soft)}
+  .ac-badge.input{color:var(--ink-soft);background:var(--chip)}
+  .ac-input{width:100%;padding:9px 11px;border:1px solid var(--line-strong);border-radius:8px;background:var(--panel-2);color:var(--ink);font-size:13px;outline:none;font-family:inherit}
+  .ac-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+  .ac-input:disabled{opacity:.5;cursor:not-allowed}
+  .ac-empty{font-size:12px;color:var(--ink-soft);font-style:italic}
 
   /* formatted address block */
   .addr-block{font-family:var(--mono);font-size:13px;line-height:1.7;white-space:pre-wrap;background:var(--panel-2);border:1px dashed var(--line-strong);border-radius:10px;padding:16px 18px;color:var(--ink)}
@@ -143,6 +154,8 @@
 </div>
 
 <script src="data.js"></script>
+<script src="subregions-geonames/manifest.js"></script>
+<script src="admin-control.js"></script>
 <script>
 (function(){
   const DATA = (window.ADDRESS_DATA||{}).countries||[];
@@ -268,6 +281,8 @@
           <div class="body">
             <div class="field country-fld"><label>Country / region</label><input value="${c.name}" readonly tabindex="-1"></div>
             ${formFields}
+            <div class="admin-sep">Administrative divisions <span>· live · Strategy B</span></div>
+            <div id="adminMount" class="admin-mount"></div>
           </div>
         </div>
         <div>
@@ -290,6 +305,7 @@
       <details class="json"><summary>Raw metadata (JSON)</summary>
         <pre>${JSON.stringify(c,null,2).replace(/</g,'&lt;')}</pre></details>`;
     document.getElementById('app').classList.add('show-detail');
+    if(window.AdminControl) AdminControl.build(c.code, document.getElementById('adminMount'));
   }
 
   function labelOf(c,t){ const f=c.fields.find(x=>tokChar(x)===t); return f?f.label:''; }

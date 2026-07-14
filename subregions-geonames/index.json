@@ -1,0 +1,1147 @@
+{
+ "$comment": "Administrative hierarchy from GeoNames (CC-BY 4.0). country > level1 (ADM1, state/province) > level2 (ADM2, district/county) > level3 (ADM3, sub-district). key = GeoNames admin code; parents given as level1/level2 codes. name = local, lname = Latin (when different).",
+ "source": "https://download.geonames.org/export/dump/allCountries.zip",
+ "countries": 228,
+ "counts": {
+  "AD": {
+   "level1": 7,
+   "level2": 0,
+   "level3": 0
+  },
+  "AE": {
+   "level1": 7,
+   "level2": 28,
+   "level3": 400
+  },
+  "AF": {
+   "level1": 34,
+   "level2": 398,
+   "level3": 0
+  },
+  "AG": {
+   "level1": 8,
+   "level2": 0,
+   "level3": 0
+  },
+  "AI": {
+   "level1": 14,
+   "level2": 0,
+   "level3": 0
+  },
+  "AL": {
+   "level1": 12,
+   "level2": 61,
+   "level3": 374
+  },
+  "AM": {
+   "level1": 11,
+   "level2": 82,
+   "level3": 1
+  },
+  "AO": {
+   "level1": 21,
+   "level2": 162,
+   "level3": 1
+  },
+  "AR": {
+   "level1": 24,
+   "level2": 529,
+   "level3": 52
+  },
+  "AS": {
+   "level1": 5,
+   "level2": 14,
+   "level3": 8
+  },
+  "AT": {
+   "level1": 9,
+   "level2": 94,
+   "level3": 2120
+  },
+  "AU": {
+   "level1": 8,
+   "level2": 540,
+   "level3": 0
+  },
+  "AX": {
+   "level1": 3,
+   "level2": 16,
+   "level3": 0
+  },
+  "AZ": {
+   "level1": 71,
+   "level2": 21,
+   "level3": 4
+  },
+  "BA": {
+   "level1": 3,
+   "level2": 18,
+   "level3": 145
+  },
+  "BB": {
+   "level1": 11,
+   "level2": 0,
+   "level3": 0
+  },
+  "BD": {
+   "level1": 8,
+   "level2": 64,
+   "level3": 493
+  },
+  "BE": {
+   "level1": 3,
+   "level2": 11,
+   "level3": 43
+  },
+  "BF": {
+   "level1": 13,
+   "level2": 45,
+   "level3": 50
+  },
+  "BG": {
+   "level1": 28,
+   "level2": 265,
+   "level3": 2589
+  },
+  "BH": {
+   "level1": 4,
+   "level2": 0,
+   "level3": 0
+  },
+  "BI": {
+   "level1": 16,
+   "level2": 119,
+   "level3": 2615
+  },
+  "BJ": {
+   "level1": 12,
+   "level2": 77,
+   "level3": 539
+  },
+  "BM": {
+   "level1": 11,
+   "level2": 0,
+   "level3": 0
+  },
+  "BN": {
+   "level1": 4,
+   "level2": 40,
+   "level3": 6
+  },
+  "BO": {
+   "level1": 9,
+   "level2": 112,
+   "level3": 539
+  },
+  "BQ": {
+   "level1": 3,
+   "level2": 0,
+   "level3": 0
+  },
+  "BR": {
+   "level1": 27,
+   "level2": 5570,
+   "level3": 65
+  },
+  "BS": {
+   "level1": 32,
+   "level2": 0,
+   "level3": 0
+  },
+  "BT": {
+   "level1": 20,
+   "level2": 27,
+   "level3": 0
+  },
+  "BW": {
+   "level1": 16,
+   "level2": 25,
+   "level3": 1
+  },
+  "BY": {
+   "level1": 7,
+   "level2": 158,
+   "level3": 76
+  },
+  "BZ": {
+   "level1": 6,
+   "level2": 2,
+   "level3": 0
+  },
+  "CA": {
+   "level1": 13,
+   "level2": 1641,
+   "level3": 1551
+  },
+  "CD": {
+   "level1": 26,
+   "level2": 195,
+   "level3": 196
+  },
+  "CF": {
+   "level1": 20,
+   "level2": 71,
+   "level3": 1
+  },
+  "CG": {
+   "level1": 12,
+   "level2": 89,
+   "level3": 9
+  },
+  "CH": {
+   "level1": 26,
+   "level2": 149,
+   "level3": 2113
+  },
+  "CI": {
+   "level1": 14,
+   "level2": 33,
+   "level3": 108
+  },
+  "CK": {
+   "level1": 11,
+   "level2": 8,
+   "level3": 0
+  },
+  "CL": {
+   "level1": 16,
+   "level2": 56,
+   "level3": 346
+  },
+  "CM": {
+   "level1": 10,
+   "level2": 58,
+   "level3": 16
+  },
+  "CN": {
+   "level1": 31,
+   "level2": 360,
+   "level3": 2938
+  },
+  "CO": {
+   "level1": 33,
+   "level2": 1122,
+   "level3": 36
+  },
+  "CR": {
+   "level1": 7,
+   "level2": 82,
+   "level3": 474
+  },
+  "CU": {
+   "level1": 16,
+   "level2": 167,
+   "level3": 2
+  },
+  "CV": {
+   "level1": 22,
+   "level2": 32,
+   "level3": 0
+  },
+  "CY": {
+   "level1": 6,
+   "level2": 615,
+   "level3": 1
+  },
+  "CZ": {
+   "level1": 14,
+   "level2": 98,
+   "level3": 6314
+  },
+  "DE": {
+   "level1": 16,
+   "level2": 19,
+   "level3": 400
+  },
+  "DJ": {
+   "level1": 6,
+   "level2": 3,
+   "level3": 0
+  },
+  "DK": {
+   "level1": 5,
+   "level2": 99,
+   "level3": 10
+  },
+  "DM": {
+   "level1": 10,
+   "level2": 0,
+   "level3": 0
+  },
+  "DO": {
+   "level1": 32,
+   "level2": 155,
+   "level3": 386
+  },
+  "DZ": {
+   "level1": 58,
+   "level2": 548,
+   "level3": 1541
+  },
+  "EC": {
+   "level1": 24,
+   "level2": 221,
+   "level3": 1038
+  },
+  "EE": {
+   "level1": 15,
+   "level2": 79,
+   "level3": 4706
+  },
+  "EG": {
+   "level1": 27,
+   "level2": 138,
+   "level3": 1
+  },
+  "ER": {
+   "level1": 6,
+   "level2": 58,
+   "level3": 0
+  },
+  "ES": {
+   "level1": 19,
+   "level2": 52,
+   "level3": 8124
+  },
+  "ET": {
+   "level1": 14,
+   "level2": 122,
+   "level3": 239
+  },
+  "FI": {
+   "level1": 18,
+   "level2": 66,
+   "level3": 294
+  },
+  "FJ": {
+   "level1": 5,
+   "level2": 15,
+   "level3": 86
+  },
+  "FM": {
+   "level1": 4,
+   "level2": 78,
+   "level3": 0
+  },
+  "FO": {
+   "level1": 6,
+   "level2": 29,
+   "level3": 3
+  },
+  "FR": {
+   "level1": 13,
+   "level2": 96,
+   "level3": 320
+  },
+  "GA": {
+   "level1": 9,
+   "level2": 48,
+   "level3": 0
+  },
+  "GB": {
+   "level1": 4,
+   "level2": 185,
+   "level3": 3862
+  },
+  "GD": {
+   "level1": 7,
+   "level2": 0,
+   "level3": 0
+  },
+  "GE": {
+   "level1": 12,
+   "level2": 84,
+   "level3": 3
+  },
+  "GF": {
+   "level1": 1,
+   "level2": 1,
+   "level3": 2
+  },
+  "GG": {
+   "level1": 11,
+   "level2": 0,
+   "level3": 0
+  },
+  "GH": {
+   "level1": 16,
+   "level2": 265,
+   "level3": 1
+  },
+  "GL": {
+   "level1": 5,
+   "level2": 3,
+   "level3": 15
+  },
+  "GM": {
+   "level1": 6,
+   "level2": 37,
+   "level3": 0
+  },
+  "GN": {
+   "level1": 8,
+   "level2": 34,
+   "level3": 307
+  },
+  "GP": {
+   "level1": 1,
+   "level2": 1,
+   "level3": 2
+  },
+  "GQ": {
+   "level1": 8,
+   "level2": 32,
+   "level3": 37
+  },
+  "GR": {
+   "level1": 14,
+   "level2": 54,
+   "level3": 325
+  },
+  "GT": {
+   "level1": 22,
+   "level2": 340,
+   "level3": 0
+  },
+  "GU": {
+   "level1": 19,
+   "level2": 0,
+   "level3": 0
+  },
+  "GW": {
+   "level1": 9,
+   "level2": 39,
+   "level3": 0
+  },
+  "GY": {
+   "level1": 10,
+   "level2": 0,
+   "level3": 0
+  },
+  "HK": {
+   "level1": 18,
+   "level2": 0,
+   "level3": 0
+  },
+  "HN": {
+   "level1": 18,
+   "level2": 298,
+   "level3": 0
+  },
+  "HR": {
+   "level1": 21,
+   "level2": 572,
+   "level3": 0
+  },
+  "HT": {
+   "level1": 10,
+   "level2": 42,
+   "level3": 145
+  },
+  "HU": {
+   "level1": 20,
+   "level2": 197,
+   "level3": 0
+  },
+  "ID": {
+   "level1": 38,
+   "level2": 514,
+   "level3": 7113
+  },
+  "IE": {
+   "level1": 4,
+   "level2": 31,
+   "level3": 0
+  },
+  "IL": {
+   "level1": 7,
+   "level2": 17,
+   "level3": 7
+  },
+  "IM": {
+   "level1": 24,
+   "level2": 0,
+   "level3": 0
+  },
+  "IN": {
+   "level1": 36,
+   "level2": 763,
+   "level3": 6891
+  },
+  "IQ": {
+   "level1": 19,
+   "level2": 122,
+   "level3": 49
+  },
+  "IR": {
+   "level1": 31,
+   "level2": 435,
+   "level3": 6
+  },
+  "IS": {
+   "level1": 8,
+   "level2": 64,
+   "level3": 0
+  },
+  "IT": {
+   "level1": 20,
+   "level2": 107,
+   "level3": 7896
+  },
+  "JE": {
+   "level1": 12,
+   "level2": 0,
+   "level3": 0
+  },
+  "JM": {
+   "level1": 14,
+   "level2": 825,
+   "level3": 0
+  },
+  "JO": {
+   "level1": 12,
+   "level2": 53,
+   "level3": 38
+  },
+  "JP": {
+   "level1": 47,
+   "level2": 1190,
+   "level3": 1101
+  },
+  "KE": {
+   "level1": 47,
+   "level2": 32,
+   "level3": 11
+  },
+  "KG": {
+   "level1": 9,
+   "level2": 45,
+   "level3": 10
+  },
+  "KH": {
+   "level1": 25,
+   "level2": 199,
+   "level3": 1621
+  },
+  "KI": {
+   "level1": 3,
+   "level2": 33,
+   "level3": 0
+  },
+  "KM": {
+   "level1": 3,
+   "level2": 0,
+   "level3": 0
+  },
+  "KN": {
+   "level1": 14,
+   "level2": 0,
+   "level3": 0
+  },
+  "KP": {
+   "level1": 13,
+   "level2": 201,
+   "level3": 1003
+  },
+  "KR": {
+   "level1": 17,
+   "level2": 229,
+   "level3": 3295
+  },
+  "KW": {
+   "level1": 6,
+   "level2": 109,
+   "level3": 0
+  },
+  "KY": {
+   "level1": 6,
+   "level2": 0,
+   "level3": 0
+  },
+  "KZ": {
+   "level1": 21,
+   "level2": 279,
+   "level3": 62
+  },
+  "LA": {
+   "level1": 18,
+   "level2": 148,
+   "level3": 0
+  },
+  "LB": {
+   "level1": 8,
+   "level2": 30,
+   "level3": 1
+  },
+  "LC": {
+   "level1": 10,
+   "level2": 546,
+   "level3": 0
+  },
+  "LI": {
+   "level1": 11,
+   "level2": 0,
+   "level3": 0
+  },
+  "LK": {
+   "level1": 9,
+   "level2": 25,
+   "level3": 329
+  },
+  "LR": {
+   "level1": 15,
+   "level2": 224,
+   "level3": 618
+  },
+  "LS": {
+   "level1": 10,
+   "level2": 15,
+   "level3": 133
+  },
+  "LT": {
+   "level1": 10,
+   "level2": 60,
+   "level3": 544
+  },
+  "LU": {
+   "level1": 12,
+   "level2": 105,
+   "level3": 0
+  },
+  "LV": {
+   "level1": 43,
+   "level2": 587,
+   "level3": 0
+  },
+  "LY": {
+   "level1": 22,
+   "level2": 1,
+   "level3": 1
+  },
+  "MA": {
+   "level1": 12,
+   "level2": 75,
+   "level3": 1794
+  },
+  "MC": {
+   "level1": 1,
+   "level2": 0,
+   "level3": 0
+  },
+  "MD": {
+   "level1": 37,
+   "level2": 0,
+   "level3": 0
+  },
+  "ME": {
+   "level1": 25,
+   "level2": 0,
+   "level3": 0
+  },
+  "MG": {
+   "level1": 23,
+   "level2": 119,
+   "level3": 1577
+  },
+  "MH": {
+   "level1": 33,
+   "level2": 0,
+   "level3": 0
+  },
+  "MK": {
+   "level1": 71,
+   "level2": 10,
+   "level3": 0
+  },
+  "ML": {
+   "level1": 11,
+   "level2": 50,
+   "level3": 51
+  },
+  "MM": {
+   "level1": 15,
+   "level2": 73,
+   "level3": 330
+  },
+  "MN": {
+   "level1": 22,
+   "level2": 387,
+   "level3": 0
+  },
+  "MO": {
+   "level1": 8,
+   "level2": 0,
+   "level3": 0
+  },
+  "MP": {
+   "level1": 4,
+   "level2": 12,
+   "level3": 0
+  },
+  "MQ": {
+   "level1": 1,
+   "level2": 1,
+   "level3": 4
+  },
+  "MR": {
+   "level1": 15,
+   "level2": 55,
+   "level3": 1
+  },
+  "MS": {
+   "level1": 3,
+   "level2": 0,
+   "level3": 0
+  },
+  "MT": {
+   "level1": 68,
+   "level2": 0,
+   "level3": 0
+  },
+  "MU": {
+   "level1": 12,
+   "level2": 0,
+   "level3": 0
+  },
+  "MV": {
+   "level1": 21,
+   "level2": 0,
+   "level3": 0
+  },
+  "MW": {
+   "level1": 3,
+   "level2": 28,
+   "level3": 4
+  },
+  "MX": {
+   "level1": 32,
+   "level2": 2471,
+   "level3": 2
+  },
+  "MY": {
+   "level1": 16,
+   "level2": 144,
+   "level3": 232
+  },
+  "MZ": {
+   "level1": 11,
+   "level2": 164,
+   "level3": 7
+  },
+  "NA": {
+   "level1": 14,
+   "level2": 47,
+   "level3": 1
+  },
+  "NC": {
+   "level1": 3,
+   "level2": 33,
+   "level3": 0
+  },
+  "NE": {
+   "level1": 8,
+   "level2": 67,
+   "level3": 56
+  },
+  "NG": {
+   "level1": 37,
+   "level2": 785,
+   "level3": 3154
+  },
+  "NI": {
+   "level1": 17,
+   "level2": 153,
+   "level3": 7
+  },
+  "NL": {
+   "level1": 12,
+   "level2": 342,
+   "level3": 16
+  },
+  "NO": {
+   "level1": 15,
+   "level2": 357,
+   "level3": 15
+  },
+  "NP": {
+   "level1": 7,
+   "level2": 77,
+   "level3": 754
+  },
+  "NR": {
+   "level1": 14,
+   "level2": 0,
+   "level3": 0
+  },
+  "NZ": {
+   "level1": 17,
+   "level2": 66,
+   "level3": 1
+  },
+  "OM": {
+   "level1": 11,
+   "level2": 61,
+   "level3": 0
+  },
+  "PA": {
+   "level1": 14,
+   "level2": 82,
+   "level3": 679
+  },
+  "PE": {
+   "level1": 26,
+   "level2": 196,
+   "level3": 1873
+  },
+  "PF": {
+   "level1": 5,
+   "level2": 48,
+   "level3": 3
+  },
+  "PG": {
+   "level1": 22,
+   "level2": 87,
+   "level3": 3
+  },
+  "PH": {
+   "level1": 17,
+   "level2": 87,
+   "level3": 1646
+  },
+  "PK": {
+   "level1": 7,
+   "level2": 157,
+   "level3": 16
+  },
+  "PL": {
+   "level1": 16,
+   "level2": 380,
+   "level3": 2478
+  },
+  "PM": {
+   "level1": 2,
+   "level2": 0,
+   "level3": 0
+  },
+  "PR": {
+   "level1": 78,
+   "level2": 902,
+   "level3": 144
+  },
+  "PS": {
+   "level1": 2,
+   "level2": 16,
+   "level3": 0
+  },
+  "PT": {
+   "level1": 20,
+   "level2": 308,
+   "level3": 3259
+  },
+  "PW": {
+   "level1": 16,
+   "level2": 1,
+   "level3": 0
+  },
+  "PY": {
+   "level1": 18,
+   "level2": 246,
+   "level3": 8234
+  },
+  "QA": {
+   "level1": 8,
+   "level2": 0,
+   "level3": 0
+  },
+  "RE": {
+   "level1": 1,
+   "level2": 1,
+   "level3": 4
+  },
+  "RO": {
+   "level1": 42,
+   "level2": 3181,
+   "level3": 6
+  },
+  "RS": {
+   "level1": 2,
+   "level2": 25,
+   "level3": 168
+  },
+  "RU": {
+   "level1": 83,
+   "level2": 2648,
+   "level3": 560
+  },
+  "RW": {
+   "level1": 5,
+   "level2": 30,
+   "level3": 416
+  },
+  "SA": {
+   "level1": 13,
+   "level2": 122,
+   "level3": 0
+  },
+  "SB": {
+   "level1": 10,
+   "level2": 183,
+   "level3": 0
+  },
+  "SC": {
+   "level1": 28,
+   "level2": 0,
+   "level3": 0
+  },
+  "SD": {
+   "level1": 18,
+   "level2": 42,
+   "level3": 1
+  },
+  "SE": {
+   "level1": 21,
+   "level2": 290,
+   "level3": 1785
+  },
+  "SH": {
+   "level1": 3,
+   "level2": 8,
+   "level3": 0
+  },
+  "SI": {
+   "level1": 212,
+   "level2": 17,
+   "level3": 0
+  },
+  "SJ": {
+   "level1": 2,
+   "level2": 4,
+   "level3": 0
+  },
+  "SK": {
+   "level1": 8,
+   "level2": 79,
+   "level3": 2927
+  },
+  "SL": {
+   "level1": 5,
+   "level2": 16,
+   "level3": 177
+  },
+  "SM": {
+   "level1": 9,
+   "level2": 0,
+   "level3": 0
+  },
+  "SN": {
+   "level1": 14,
+   "level2": 45,
+   "level3": 131
+  },
+  "SO": {
+   "level1": 18,
+   "level2": 87,
+   "level3": 0
+  },
+  "SR": {
+   "level1": 10,
+   "level2": 68,
+   "level3": 0
+  },
+  "SS": {
+   "level1": 10,
+   "level2": 28,
+   "level3": 0
+  },
+  "ST": {
+   "level1": 2,
+   "level2": 7,
+   "level3": 0
+  },
+  "SV": {
+   "level1": 14,
+   "level2": 44,
+   "level3": 262
+  },
+  "SY": {
+   "level1": 14,
+   "level2": 61,
+   "level3": 268
+  },
+  "SZ": {
+   "level1": 4,
+   "level2": 38,
+   "level3": 8
+  },
+  "TD": {
+   "level1": 23,
+   "level2": 133,
+   "level3": 0
+  },
+  "TF": {
+   "level1": 5,
+   "level2": 5,
+   "level3": 0
+  },
+  "TG": {
+   "level1": 5,
+   "level2": 30,
+   "level3": 0
+  },
+  "TH": {
+   "level1": 77,
+   "level2": 928,
+   "level3": 7436
+  },
+  "TJ": {
+   "level1": 5,
+   "level2": 74,
+   "level3": 13
+  },
+  "TK": {
+   "level1": 3,
+   "level2": 0,
+   "level3": 0
+  },
+  "TL": {
+   "level1": 13,
+   "level2": 65,
+   "level3": 442
+  },
+  "TM": {
+   "level1": 6,
+   "level2": 14,
+   "level3": 19
+  },
+  "TN": {
+   "level1": 24,
+   "level2": 264,
+   "level3": 2084
+  },
+  "TO": {
+   "level1": 5,
+   "level2": 23,
+   "level3": 0
+  },
+  "TR": {
+   "level1": 81,
+   "level2": 974,
+   "level3": 1553
+  },
+  "TT": {
+   "level1": 15,
+   "level2": 36,
+   "level3": 0
+  },
+  "TV": {
+   "level1": 8,
+   "level2": 1,
+   "level3": 0
+  },
+  "TW": {
+   "level1": 4,
+   "level2": 22,
+   "level3": 368
+  },
+  "TZ": {
+   "level1": 31,
+   "level2": 170,
+   "level3": 3643
+  },
+  "UA": {
+   "level1": 27,
+   "level2": 146,
+   "level3": 1787
+  },
+  "UG": {
+   "level1": 4,
+   "level2": 122,
+   "level3": 174
+  },
+  "UM": {
+   "level1": 9,
+   "level2": 0,
+   "level3": 0
+  },
+  "US": {
+   "level1": 51,
+   "level2": 3143,
+   "level3": 29387
+  },
+  "UY": {
+   "level1": 19,
+   "level2": 124,
+   "level3": 1
+  },
+  "UZ": {
+   "level1": 14,
+   "level2": 221,
+   "level3": 56
+  },
+  "VC": {
+   "level1": 6,
+   "level2": 0,
+   "level3": 0
+  },
+  "VE": {
+   "level1": 25,
+   "level2": 335,
+   "level3": 91
+  },
+  "VI": {
+   "level1": 3,
+   "level2": 20,
+   "level3": 0
+  },
+  "VN": {
+   "level1": 34,
+   "level2": 723,
+   "level3": 10579
+  },
+  "VU": {
+   "level1": 6,
+   "level2": 0,
+   "level3": 0
+  },
+  "WF": {
+   "level1": 3,
+   "level2": 5,
+   "level3": 34
+  },
+  "WS": {
+   "level1": 11,
+   "level2": 14,
+   "level3": 0
+  },
+  "XK": {
+   "level1": 7,
+   "level2": 38,
+   "level3": 0
+  },
+  "YE": {
+   "level1": 22,
+   "level2": 333,
+   "level3": 2042
+  },
+  "YT": {
+   "level1": 17,
+   "level2": 0,
+   "level3": 0
+  },
+  "ZA": {
+   "level1": 9,
+   "level2": 52,
+   "level3": 234
+  },
+  "ZM": {
+   "level1": 10,
+   "level2": 108,
+   "level3": 1
+  },
+  "ZW": {
+   "level1": 10,
+   "level2": 62,
+   "level3": 4
+  }
+ }
+}

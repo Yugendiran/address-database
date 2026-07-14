@@ -1,0 +1,1 @@
+registerSubregions("MS",{"l1":[{"key":"03","name":"Parish of Saint Peter","geonameid":3578039},{"key":"02","name":"Parish of Saint Georges","geonameid":3578044},{"key":"01","name":"Parish of Saint Anthony","geonameid":3578045}],"l2":[],"l3":[]});

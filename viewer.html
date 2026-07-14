@@ -315,6 +315,53 @@
         font-size: 11.5px;
         margin-top: 10px;
       }
+      .admin-sep {
+        margin: 18px 0 12px;
+        font-size: 11px;
+        font-weight: 650;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--ink-soft);
+        border-top: 1px solid var(--line);
+        padding-top: 14px;
+      }
+      .admin-sep span { color: var(--accent); font-weight: 600; }
+      .ac-field { margin-bottom: 13px; }
+      .ac-field label {
+        display: block;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        color: var(--ink);
+      }
+      .ac-badge {
+        float: right;
+        font-size: 9.5px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        padding: 2px 6px;
+        border-radius: 5px;
+        text-transform: uppercase;
+      }
+      .ac-badge.select { color: var(--accent); background: var(--accent-soft); }
+      .ac-badge.input { color: var(--ink-soft); background: var(--chip); }
+      .ac-input {
+        width: 100%;
+        padding: 9px 11px;
+        border: 1px solid var(--line-strong);
+        border-radius: 8px;
+        background: var(--panel-2);
+        color: var(--ink);
+        font-size: 13px;
+        outline: none;
+        font-family: inherit;
+      }
+      .ac-input:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px var(--accent-soft);
+      }
+      .ac-input:disabled { opacity: 0.5; cursor: not-allowed; }
+      .ac-empty { font-size: 12px; color: var(--ink-soft); font-style: italic; }
     </style>
   </head>
   <body>
@@ -358,6 +405,10 @@
             <div class="addr-h">Formatted address block</div>
             <div class="addr" id="addr"></div>
             <div class="note" id="note"></div>
+            <div class="admin-sep">
+              Administrative divisions <span>· live · Strategy B</span>
+            </div>
+            <div id="adminMount" class="admin-mount"></div>
           </div>
         </div>
       </div>
@@ -365,6 +416,8 @@
 
     <script src="data.js"></script>
     <script src="examples.js"></script>
+    <script src="subregions-geonames/manifest.js"></script>
+    <script src="admin-control.js"></script>
     <script src="viewer.js"></script>
   </body>
 </html>
