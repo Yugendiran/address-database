@@ -1,0 +1,201 @@
+{
+  "$comment": "Sub-region hierarchy for countries that have it, extracted from libaddressinput testdata/countryinfo.txt. Country > level1 > level2 > level3. Each level is a folder; files are per-country (ISO code). level2/level3 entries carry parent keys.",
+  "countries": 39,
+  "counts": {
+    "AD": {
+      "level1": 7,
+      "level2": 0,
+      "level3": 0
+    },
+    "AM": {
+      "level1": 11,
+      "level2": 0,
+      "level3": 0
+    },
+    "AR": {
+      "level1": 24,
+      "level2": 0,
+      "level3": 0
+    },
+    "AU": {
+      "level1": 8,
+      "level2": 0,
+      "level3": 0
+    },
+    "BR": {
+      "level1": 27,
+      "level2": 5564,
+      "level3": 0
+    },
+    "BS": {
+      "level1": 19,
+      "level2": 0,
+      "level3": 0
+    },
+    "CA": {
+      "level1": 26,
+      "level2": 0,
+      "level3": 0
+    },
+    "CH": {
+      "level1": 78,
+      "level2": 0,
+      "level3": 0
+    },
+    "CL": {
+      "level1": 15,
+      "level2": 346,
+      "level3": 0
+    },
+    "CN": {
+      "level1": 34,
+      "level2": 473,
+      "level3": 3109
+    },
+    "CV": {
+      "level1": 9,
+      "level2": 0,
+      "level3": 0
+    },
+    "EG": {
+      "level1": 27,
+      "level2": 0,
+      "level3": 0
+    },
+    "ES": {
+      "level1": 52,
+      "level2": 0,
+      "level3": 0
+    },
+    "HK": {
+      "level1": 6,
+      "level2": 130,
+      "level3": 0
+    },
+    "ID": {
+      "level1": 33,
+      "level2": 0,
+      "level3": 0
+    },
+    "IE": {
+      "level1": 26,
+      "level2": 0,
+      "level3": 0
+    },
+    "IN": {
+      "level1": 35,
+      "level2": 0,
+      "level3": 0
+    },
+    "IT": {
+      "level1": 113,
+      "level2": 0,
+      "level3": 0
+    },
+    "JM": {
+      "level1": 14,
+      "level2": 0,
+      "level3": 0
+    },
+    "JP": {
+      "level1": 47,
+      "level2": 0,
+      "level3": 0
+    },
+    "KN": {
+      "level1": 2,
+      "level2": 0,
+      "level3": 0
+    },
+    "KR": {
+      "level1": 17,
+      "level2": 229,
+      "level3": 33
+    },
+    "KY": {
+      "level1": 3,
+      "level2": 0,
+      "level3": 0
+    },
+    "MX": {
+      "level1": 32,
+      "level2": 0,
+      "level3": 0
+    },
+    "MY": {
+      "level1": 16,
+      "level2": 0,
+      "level3": 0
+    },
+    "NG": {
+      "level1": 37,
+      "level2": 0,
+      "level3": 0
+    },
+    "NI": {
+      "level1": 17,
+      "level2": 0,
+      "level3": 0
+    },
+    "NR": {
+      "level1": 14,
+      "level2": 0,
+      "level3": 0
+    },
+    "PH": {
+      "level1": 81,
+      "level2": 0,
+      "level3": 0
+    },
+    "SO": {
+      "level1": 18,
+      "level2": 0,
+      "level3": 0
+    },
+    "SR": {
+      "level1": 10,
+      "level2": 0,
+      "level3": 0
+    },
+    "SV": {
+      "level1": 14,
+      "level2": 0,
+      "level3": 0
+    },
+    "TH": {
+      "level1": 76,
+      "level2": 0,
+      "level3": 0
+    },
+    "TV": {
+      "level1": 9,
+      "level2": 0,
+      "level3": 0
+    },
+    "TW": {
+      "level1": 22,
+      "level2": 365,
+      "level3": 0
+    },
+    "US": {
+      "level1": 62,
+      "level2": 0,
+      "level3": 0
+    },
+    "UY": {
+      "level1": 19,
+      "level2": 0,
+      "level3": 0
+    },
+    "VE": {
+      "level1": 25,
+      "level2": 0,
+      "level3": 0
+    },
+    "VN": {
+      "level1": 64,
+      "level2": 0,
+      "level3": 0
+    }
+  }
+}

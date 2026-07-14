@@ -1,0 +1,7351 @@
+{
+  "AD": [
+    {
+      "key": "ANDORRA LA VELLA",
+      "name": "Andorra la Vella",
+      "isoid": "07",
+      "zip": "AD50[01]",
+      "zipex": "AD500",
+      "lang": "ca"
+    },
+    {
+      "key": "CANILLO",
+      "name": "Canillo",
+      "isoid": "02",
+      "zip": "AD10[01]",
+      "zipex": "AD100",
+      "lang": "ca"
+    },
+    {
+      "key": "ENCAMP",
+      "name": "Encamp",
+      "isoid": "03",
+      "zip": "AD20[01]",
+      "zipex": "AD200",
+      "lang": "ca"
+    },
+    {
+      "key": "ESCALDES ENGORDANY",
+      "name": "Escaldes Engordany",
+      "isoid": "08",
+      "zip": "AD70[01]",
+      "zipex": "AD700",
+      "lang": "ca"
+    },
+    {
+      "key": "LAMASSANA",
+      "name": "Lamassana",
+      "isoid": "04",
+      "zip": "AD40[01]",
+      "zipex": "AD400",
+      "lang": "ca"
+    },
+    {
+      "key": "ORDINO",
+      "name": "Ordino",
+      "isoid": "05",
+      "zip": "AD30[01]",
+      "zipex": "AD300",
+      "lang": "ca"
+    },
+    {
+      "key": "SANT JULIA DE LORIA",
+      "name": "Sant Julia de Loria",
+      "isoid": "06",
+      "zip": "AD60[01]",
+      "zipex": "AD600",
+      "lang": "ca"
+    }
+  ],
+  "AM": [
+    {
+      "key": "Արագածոտն",
+      "lname": "Aragatsotn",
+      "isoid": "AG",
+      "zip": "0[2-5]",
+      "zipex": "0201,0514",
+      "lang": "hy"
+    },
+    {
+      "key": "Արարատ",
+      "lname": "Ararat",
+      "isoid": "AR",
+      "zip": "0[6-8]",
+      "zipex": "0601,0823",
+      "lang": "hy"
+    },
+    {
+      "key": "Արմավիր",
+      "lname": "Armavir",
+      "isoid": "AV",
+      "zip": "09|1[01]",
+      "zipex": "0901,1149",
+      "lang": "hy"
+    },
+    {
+      "key": "Գեղարքունիք",
+      "lname": "Gegharkunik",
+      "isoid": "GR",
+      "zip": "1[2-6]",
+      "zipex": "1201,1626",
+      "lang": "hy"
+    },
+    {
+      "key": "Երևան",
+      "lname": "Yerevan",
+      "isoid": "ER",
+      "zip": "00",
+      "zipex": "0000,0099",
+      "lang": "hy"
+    },
+    {
+      "key": "Լոռի",
+      "lname": "Lori",
+      "isoid": "LO",
+      "zip": "1[7-9]|2[01]",
+      "zipex": "1701,2117",
+      "lang": "hy"
+    },
+    {
+      "key": "Կոտայք",
+      "lname": "Kotayk",
+      "isoid": "KT",
+      "zip": "2[2-5]",
+      "zipex": "2201,2506",
+      "lang": "hy"
+    },
+    {
+      "key": "Շիրակ",
+      "lname": "Shirak",
+      "isoid": "SH",
+      "zip": "2[6-9]|3[01]",
+      "zipex": "2601,3126",
+      "lang": "hy"
+    },
+    {
+      "key": "Սյունիք",
+      "lname": "Syunik",
+      "isoid": "SU",
+      "zip": "3[2-5]",
+      "zipex": "3201,3519",
+      "lang": "hy"
+    },
+    {
+      "key": "Վայոց ձոր",
+      "lname": "Vayots Dzor",
+      "isoid": "VD",
+      "zip": "3[6-8]",
+      "zipex": "3601,3810",
+      "lang": "hy"
+    },
+    {
+      "key": "Տավուշ",
+      "lname": "Tavush",
+      "isoid": "TV",
+      "zip": "39|4[0-2]",
+      "zipex": "3901,4216",
+      "lang": "hy"
+    }
+  ],
+  "AR": [
+    {
+      "key": "Buenos Aires",
+      "name": "Buenos Aires",
+      "isoid": "B",
+      "zip": "B?[1-36-8]",
+      "lang": "es"
+    },
+    {
+      "key": "Capital Federal",
+      "name": "Capital Federal",
+      "isoid": "C",
+      "zip": "C?1",
+      "lang": "es"
+    },
+    {
+      "key": "Catamarca",
+      "name": "Catamarca",
+      "isoid": "K",
+      "zip": "K?[45]",
+      "lang": "es"
+    },
+    {
+      "key": "Chaco",
+      "name": "Chaco",
+      "isoid": "H",
+      "zip": "H?3",
+      "lang": "es"
+    },
+    {
+      "key": "Chubut",
+      "name": "Chubut",
+      "isoid": "U",
+      "zip": "U?[89]",
+      "lang": "es"
+    },
+    {
+      "key": "Corrientes",
+      "name": "Corrientes",
+      "isoid": "W",
+      "zip": "W?3",
+      "lang": "es"
+    },
+    {
+      "key": "Córdoba",
+      "name": "Córdoba",
+      "isoid": "X",
+      "zip": "X?[235-8]",
+      "lang": "es"
+    },
+    {
+      "key": "Entre Ríos",
+      "name": "Entre Ríos",
+      "isoid": "E",
+      "zip": "E?[1-3]",
+      "lang": "es"
+    },
+    {
+      "key": "Formosa",
+      "name": "Formosa",
+      "isoid": "P",
+      "zip": "P?[37]",
+      "lang": "es"
+    },
+    {
+      "key": "Jujuy",
+      "name": "Jujuy",
+      "isoid": "Y",
+      "zip": "Y?4",
+      "lang": "es"
+    },
+    {
+      "key": "La Pampa",
+      "name": "La Pampa",
+      "isoid": "L",
+      "zip": "L?[3568]",
+      "lang": "es"
+    },
+    {
+      "key": "La Rioja",
+      "name": "La Rioja",
+      "isoid": "F",
+      "zip": "F?5",
+      "lang": "es"
+    },
+    {
+      "key": "Mendoza",
+      "name": "Mendoza",
+      "isoid": "M",
+      "zip": "M?[56]",
+      "lang": "es"
+    },
+    {
+      "key": "Misiones",
+      "name": "Misiones",
+      "isoid": "N",
+      "zip": "N?3",
+      "lang": "es"
+    },
+    {
+      "key": "Neuquén",
+      "name": "Neuquén",
+      "isoid": "Q",
+      "zip": "Q?[38]",
+      "lang": "es"
+    },
+    {
+      "key": "Río Negro",
+      "name": "Río Negro",
+      "isoid": "R",
+      "zip": "R?[89]",
+      "lang": "es"
+    },
+    {
+      "key": "Salta",
+      "name": "Salta",
+      "isoid": "A",
+      "zip": "A?[34]",
+      "lang": "es"
+    },
+    {
+      "key": "San Juan",
+      "name": "San Juan",
+      "isoid": "J",
+      "zip": "J?5",
+      "lang": "es"
+    },
+    {
+      "key": "San Luis",
+      "name": "San Luis",
+      "isoid": "D",
+      "zip": "D?[4-6]",
+      "lang": "es"
+    },
+    {
+      "key": "Santa Cruz",
+      "name": "Santa Cruz",
+      "isoid": "Z",
+      "zip": "Z?[89]",
+      "lang": "es"
+    },
+    {
+      "key": "Santa Fe",
+      "name": "Santa Fe",
+      "isoid": "S",
+      "zip": "S?[2368]",
+      "lang": "es"
+    },
+    {
+      "key": "Santiago del Estero",
+      "name": "Santiago del Estero",
+      "isoid": "G",
+      "zip": "G?[2-5]",
+      "lang": "es"
+    },
+    {
+      "key": "Tierra del Fuego",
+      "name": "Tierra del Fuego",
+      "isoid": "V",
+      "zip": "V?9",
+      "lang": "es"
+    },
+    {
+      "key": "Tucumán",
+      "name": "Tucumán",
+      "isoid": "T",
+      "zip": "T?[45]",
+      "lang": "es"
+    }
+  ],
+  "AU": [
+    {
+      "key": "ACT",
+      "name": "Australian Capital Territory",
+      "zip": "29|2540|260|261[0-8]|02|2620",
+      "zipex": "0200,0299:2540:2600,2618:2620:2900,2999",
+      "lang": "en"
+    },
+    {
+      "key": "NSW",
+      "name": "New South Wales",
+      "zip": "1|2[0-57-8]|26[2-9]|261[189]|3500|3585|3586|3644|3707",
+      "zipex": "1000,1999:2000,2999:3500:3585:3586:3644:3707",
+      "lang": "en"
+    },
+    {
+      "key": "NT",
+      "name": "Northern Territory",
+      "zip": "0[89]",
+      "zipex": "0800,0999",
+      "lang": "en"
+    },
+    {
+      "key": "QLD",
+      "name": "Queensland",
+      "zip": "[49]",
+      "zipex": "4000,4999:9000,9999",
+      "lang": "en"
+    },
+    {
+      "key": "SA",
+      "name": "South Australia",
+      "zip": "5|0872",
+      "zipex": "5000,5999:0872",
+      "lang": "en"
+    },
+    {
+      "key": "TAS",
+      "name": "Tasmania",
+      "zip": "7",
+      "zipex": "7000,7999",
+      "lang": "en"
+    },
+    {
+      "key": "VIC",
+      "name": "Victoria",
+      "zip": "[38]",
+      "zipex": "3000,3999:8000,8999",
+      "lang": "en"
+    },
+    {
+      "key": "WA",
+      "name": "Western Australia",
+      "zip": "6|0872",
+      "zipex": "6000,6999:0872",
+      "lang": "en"
+    }
+  ],
+  "BR": [
+    {
+      "key": "AC",
+      "name": "Acre",
+      "zip": "699",
+      "zipex": "69900-000,69999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "AL",
+      "name": "Alagoas",
+      "zip": "57",
+      "zipex": "57000-000,57999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "AM",
+      "name": "Amazonas",
+      "zip": "69[0-24-8]",
+      "zipex": "69000-000,69299-999:69400-000,69899-999",
+      "lang": "pt"
+    },
+    {
+      "key": "AP",
+      "name": "Amapá",
+      "zip": "689",
+      "zipex": "68900-000,68999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "BA",
+      "name": "Bahia",
+      "zip": "4[0-8]",
+      "zipex": "40000-000,48999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "CE",
+      "name": "Ceará",
+      "zip": "6[0-3]",
+      "zipex": "60000-000,63999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "DF",
+      "name": "Distrito Federal",
+      "zip": "7[0-1]|72[0-7]|73[0-6]",
+      "zipex": "70000-000,72799-999:73000-000,73699-999",
+      "lang": "pt"
+    },
+    {
+      "key": "ES",
+      "name": "Espírito Santo",
+      "zip": "29",
+      "zipex": "29000-000,29999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "GO",
+      "name": "Goiás",
+      "zip": "72[89]|73[7-9]|7[4-6]",
+      "zipex": "72800-000,72999-999:73700-000,76999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "MA",
+      "name": "Maranhão",
+      "zip": "65",
+      "zipex": "65000-000,65999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "MG",
+      "name": "Minas Gerais",
+      "zip": "3",
+      "zipex": "30000-000,39999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "MS",
+      "name": "Mato Grosso do Sul",
+      "zip": "79",
+      "zipex": "79000-000,79999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "MT",
+      "name": "Mato Grosso",
+      "zip": "78[0-8]",
+      "zipex": "78000-000,78899-999",
+      "lang": "pt"
+    },
+    {
+      "key": "PA",
+      "name": "Pará",
+      "zip": "6[6-7]|68[0-8]",
+      "zipex": "66000-000,68899-999",
+      "lang": "pt"
+    },
+    {
+      "key": "PB",
+      "name": "Paraíba",
+      "zip": "58",
+      "zipex": "58000-000,58999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "PE",
+      "name": "Pernambuco",
+      "zip": "5[0-6]",
+      "zipex": "50000-000,56999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "PI",
+      "name": "Piauí",
+      "zip": "64",
+      "zipex": "64000-000,64999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "PR",
+      "name": "Paraná",
+      "zip": "8[0-7]",
+      "zipex": "80000-000,87999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "RJ",
+      "name": "Rio de Janeiro",
+      "zip": "2[0-8]",
+      "zipex": "20000-000,28999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "RN",
+      "name": "Rio Grande do Norte",
+      "zip": "59",
+      "zipex": "59000-000,59999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "RO",
+      "name": "Rondônia",
+      "zip": "76[89]|789",
+      "zipex": "76800-000,78900-000,78999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "RR",
+      "name": "Roraima",
+      "zip": "693",
+      "zipex": "69300-000,69399-999",
+      "lang": "pt"
+    },
+    {
+      "key": "RS",
+      "name": "Rio Grande do Sul",
+      "zip": "9",
+      "zipex": "90000-000,99999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "SC",
+      "name": "Santa Catarina",
+      "zip": "8[89]",
+      "zipex": "88000-000,89999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "SE",
+      "name": "Sergipe",
+      "zip": "49",
+      "zipex": "49000-000,49999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "SP",
+      "name": "São Paulo",
+      "zip": "[01][1-9]",
+      "zipex": "01000-000,09999-999:11000-000,19999-999",
+      "lang": "pt"
+    },
+    {
+      "key": "TO",
+      "name": "Tocantins",
+      "zip": "77",
+      "zipex": "77000-000,77999-999",
+      "lang": "pt"
+    }
+  ],
+  "BS": [
+    {
+      "key": "ABACO",
+      "name": "Abaco Islands",
+      "lang": "en"
+    },
+    {
+      "key": "ACKLINS",
+      "name": "Acklins",
+      "isoid": "AK",
+      "lang": "en"
+    },
+    {
+      "key": "ANDROS",
+      "name": "Andros Island",
+      "lang": "en"
+    },
+    {
+      "key": "BERRY ISLANDS",
+      "name": "Berry Islands",
+      "isoid": "BY",
+      "lang": "en"
+    },
+    {
+      "key": "BIMINI",
+      "name": "Bimini",
+      "isoid": "BI",
+      "lang": "en"
+    },
+    {
+      "key": "CAT ISLAND",
+      "name": "Cat Island",
+      "isoid": "CI",
+      "lang": "en"
+    },
+    {
+      "key": "CROOKED ISLAND",
+      "name": "Crooked Island",
+      "lang": "en"
+    },
+    {
+      "key": "ELEUTHERA",
+      "name": "Eleuthera",
+      "lang": "en"
+    },
+    {
+      "key": "EXUMA",
+      "name": "Exuma and Cays",
+      "isoid": "EX",
+      "lang": "en"
+    },
+    {
+      "key": "GRAND BAHAMA",
+      "name": "Grand Bahama",
+      "lang": "en"
+    },
+    {
+      "key": "HARBOUR ISLAND",
+      "name": "Harbour Island",
+      "isoid": "HI",
+      "lang": "en"
+    },
+    {
+      "key": "INAGUA",
+      "name": "Inagua",
+      "isoid": "IN",
+      "lang": "en"
+    },
+    {
+      "key": "LONG ISLAND",
+      "name": "Long Island",
+      "isoid": "LI",
+      "lang": "en"
+    },
+    {
+      "key": "MAYAGUANA",
+      "name": "Mayaguana",
+      "isoid": "MG",
+      "lang": "en"
+    },
+    {
+      "key": "N.P.",
+      "name": "New Providence",
+      "lang": "en"
+    },
+    {
+      "key": "RAGGED ISLAND",
+      "name": "Ragged Island",
+      "isoid": "RI",
+      "lang": "en"
+    },
+    {
+      "key": "RUM CAY",
+      "name": "Rum Cay",
+      "isoid": "RC",
+      "lang": "en"
+    },
+    {
+      "key": "SAN SALVADOR",
+      "name": "San Salvador",
+      "isoid": "SS",
+      "lang": "en"
+    },
+    {
+      "key": "SPANISH WELLS",
+      "name": "Spanish Wells",
+      "isoid": "SW",
+      "lang": "en"
+    }
+  ],
+  "CA": [
+    {
+      "key": "AB",
+      "name": "Alberta",
+      "zip": "T",
+      "lang": "en"
+    },
+    {
+      "key": "AB--fr",
+      "name": "Alberta",
+      "zip": "T",
+      "lang": "fr"
+    },
+    {
+      "key": "BC",
+      "name": "British Columbia",
+      "zip": "V",
+      "lang": "en"
+    },
+    {
+      "key": "BC--fr",
+      "name": "Colombie-Britannique",
+      "zip": "V",
+      "lang": "fr"
+    },
+    {
+      "key": "MB",
+      "name": "Manitoba",
+      "zip": "R",
+      "lang": "en"
+    },
+    {
+      "key": "MB--fr",
+      "name": "Manitoba",
+      "zip": "R",
+      "lang": "fr"
+    },
+    {
+      "key": "NB",
+      "name": "New Brunswick",
+      "zip": "E",
+      "lang": "en"
+    },
+    {
+      "key": "NB--fr",
+      "name": "Nouveau-Brunswick",
+      "zip": "E",
+      "lang": "fr"
+    },
+    {
+      "key": "NL",
+      "name": "Newfoundland and Labrador",
+      "zip": "A",
+      "lang": "en"
+    },
+    {
+      "key": "NL--fr",
+      "name": "Terre-Neuve-et-Labrador",
+      "zip": "A",
+      "lang": "fr"
+    },
+    {
+      "key": "NS",
+      "name": "Nova Scotia",
+      "zip": "B",
+      "lang": "en"
+    },
+    {
+      "key": "NS--fr",
+      "name": "Nouvelle-Ecosse",
+      "zip": "B",
+      "lang": "fr"
+    },
+    {
+      "key": "NT",
+      "name": "Northwest Territories",
+      "zip": "X0E|X0G|X1A",
+      "lang": "en"
+    },
+    {
+      "key": "NT--fr",
+      "name": "Territoires du Nord-Ouest",
+      "zip": "X0E|X0G|X1A",
+      "lang": "fr"
+    },
+    {
+      "key": "NU",
+      "name": "Nunavut",
+      "zip": "X0A|X0B|X0C",
+      "lang": "en"
+    },
+    {
+      "key": "NU--fr",
+      "name": "Nunavut",
+      "zip": "X0A|X0B|X0C",
+      "lang": "fr"
+    },
+    {
+      "key": "ON",
+      "name": "Ontario",
+      "zip": "K|L|M|N|P",
+      "lang": "en"
+    },
+    {
+      "key": "ON--fr",
+      "name": "Ontario",
+      "zip": "K|L|M|N|P",
+      "lang": "fr"
+    },
+    {
+      "key": "PE",
+      "name": "Prince Edward Island",
+      "zip": "C",
+      "lang": "en"
+    },
+    {
+      "key": "PE--fr",
+      "name": "Ile-du-Prince-Edouard",
+      "zip": "C",
+      "lang": "fr"
+    },
+    {
+      "key": "QC",
+      "name": "Quebec",
+      "zip": "G|H|J|K1A",
+      "lang": "en"
+    },
+    {
+      "key": "QC--fr",
+      "name": "Québec",
+      "zip": "G|H|J|K1A",
+      "lang": "fr"
+    },
+    {
+      "key": "SK",
+      "name": "Saskatchewan",
+      "zip": "S|R8A",
+      "lang": "en"
+    },
+    {
+      "key": "SK--fr",
+      "name": "Saskatchewan",
+      "zip": "S|R8A",
+      "lang": "fr"
+    },
+    {
+      "key": "YT",
+      "name": "Yukon",
+      "zip": "Y",
+      "lang": "en"
+    },
+    {
+      "key": "YT--fr",
+      "name": "Yukon",
+      "zip": "Y",
+      "lang": "fr"
+    }
+  ],
+  "CH": [
+    {
+      "key": "AG",
+      "name": "Aargau",
+      "lang": "de"
+    },
+    {
+      "key": "AG--fr",
+      "name": "Argovie",
+      "lang": "fr"
+    },
+    {
+      "key": "AG--it",
+      "name": "Argovia",
+      "lang": "it"
+    },
+    {
+      "key": "AI",
+      "name": "Appenzell Innerrhoden",
+      "lang": "de"
+    },
+    {
+      "key": "AI--fr",
+      "name": "Appenzell Rhodes-Intérieures",
+      "lang": "fr"
+    },
+    {
+      "key": "AI--it",
+      "name": "Appenzello Interno",
+      "lang": "it"
+    },
+    {
+      "key": "AR",
+      "name": "Appenzell Ausserrhoden",
+      "lang": "de"
+    },
+    {
+      "key": "AR--fr",
+      "name": "Appenzell Rhodes-Extérieures",
+      "lang": "fr"
+    },
+    {
+      "key": "AR--it",
+      "name": "Appenzello Esterno",
+      "lang": "it"
+    },
+    {
+      "key": "BE",
+      "name": "Bern",
+      "lang": "de"
+    },
+    {
+      "key": "BE--fr",
+      "name": "Berne",
+      "lang": "fr"
+    },
+    {
+      "key": "BE--it",
+      "name": "Berna",
+      "lang": "it"
+    },
+    {
+      "key": "BL",
+      "name": "Basel-Landschaft",
+      "lang": "de"
+    },
+    {
+      "key": "BL--fr",
+      "name": "Bâle-Campagne",
+      "lang": "fr"
+    },
+    {
+      "key": "BL--it",
+      "name": "Basilea Campagna",
+      "lang": "it"
+    },
+    {
+      "key": "BS",
+      "name": "Basel-Stadt",
+      "lang": "de"
+    },
+    {
+      "key": "BS--fr",
+      "name": "Bâle-Ville",
+      "lang": "fr"
+    },
+    {
+      "key": "BS--it",
+      "name": "Basilea Città",
+      "lang": "it"
+    },
+    {
+      "key": "FR",
+      "name": "Freiburg",
+      "lang": "de"
+    },
+    {
+      "key": "FR--fr",
+      "name": "Fribourg",
+      "lang": "fr"
+    },
+    {
+      "key": "FR--it",
+      "name": "Friburgo",
+      "lang": "it"
+    },
+    {
+      "key": "GE",
+      "name": "Genf",
+      "lang": "de"
+    },
+    {
+      "key": "GE--fr",
+      "name": "Genève",
+      "lang": "fr"
+    },
+    {
+      "key": "GE--it",
+      "name": "Ginevra",
+      "lang": "it"
+    },
+    {
+      "key": "GL",
+      "name": "Glarus",
+      "lang": "de"
+    },
+    {
+      "key": "GL--fr",
+      "name": "Glaris",
+      "lang": "fr"
+    },
+    {
+      "key": "GL--it",
+      "name": "Glarona",
+      "lang": "it"
+    },
+    {
+      "key": "GR",
+      "name": "Graubünden",
+      "lang": "de"
+    },
+    {
+      "key": "GR--fr",
+      "name": "Grisons",
+      "lang": "fr"
+    },
+    {
+      "key": "GR--it",
+      "name": "Grigioni",
+      "lang": "it"
+    },
+    {
+      "key": "JU",
+      "name": "Jura",
+      "lang": "de"
+    },
+    {
+      "key": "JU--fr",
+      "name": "Jura",
+      "lang": "fr"
+    },
+    {
+      "key": "JU--it",
+      "name": "Giura",
+      "lang": "it"
+    },
+    {
+      "key": "LU",
+      "name": "Luzern",
+      "lang": "de"
+    },
+    {
+      "key": "LU--fr",
+      "name": "Lucerne",
+      "lang": "fr"
+    },
+    {
+      "key": "LU--it",
+      "name": "Lucerna",
+      "lang": "it"
+    },
+    {
+      "key": "NE",
+      "name": "Neuenburg",
+      "lang": "de"
+    },
+    {
+      "key": "NE--fr",
+      "name": "Neuchâtel",
+      "lang": "fr"
+    },
+    {
+      "key": "NE--it",
+      "name": "Neuchâtel",
+      "lang": "it"
+    },
+    {
+      "key": "NW",
+      "name": "Nidwalden",
+      "lang": "de"
+    },
+    {
+      "key": "NW--fr",
+      "name": "Nidwald",
+      "lang": "fr"
+    },
+    {
+      "key": "NW--it",
+      "name": "Nidvaldo",
+      "lang": "it"
+    },
+    {
+      "key": "OW",
+      "name": "Obwalden",
+      "lang": "de"
+    },
+    {
+      "key": "OW--fr",
+      "name": "Obwald",
+      "lang": "fr"
+    },
+    {
+      "key": "OW--it",
+      "name": "Obvaldo",
+      "lang": "it"
+    },
+    {
+      "key": "SG",
+      "name": "St. Gallen",
+      "lang": "de"
+    },
+    {
+      "key": "SG--fr",
+      "name": "Saint-Gall",
+      "lang": "fr"
+    },
+    {
+      "key": "SG--it",
+      "name": "San Gallo",
+      "lang": "it"
+    },
+    {
+      "key": "SH",
+      "name": "Schaffhausen",
+      "lang": "de"
+    },
+    {
+      "key": "SH--fr",
+      "name": "Schaffhouse",
+      "lang": "fr"
+    },
+    {
+      "key": "SH--it",
+      "name": "Sciaffusa",
+      "lang": "it"
+    },
+    {
+      "key": "SO",
+      "name": "Solothurn",
+      "lang": "de"
+    },
+    {
+      "key": "SO--fr",
+      "name": "Soleure",
+      "lang": "fr"
+    },
+    {
+      "key": "SO--it",
+      "name": "Soletta",
+      "lang": "it"
+    },
+    {
+      "key": "SZ",
+      "name": "Schwyz",
+      "lang": "de"
+    },
+    {
+      "key": "SZ--fr",
+      "name": "Schwyz",
+      "lang": "fr"
+    },
+    {
+      "key": "SZ--it",
+      "name": "Svitto",
+      "lang": "it"
+    },
+    {
+      "key": "TG",
+      "name": "Thurgau",
+      "lang": "de"
+    },
+    {
+      "key": "TG--fr",
+      "name": "Thurgovie",
+      "lang": "fr"
+    },
+    {
+      "key": "TG--it",
+      "name": "Turgovia",
+      "lang": "it"
+    },
+    {
+      "key": "TI",
+      "name": "Tessin",
+      "lang": "de"
+    },
+    {
+      "key": "TI--fr",
+      "name": "Tessin",
+      "lang": "fr"
+    },
+    {
+      "key": "TI--it",
+      "name": "Ticino",
+      "lang": "it"
+    },
+    {
+      "key": "UR",
+      "name": "Uri",
+      "lang": "de"
+    },
+    {
+      "key": "UR--fr",
+      "name": "Uri",
+      "lang": "fr"
+    },
+    {
+      "key": "UR--it",
+      "name": "Uri",
+      "lang": "it"
+    },
+    {
+      "key": "VD",
+      "name": "Waadt",
+      "lang": "de"
+    },
+    {
+      "key": "VD--fr",
+      "name": "Vaud",
+      "lang": "fr"
+    },
+    {
+      "key": "VD--it",
+      "name": "Vaud",
+      "lang": "it"
+    },
+    {
+      "key": "VS",
+      "name": "Wallis",
+      "lang": "de"
+    },
+    {
+      "key": "VS--fr",
+      "name": "Valais",
+      "lang": "fr"
+    },
+    {
+      "key": "VS--it",
+      "name": "Vallese",
+      "lang": "it"
+    },
+    {
+      "key": "ZG",
+      "name": "Zug",
+      "lang": "de"
+    },
+    {
+      "key": "ZG--fr",
+      "name": "Zoug",
+      "lang": "fr"
+    },
+    {
+      "key": "ZG--it",
+      "name": "Zugo",
+      "lang": "it"
+    },
+    {
+      "key": "ZH",
+      "name": "Zürich",
+      "lang": "de"
+    },
+    {
+      "key": "ZH--fr",
+      "name": "Zurich",
+      "lang": "fr"
+    },
+    {
+      "key": "ZH--it",
+      "name": "Zurigo",
+      "lang": "it"
+    }
+  ],
+  "CL": [
+    {
+      "key": "I Región de Tarapacá",
+      "name": "Tarapacá",
+      "isoid": "TA",
+      "lang": "es"
+    },
+    {
+      "key": "II Región de Antofagasta",
+      "name": "Antofagasta",
+      "isoid": "AN",
+      "lang": "es"
+    },
+    {
+      "key": "III Región de Atacama",
+      "name": "Atacama",
+      "isoid": "AT",
+      "lang": "es"
+    },
+    {
+      "key": "IV Región de Coquimbo",
+      "name": "Coquimbo",
+      "isoid": "CO",
+      "lang": "es"
+    },
+    {
+      "key": "IX Región de la Araucanía",
+      "name": "Araucanía",
+      "isoid": "AR",
+      "lang": "es"
+    },
+    {
+      "key": "Región Metropolitana de Santiago",
+      "name": "Metropolitana de Santiago",
+      "isoid": "RM",
+      "lang": "es"
+    },
+    {
+      "key": "V Región de Valparaíso",
+      "name": "Valparaíso",
+      "isoid": "VS",
+      "lang": "es"
+    },
+    {
+      "key": "VI Región del Libertador General Bernardo O'Higgins",
+      "name": "Libertador General Bernardo O'Higgins",
+      "isoid": "LI",
+      "lang": "es"
+    },
+    {
+      "key": "VII Región del Maule",
+      "name": "Maule",
+      "isoid": "ML",
+      "lang": "es"
+    },
+    {
+      "key": "VIII Región del Biobío",
+      "name": "Biobío",
+      "isoid": "BI",
+      "lang": "es"
+    },
+    {
+      "key": "X Región de Los Lagos",
+      "name": "Los Lagos",
+      "isoid": "LL",
+      "lang": "es"
+    },
+    {
+      "key": "XI Región Aysén del General Carlos Ibáñez del Campo",
+      "name": "Aysén del General Carlos Ibáñez del Campo",
+      "isoid": "AI",
+      "lang": "es"
+    },
+    {
+      "key": "XII Región de Magallanes y de la Antártica Chilena",
+      "name": "Magallanes y de la Antártica Chilena",
+      "isoid": "MA",
+      "lang": "es"
+    },
+    {
+      "key": "XIV Región de Los Ríos",
+      "name": "Los Ríos",
+      "isoid": "LR",
+      "lang": "es"
+    },
+    {
+      "key": "XV Región de Arica y Parinacota",
+      "name": "Arica y Parinacota",
+      "isoid": "AP",
+      "lang": "es"
+    }
+  ],
+  "CN": [
+    {
+      "key": "上海市",
+      "lname": "Shanghai Shi",
+      "isoid": "31",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "云南省",
+      "lname": "Yunnan Sheng",
+      "isoid": "53",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "内蒙古自治区",
+      "lname": "Neimenggu Zizhiqu",
+      "isoid": "15",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "北京市",
+      "lname": "Beijing Shi",
+      "isoid": "11",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "台湾",
+      "lname": "Taiwan",
+      "isoid": "71",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "吉林省",
+      "lname": "Jilin Sheng",
+      "isoid": "22",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "四川省",
+      "lname": "Sichuan Sheng",
+      "isoid": "51",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "天津市",
+      "lname": "Tianjin Shi",
+      "isoid": "12",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "宁夏回族自治区",
+      "lname": "Ningxia Huizuzizhiqu",
+      "isoid": "64",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "安徽省",
+      "lname": "Anhui Sheng",
+      "isoid": "34",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "山东省",
+      "lname": "Shandong Sheng",
+      "isoid": "37",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "山西省",
+      "lname": "Shanxi Sheng",
+      "isoid": "14",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "广东省",
+      "lname": "Guangdong Sheng",
+      "isoid": "44",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "广西壮族自治区",
+      "lname": "Guangxi Zhuangzuzizhiqu",
+      "isoid": "45",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "新疆维吾尔自治区",
+      "lname": "Xinjiang Weiwuerzizhiqu",
+      "isoid": "65",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "江苏省",
+      "lname": "Jiangsu Sheng",
+      "isoid": "32",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "江西省",
+      "lname": "Jiangxi Sheng",
+      "isoid": "36",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "河北省",
+      "lname": "Hebei Sheng",
+      "isoid": "13",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "河南省",
+      "lname": "Henan Sheng",
+      "isoid": "41",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "浙江省",
+      "lname": "Zhejiang Sheng",
+      "isoid": "33",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "海南省",
+      "lname": "Hainan Sheng",
+      "isoid": "46",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "湖北省",
+      "lname": "Hubei Sheng",
+      "isoid": "42",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "湖南省",
+      "lname": "Hunan Sheng",
+      "isoid": "43",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "澳门",
+      "lname": "Macau",
+      "isoid": "92",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "甘肃省",
+      "lname": "Gansu Sheng",
+      "isoid": "62",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "福建省",
+      "lname": "Fujian Sheng",
+      "isoid": "35",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "西藏自治区",
+      "lname": "Xizang Zizhiqu",
+      "isoid": "54",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "贵州省",
+      "lname": "Guizhou Sheng",
+      "isoid": "52",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "辽宁省",
+      "lname": "Liaoning Sheng",
+      "isoid": "21",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "重庆市",
+      "lname": "Chongqing Shi",
+      "isoid": "50",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "陕西省",
+      "lname": "Shaanxi Sheng",
+      "isoid": "61",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "青海省",
+      "lname": "Qinghai Sheng",
+      "isoid": "63",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "香港",
+      "lname": "Hong Kong",
+      "isoid": "91",
+      "lang": "zh-hans"
+    },
+    {
+      "key": "黑龙江省",
+      "lname": "Heilongjiang Sheng",
+      "isoid": "23",
+      "lang": "zh-hans"
+    }
+  ],
+  "CV": [
+    {
+      "key": "BOA VISTA",
+      "isoid": "BV",
+      "lang": "pt"
+    },
+    {
+      "key": "BRAVA",
+      "isoid": "BR",
+      "lang": "pt"
+    },
+    {
+      "key": "FOGO",
+      "lang": "pt"
+    },
+    {
+      "key": "MAIO",
+      "isoid": "MA",
+      "lang": "pt"
+    },
+    {
+      "key": "SAL",
+      "isoid": "SL",
+      "lang": "pt"
+    },
+    {
+      "key": "SANTIAGO",
+      "lang": "pt"
+    },
+    {
+      "key": "SANTO ANTÃO",
+      "lang": "pt"
+    },
+    {
+      "key": "SÃO NICOLAU",
+      "isoid": "SN",
+      "lang": "pt"
+    },
+    {
+      "key": "SÃO VICENTE",
+      "isoid": "SV",
+      "lang": "pt"
+    }
+  ],
+  "EG": [
+    {
+      "key": "أسوان",
+      "lname": "Aswan",
+      "isoid": "ASN",
+      "zip": "81",
+      "zipex": "81000",
+      "lang": "ar"
+    },
+    {
+      "key": "أسيوط",
+      "lname": "Asyut",
+      "isoid": "AST",
+      "zip": "71",
+      "zipex": "71000",
+      "lang": "ar"
+    },
+    {
+      "key": "الأقصر",
+      "lname": "Luxor",
+      "isoid": "LX",
+      "zip": "85",
+      "zipex": "85000",
+      "lang": "ar"
+    },
+    {
+      "key": "الإسكندرية",
+      "lname": "Alexandria",
+      "isoid": "ALX",
+      "zip": "2[13]",
+      "zipex": "21000,23000",
+      "lang": "ar"
+    },
+    {
+      "key": "الإسماعيلية",
+      "lname": "Ismailia",
+      "isoid": "IS",
+      "zip": "41",
+      "zipex": "41000",
+      "lang": "ar"
+    },
+    {
+      "key": "البحر الأحمر",
+      "lname": "Red Sea",
+      "isoid": "BA",
+      "zip": "84",
+      "zipex": "84000",
+      "lang": "ar"
+    },
+    {
+      "key": "البحيرة",
+      "lname": "Beheira",
+      "isoid": "BH",
+      "zip": "22",
+      "zipex": "22000",
+      "lang": "ar"
+    },
+    {
+      "key": "الجيزة",
+      "lname": "Giza",
+      "isoid": "GZ",
+      "zip": "12",
+      "zipex": "12000",
+      "lang": "ar"
+    },
+    {
+      "key": "الدقهلية",
+      "lname": "Dakahlia",
+      "isoid": "DK",
+      "zip": "35",
+      "zipex": "35000",
+      "lang": "ar"
+    },
+    {
+      "key": "السويس",
+      "lname": "Suez",
+      "isoid": "SUZ",
+      "zip": "43",
+      "zipex": "43000",
+      "lang": "ar"
+    },
+    {
+      "key": "الشرقية",
+      "lname": "Al Sharqia",
+      "isoid": "SHR",
+      "zip": "44",
+      "zipex": "44000",
+      "lang": "ar"
+    },
+    {
+      "key": "الغربية",
+      "lname": "Gharbia",
+      "isoid": "GH",
+      "zip": "31",
+      "zipex": "31000",
+      "lang": "ar"
+    },
+    {
+      "key": "الفيوم",
+      "lname": "Faiyum",
+      "isoid": "FYM",
+      "zip": "63",
+      "zipex": "63000",
+      "lang": "ar"
+    },
+    {
+      "key": "القاهرة",
+      "lname": "Cairo",
+      "isoid": "C",
+      "zip": "11",
+      "zipex": "11000",
+      "lang": "ar"
+    },
+    {
+      "key": "القليوبية",
+      "lname": "Qalyubia",
+      "isoid": "KB",
+      "zip": "13",
+      "zipex": "13000",
+      "lang": "ar"
+    },
+    {
+      "key": "المنوفية",
+      "lname": "Monufia",
+      "isoid": "MNF",
+      "zip": "32",
+      "zipex": "32000",
+      "lang": "ar"
+    },
+    {
+      "key": "المنيا",
+      "lname": "Minya",
+      "isoid": "MN",
+      "zip": "61",
+      "zipex": "61000",
+      "lang": "ar"
+    },
+    {
+      "key": "الوادي الجديد",
+      "lname": "New Valley",
+      "isoid": "WAD",
+      "zip": "72",
+      "zipex": "72000",
+      "lang": "ar"
+    },
+    {
+      "key": "بني سويف",
+      "lname": "Beni Suef",
+      "isoid": "BNS",
+      "zip": "62",
+      "zipex": "62000",
+      "lang": "ar"
+    },
+    {
+      "key": "بورسعيد",
+      "lname": "Port Said",
+      "isoid": "PTS",
+      "zip": "42",
+      "zipex": "42000",
+      "lang": "ar"
+    },
+    {
+      "key": "جنوب سيناء",
+      "lname": "South Sinai",
+      "isoid": "JS",
+      "zip": "46",
+      "zipex": "46000",
+      "lang": "ar"
+    },
+    {
+      "key": "دمياط",
+      "lname": "Damietta",
+      "isoid": "DT",
+      "zip": "34",
+      "zipex": "34000",
+      "lang": "ar"
+    },
+    {
+      "key": "سوهاج",
+      "lname": "Sohag",
+      "isoid": "SHG",
+      "zip": "82",
+      "zipex": "82000",
+      "lang": "ar"
+    },
+    {
+      "key": "شمال سيناء",
+      "lname": "North Sinai",
+      "isoid": "SIN",
+      "zip": "45",
+      "zipex": "45000",
+      "lang": "ar"
+    },
+    {
+      "key": "قنا",
+      "lname": "Qena",
+      "isoid": "KN",
+      "zip": "83",
+      "zipex": "83000",
+      "lang": "ar"
+    },
+    {
+      "key": "كفر الشيخ",
+      "lname": "Kafr el-Sheikh",
+      "isoid": "KFS",
+      "zip": "33",
+      "zipex": "33000",
+      "lang": "ar"
+    },
+    {
+      "key": "مطروح",
+      "lname": "Matruh",
+      "isoid": "MT",
+      "zip": "51",
+      "zipex": "51000",
+      "lang": "ar"
+    }
+  ],
+  "ES": [
+    {
+      "key": "A Coruña",
+      "isoid": "C",
+      "zip": "15",
+      "lang": "es"
+    },
+    {
+      "key": "Albacete",
+      "isoid": "AB",
+      "zip": "02",
+      "lang": "es"
+    },
+    {
+      "key": "Alicante",
+      "isoid": "A",
+      "zip": "03",
+      "lang": "es"
+    },
+    {
+      "key": "Almería",
+      "isoid": "AL",
+      "zip": "04",
+      "lang": "es"
+    },
+    {
+      "key": "Asturias",
+      "isoid": "O",
+      "zip": "33",
+      "lang": "es"
+    },
+    {
+      "key": "Badajoz",
+      "isoid": "BA",
+      "zip": "06",
+      "lang": "es"
+    },
+    {
+      "key": "Barcelona",
+      "isoid": "B",
+      "zip": "08",
+      "lang": "es"
+    },
+    {
+      "key": "Burgos",
+      "isoid": "BU",
+      "zip": "09",
+      "lang": "es"
+    },
+    {
+      "key": "Cantabria",
+      "isoid": "S",
+      "zip": "39",
+      "lang": "es"
+    },
+    {
+      "key": "Castellón",
+      "isoid": "CS",
+      "zip": "12",
+      "lang": "es"
+    },
+    {
+      "key": "Ceuta",
+      "isoid": "CE",
+      "zip": "51",
+      "lang": "es"
+    },
+    {
+      "key": "Ciudad Real",
+      "isoid": "CR",
+      "zip": "13",
+      "lang": "es"
+    },
+    {
+      "key": "Cuenca",
+      "isoid": "CU",
+      "zip": "16",
+      "lang": "es"
+    },
+    {
+      "key": "Cáceres",
+      "isoid": "CC",
+      "zip": "10",
+      "lang": "es"
+    },
+    {
+      "key": "Cádiz",
+      "isoid": "CA",
+      "zip": "11",
+      "lang": "es"
+    },
+    {
+      "key": "Córdoba",
+      "isoid": "CO",
+      "zip": "14",
+      "lang": "es"
+    },
+    {
+      "key": "Girona",
+      "isoid": "GI",
+      "zip": "17",
+      "lang": "es"
+    },
+    {
+      "key": "Granada",
+      "isoid": "GR",
+      "zip": "18",
+      "lang": "es"
+    },
+    {
+      "key": "Guadalajara",
+      "isoid": "GU",
+      "zip": "19",
+      "lang": "es"
+    },
+    {
+      "key": "Guipúzcoa",
+      "isoid": "SS",
+      "zip": "20",
+      "lang": "es"
+    },
+    {
+      "key": "Huelva",
+      "isoid": "H",
+      "zip": "21",
+      "lang": "es"
+    },
+    {
+      "key": "Huesca",
+      "isoid": "HU",
+      "zip": "22",
+      "lang": "es"
+    },
+    {
+      "key": "Islas Baleares",
+      "isoid": "PM",
+      "zip": "07",
+      "lang": "es"
+    },
+    {
+      "key": "Jaén",
+      "isoid": "J",
+      "zip": "23",
+      "lang": "es"
+    },
+    {
+      "key": "La Rioja",
+      "isoid": "LO",
+      "zip": "26",
+      "lang": "es"
+    },
+    {
+      "key": "Las Palmas",
+      "isoid": "GC",
+      "zip": "35",
+      "lang": "es"
+    },
+    {
+      "key": "León",
+      "isoid": "LE",
+      "zip": "24",
+      "lang": "es"
+    },
+    {
+      "key": "Lleida",
+      "isoid": "L",
+      "zip": "25",
+      "lang": "es"
+    },
+    {
+      "key": "Lugo",
+      "isoid": "LU",
+      "zip": "27",
+      "lang": "es"
+    },
+    {
+      "key": "Madrid",
+      "isoid": "M",
+      "zip": "28",
+      "lang": "es"
+    },
+    {
+      "key": "Melilla",
+      "isoid": "ML",
+      "zip": "52",
+      "lang": "es"
+    },
+    {
+      "key": "Murcia",
+      "isoid": "MU",
+      "zip": "30",
+      "lang": "es"
+    },
+    {
+      "key": "Málaga",
+      "isoid": "MA",
+      "zip": "29",
+      "lang": "es"
+    },
+    {
+      "key": "Navarra",
+      "isoid": "NA",
+      "zip": "31",
+      "lang": "es"
+    },
+    {
+      "key": "Ourense",
+      "isoid": "OR",
+      "zip": "32",
+      "lang": "es"
+    },
+    {
+      "key": "Palencia",
+      "isoid": "P",
+      "zip": "34",
+      "lang": "es"
+    },
+    {
+      "key": "Pontevedra",
+      "isoid": "PO",
+      "zip": "36",
+      "lang": "es"
+    },
+    {
+      "key": "Salamanca",
+      "isoid": "SA",
+      "zip": "37",
+      "lang": "es"
+    },
+    {
+      "key": "Santa Cruz de Tenerife",
+      "isoid": "TF",
+      "zip": "38",
+      "lang": "es"
+    },
+    {
+      "key": "Segovia",
+      "isoid": "SG",
+      "zip": "40",
+      "lang": "es"
+    },
+    {
+      "key": "Sevilla",
+      "isoid": "SE",
+      "zip": "41",
+      "lang": "es"
+    },
+    {
+      "key": "Soria",
+      "isoid": "SO",
+      "zip": "42",
+      "lang": "es"
+    },
+    {
+      "key": "Tarragona",
+      "isoid": "T",
+      "zip": "43",
+      "lang": "es"
+    },
+    {
+      "key": "Teruel",
+      "isoid": "TE",
+      "zip": "44",
+      "lang": "es"
+    },
+    {
+      "key": "Toledo",
+      "isoid": "TO",
+      "zip": "45",
+      "lang": "es"
+    },
+    {
+      "key": "Valencia",
+      "isoid": "V",
+      "zip": "46",
+      "lang": "es"
+    },
+    {
+      "key": "Valladolid",
+      "isoid": "VA",
+      "zip": "47",
+      "lang": "es"
+    },
+    {
+      "key": "Vizcaya",
+      "isoid": "BI",
+      "zip": "48",
+      "lang": "es"
+    },
+    {
+      "key": "Zamora",
+      "isoid": "ZA",
+      "zip": "49",
+      "lang": "es"
+    },
+    {
+      "key": "Zaragoza",
+      "isoid": "Z",
+      "zip": "50",
+      "lang": "es"
+    },
+    {
+      "key": "Álava",
+      "isoid": "VI",
+      "zip": "01",
+      "lang": "es"
+    },
+    {
+      "key": "Ávila",
+      "isoid": "AV",
+      "zip": "05",
+      "lang": "es"
+    }
+  ],
+  "HK": [
+    {
+      "key": "Hong Kong Island--en",
+      "lname": "Hong Kong Island",
+      "lang": "en"
+    },
+    {
+      "key": "Kowloon--en",
+      "lname": "Kowloon",
+      "lang": "en"
+    },
+    {
+      "key": "New Territories--en",
+      "lname": "New Territories",
+      "lang": "en"
+    },
+    {
+      "key": "九龍",
+      "lname": "Kowloon",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "新界",
+      "lname": "New Territories",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "香港島",
+      "lname": "Hong Kong Island",
+      "lang": "zh-hant"
+    }
+  ],
+  "ID": [
+    {
+      "key": "Aceh",
+      "isoid": "AC",
+      "lang": "id"
+    },
+    {
+      "key": "Bali",
+      "isoid": "BA",
+      "lang": "id"
+    },
+    {
+      "key": "Banten",
+      "isoid": "BT",
+      "lang": "id"
+    },
+    {
+      "key": "Bengkulu",
+      "isoid": "BE",
+      "lang": "id"
+    },
+    {
+      "key": "Daerah Istimewa Yogyakarta",
+      "isoid": "YO",
+      "lang": "id"
+    },
+    {
+      "key": "Daerah Khusus Ibukota Jakarta",
+      "isoid": "JK",
+      "lang": "id"
+    },
+    {
+      "key": "Gorontalo",
+      "isoid": "GO",
+      "lang": "id"
+    },
+    {
+      "key": "Jambi",
+      "isoid": "JA",
+      "lang": "id"
+    },
+    {
+      "key": "Jawa Barat",
+      "isoid": "JB",
+      "lang": "id"
+    },
+    {
+      "key": "Jawa Tengah",
+      "isoid": "JT",
+      "lang": "id"
+    },
+    {
+      "key": "Jawa Timur",
+      "isoid": "JI",
+      "lang": "id"
+    },
+    {
+      "key": "Kalimantan Barat",
+      "isoid": "KB",
+      "lang": "id"
+    },
+    {
+      "key": "Kalimantan Selatan",
+      "isoid": "KS",
+      "lang": "id"
+    },
+    {
+      "key": "Kalimantan Tengah",
+      "isoid": "KT",
+      "lang": "id"
+    },
+    {
+      "key": "Kalimantan Timur",
+      "isoid": "KI",
+      "lang": "id"
+    },
+    {
+      "key": "Kepulauan Bangka Belitung",
+      "isoid": "BB",
+      "lang": "id"
+    },
+    {
+      "key": "Kepulauan Riau",
+      "isoid": "KR",
+      "lang": "id"
+    },
+    {
+      "key": "Lampung",
+      "isoid": "LA",
+      "lang": "id"
+    },
+    {
+      "key": "Maluku",
+      "isoid": "MA",
+      "lang": "id"
+    },
+    {
+      "key": "Maluku Utara",
+      "isoid": "MU",
+      "lang": "id"
+    },
+    {
+      "key": "Nusa Tenggara Barat",
+      "isoid": "NB",
+      "lang": "id"
+    },
+    {
+      "key": "Nusa Tenggara Timur",
+      "isoid": "NT",
+      "lang": "id"
+    },
+    {
+      "key": "Papua",
+      "isoid": "PA",
+      "lang": "id"
+    },
+    {
+      "key": "Papua Barat",
+      "isoid": "PB",
+      "lang": "id"
+    },
+    {
+      "key": "Riau",
+      "isoid": "RI",
+      "lang": "id"
+    },
+    {
+      "key": "Sulawesi Barat",
+      "isoid": "SR",
+      "lang": "id"
+    },
+    {
+      "key": "Sulawesi Selatan",
+      "isoid": "SN",
+      "lang": "id"
+    },
+    {
+      "key": "Sulawesi Tengah",
+      "isoid": "ST",
+      "lang": "id"
+    },
+    {
+      "key": "Sulawesi Tenggara",
+      "isoid": "SG",
+      "lang": "id"
+    },
+    {
+      "key": "Sulawesi Utara",
+      "isoid": "SA",
+      "lang": "id"
+    },
+    {
+      "key": "Sumatera Barat",
+      "isoid": "SB",
+      "lang": "id"
+    },
+    {
+      "key": "Sumatera Selatan",
+      "isoid": "SS",
+      "lang": "id"
+    },
+    {
+      "key": "Sumatera Utara",
+      "isoid": "SU",
+      "lang": "id"
+    }
+  ],
+  "IE": [
+    {
+      "key": "Co. Carlow",
+      "isoid": "CW",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Cavan",
+      "isoid": "CN",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Clare",
+      "isoid": "CE",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Cork",
+      "isoid": "C",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Donegal",
+      "isoid": "DL",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Dublin",
+      "isoid": "D",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Galway",
+      "isoid": "G",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Kerry",
+      "isoid": "KY",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Kildare",
+      "isoid": "KE",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Kilkenny",
+      "isoid": "KK",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Laois",
+      "isoid": "LS",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Leitrim",
+      "isoid": "LM",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Limerick",
+      "isoid": "LK",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Longford",
+      "isoid": "LD",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Louth",
+      "isoid": "LH",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Mayo",
+      "isoid": "MO",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Meath",
+      "isoid": "MH",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Monaghan",
+      "isoid": "MN",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Offaly",
+      "isoid": "OY",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Roscommon",
+      "isoid": "RN",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Sligo",
+      "isoid": "SO",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Tipperary",
+      "isoid": "TA",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Waterford",
+      "isoid": "WD",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Westmeath",
+      "isoid": "WH",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Wexford",
+      "isoid": "WX",
+      "lang": "en"
+    },
+    {
+      "key": "Co. Wicklow",
+      "isoid": "WW",
+      "lang": "en"
+    }
+  ],
+  "IN": [
+    {
+      "key": "Andaman and Nicobar Islands",
+      "name": "Andaman & Nicobar",
+      "isoid": "AN",
+      "zip": "744",
+      "lang": "en"
+    },
+    {
+      "key": "Andhra Pradesh",
+      "name": "Andhra Pradesh",
+      "isoid": "AP",
+      "zip": "5[0-3]",
+      "lang": "en"
+    },
+    {
+      "key": "Arunachal Pradesh",
+      "name": "Arunachal Pradesh",
+      "isoid": "AR",
+      "zip": "79[0-2]",
+      "lang": "en"
+    },
+    {
+      "key": "Assam",
+      "name": "Assam",
+      "isoid": "AS",
+      "zip": "78",
+      "lang": "en"
+    },
+    {
+      "key": "Bihar",
+      "name": "Bihar",
+      "isoid": "BR",
+      "zip": "8[0-5]",
+      "lang": "en"
+    },
+    {
+      "key": "Chandigarh",
+      "name": "Chandigarh",
+      "isoid": "CH",
+      "zip": "16|1440[3-9]",
+      "lang": "en"
+    },
+    {
+      "key": "Chhattisgarh",
+      "name": "Chhattisgarh",
+      "isoid": "CT",
+      "zip": "49",
+      "lang": "en"
+    },
+    {
+      "key": "Dadra and Nagar Haveli",
+      "name": "Dadra & Nagar Haveli",
+      "isoid": "DN",
+      "zip": "396",
+      "lang": "en"
+    },
+    {
+      "key": "Daman and Diu",
+      "name": "Daman & Diu",
+      "isoid": "DD",
+      "zip": "396",
+      "lang": "en"
+    },
+    {
+      "key": "Delhi",
+      "name": "Delhi",
+      "isoid": "DL",
+      "zip": "11",
+      "lang": "en"
+    },
+    {
+      "key": "Goa",
+      "name": "Goa",
+      "isoid": "GA",
+      "zip": "403",
+      "lang": "en"
+    },
+    {
+      "key": "Gujarat",
+      "name": "Gujarat",
+      "isoid": "GJ",
+      "zip": "3[6-9]",
+      "lang": "en"
+    },
+    {
+      "key": "Haryana",
+      "name": "Haryana",
+      "isoid": "HR",
+      "zip": "1[23]",
+      "lang": "en"
+    },
+    {
+      "key": "Himachal Pradesh",
+      "name": "Himachal Pradesh",
+      "isoid": "HP",
+      "zip": "17",
+      "lang": "en"
+    },
+    {
+      "key": "Jammu & Kashmir",
+      "name": "Jammu & Kashmir",
+      "isoid": "JK",
+      "zip": "1[89]",
+      "lang": "en"
+    },
+    {
+      "key": "Jharkhand",
+      "name": "Jharkhand",
+      "isoid": "JH",
+      "zip": "81[4-9]|82|83[0-5]",
+      "lang": "en"
+    },
+    {
+      "key": "Karnataka",
+      "name": "Karnataka",
+      "isoid": "KA",
+      "zip": "5[4-9]|53[7-9]",
+      "lang": "en"
+    },
+    {
+      "key": "Kerala",
+      "name": "Kerala",
+      "isoid": "KL",
+      "zip": "6[7-9]|6010|607008|777",
+      "lang": "en"
+    },
+    {
+      "key": "Lakshadweep",
+      "name": "Lakshadweep",
+      "isoid": "LD",
+      "zip": "673",
+      "lang": "en"
+    },
+    {
+      "key": "Madhya Pradesh",
+      "name": "Madhya Pradesh",
+      "isoid": "MP",
+      "zip": "4[5-8]|490",
+      "lang": "en"
+    },
+    {
+      "key": "Maharashtra",
+      "name": "Maharashtra",
+      "isoid": "MH",
+      "zip": "4[0-4]",
+      "lang": "en"
+    },
+    {
+      "key": "Manipur",
+      "name": "Manipur",
+      "isoid": "MN",
+      "zip": "79[56]",
+      "lang": "en"
+    },
+    {
+      "key": "Meghalaya",
+      "name": "Meghalaya",
+      "isoid": "ML",
+      "zip": "79[34]",
+      "lang": "en"
+    },
+    {
+      "key": "Mizoram",
+      "name": "Mizoram",
+      "isoid": "MZ",
+      "zip": "796",
+      "lang": "en"
+    },
+    {
+      "key": "Nagaland",
+      "name": "Nagaland",
+      "isoid": "NL",
+      "zip": "79[78]",
+      "lang": "en"
+    },
+    {
+      "key": "Odisha",
+      "name": "Odisha",
+      "isoid": "OR",
+      "zip": "7[5-7]",
+      "lang": "en"
+    },
+    {
+      "key": "Puducherry",
+      "name": "Puducherry",
+      "isoid": "PY",
+      "zip": "605",
+      "lang": "en"
+    },
+    {
+      "key": "Punjab",
+      "name": "Punjab",
+      "isoid": "PB",
+      "zip": "1[456]",
+      "lang": "en"
+    },
+    {
+      "key": "Rajasthan",
+      "name": "Rajasthan",
+      "isoid": "RJ",
+      "zip": "3[0-4]",
+      "lang": "en"
+    },
+    {
+      "key": "Sikkim",
+      "name": "Sikkim",
+      "isoid": "SK",
+      "zip": "737|750",
+      "lang": "en"
+    },
+    {
+      "key": "Tamil Nadu",
+      "name": "Tamil Nadu",
+      "isoid": "TN",
+      "zip": "6[0-6]|536",
+      "lang": "en"
+    },
+    {
+      "key": "Tripura",
+      "name": "Tripura",
+      "isoid": "TR",
+      "zip": "799",
+      "lang": "en"
+    },
+    {
+      "key": "Uttar Pradesh",
+      "name": "Uttar Pradesh",
+      "isoid": "UP",
+      "zip": "2[0-35-8]|24[0-7]|26[12]",
+      "lang": "en"
+    },
+    {
+      "key": "Uttarakhand",
+      "name": "Uttarakhand",
+      "isoid": "UL",
+      "zip": "24[46-9]|254|26[23]",
+      "lang": "en"
+    },
+    {
+      "key": "West Bengal",
+      "name": "West Bengal",
+      "isoid": "WB",
+      "zip": "7[0-4]",
+      "lang": "en"
+    }
+  ],
+  "IT": [
+    {
+      "key": "AG",
+      "name": "Agrigento",
+      "zip": "92",
+      "lang": "it"
+    },
+    {
+      "key": "AL",
+      "name": "Alessandria",
+      "zip": "15",
+      "lang": "it"
+    },
+    {
+      "key": "AN",
+      "name": "Ancona",
+      "zip": "60",
+      "lang": "it"
+    },
+    {
+      "key": "AO",
+      "name": "Valle d'Aosta",
+      "zip": "11",
+      "lang": "it"
+    },
+    {
+      "key": "AP",
+      "name": "Ascoli Piceno",
+      "zip": "63",
+      "lang": "it"
+    },
+    {
+      "key": "AQ",
+      "name": "L'Aquila",
+      "zip": "67",
+      "lang": "it"
+    },
+    {
+      "key": "AR",
+      "name": "Arezzo",
+      "zip": "52",
+      "lang": "it"
+    },
+    {
+      "key": "AT",
+      "name": "Asti",
+      "zip": "14",
+      "lang": "it"
+    },
+    {
+      "key": "AV",
+      "name": "Avellino",
+      "zip": "83",
+      "lang": "it"
+    },
+    {
+      "key": "BA",
+      "name": "Bari",
+      "zip": "70",
+      "lang": "it"
+    },
+    {
+      "key": "BG",
+      "name": "Bergamo",
+      "zip": "24",
+      "lang": "it"
+    },
+    {
+      "key": "BI",
+      "name": "Biella",
+      "zip": "13[89]",
+      "lang": "it"
+    },
+    {
+      "key": "BL",
+      "name": "Belluno",
+      "zip": "32",
+      "lang": "it"
+    },
+    {
+      "key": "BN",
+      "name": "Benevento",
+      "zip": "82",
+      "lang": "it"
+    },
+    {
+      "key": "BO",
+      "name": "Bologna",
+      "zip": "40",
+      "lang": "it"
+    },
+    {
+      "key": "BR",
+      "name": "Brindisi",
+      "zip": "72",
+      "lang": "it"
+    },
+    {
+      "key": "BS",
+      "name": "Brescia",
+      "zip": "25",
+      "lang": "it"
+    },
+    {
+      "key": "BT",
+      "name": "Barletta-Andria-Trani",
+      "zip": "76[01]",
+      "lang": "it"
+    },
+    {
+      "key": "BZ",
+      "name": "Bolzano",
+      "zip": "39",
+      "lang": "it"
+    },
+    {
+      "key": "CA",
+      "name": "Cagliari",
+      "zip": "0912[1-9]|0913[0-4]|0901[0289]|0902[03468]|0903[0234]|0904|0803[035]|08043",
+      "lang": "it"
+    },
+    {
+      "key": "CB",
+      "name": "Campobasso",
+      "zip": "860[1-4]|86100",
+      "lang": "it"
+    },
+    {
+      "key": "CE",
+      "name": "Caserta",
+      "zip": "81",
+      "lang": "it"
+    },
+    {
+      "key": "CH",
+      "name": "Chieti",
+      "zip": "66",
+      "lang": "it"
+    },
+    {
+      "key": "CI",
+      "name": "Carbonia-Iglesias",
+      "zip": "0901[013-7]",
+      "lang": "it"
+    },
+    {
+      "key": "CL",
+      "name": "Caltanissetta",
+      "zip": "93",
+      "lang": "it"
+    },
+    {
+      "key": "CN",
+      "name": "Cuneo",
+      "zip": "12|18025",
+      "lang": "it"
+    },
+    {
+      "key": "CO",
+      "name": "Como",
+      "zip": "22",
+      "lang": "it"
+    },
+    {
+      "key": "CR",
+      "name": "Cremona",
+      "zip": "26[01]",
+      "lang": "it"
+    },
+    {
+      "key": "CS",
+      "name": "Cosenza",
+      "zip": "87",
+      "lang": "it"
+    },
+    {
+      "key": "CT",
+      "name": "Catania",
+      "zip": "95",
+      "lang": "it"
+    },
+    {
+      "key": "CZ",
+      "name": "Catanzaro",
+      "zip": "88[01]",
+      "lang": "it"
+    },
+    {
+      "key": "EN",
+      "name": "Enna",
+      "zip": "94",
+      "lang": "it"
+    },
+    {
+      "key": "FC",
+      "name": "Forlì-Cesena",
+      "zip": "47[015]",
+      "lang": "it"
+    },
+    {
+      "key": "FE",
+      "name": "Ferrara",
+      "zip": "44",
+      "lang": "it"
+    },
+    {
+      "key": "FG",
+      "name": "Foggia",
+      "zip": "71",
+      "lang": "it"
+    },
+    {
+      "key": "FI",
+      "name": "Firenze",
+      "zip": "50",
+      "lang": "it"
+    },
+    {
+      "key": "FM",
+      "name": "Fermo",
+      "zip": "638|63900",
+      "lang": "it"
+    },
+    {
+      "key": "FR",
+      "name": "Frosinone",
+      "zip": "03",
+      "lang": "it"
+    },
+    {
+      "key": "GA",
+      "name": "Gallura Nord-Est Sardegna",
+      "zip": "070[235]|0802",
+      "lang": "it"
+    },
+    {
+      "key": "GE",
+      "name": "Genova",
+      "zip": "16",
+      "lang": "it"
+    },
+    {
+      "key": "GO",
+      "name": "Gorizia",
+      "zip": "34[01]7",
+      "lang": "it"
+    },
+    {
+      "key": "GR",
+      "name": "Grosseto",
+      "zip": "58",
+      "lang": "it"
+    },
+    {
+      "key": "IM",
+      "name": "Imperia",
+      "zip": "18",
+      "lang": "it"
+    },
+    {
+      "key": "IS",
+      "name": "Isernia",
+      "zip": "860[7-9]|86170",
+      "lang": "it"
+    },
+    {
+      "key": "KR",
+      "name": "Crotone",
+      "zip": "88[89]",
+      "lang": "it"
+    },
+    {
+      "key": "LC",
+      "name": "Lecco",
+      "zip": "23[89]",
+      "lang": "it"
+    },
+    {
+      "key": "LE",
+      "name": "Lecce",
+      "zip": "73",
+      "lang": "it"
+    },
+    {
+      "key": "LI",
+      "name": "Livorno",
+      "zip": "57",
+      "lang": "it"
+    },
+    {
+      "key": "LO",
+      "name": "Lodi",
+      "zip": "26[89]",
+      "lang": "it"
+    },
+    {
+      "key": "LT",
+      "name": "Latina",
+      "zip": "04",
+      "lang": "it"
+    },
+    {
+      "key": "LU",
+      "name": "Lucca",
+      "zip": "55",
+      "lang": "it"
+    },
+    {
+      "key": "MB",
+      "name": "Monza e della Brianza",
+      "zip": "208|20900",
+      "lang": "it"
+    },
+    {
+      "key": "MC",
+      "name": "Macerata",
+      "zip": "62",
+      "lang": "it"
+    },
+    {
+      "key": "ME",
+      "name": "Messina",
+      "zip": "98",
+      "lang": "it"
+    },
+    {
+      "key": "MI",
+      "name": "Milano",
+      "zip": "20",
+      "lang": "it"
+    },
+    {
+      "key": "MN",
+      "name": "Mantova",
+      "zip": "46",
+      "lang": "it"
+    },
+    {
+      "key": "MO",
+      "name": "Modena",
+      "zip": "41",
+      "lang": "it"
+    },
+    {
+      "key": "MS",
+      "name": "Massa-Carrara",
+      "zip": "54",
+      "lang": "it"
+    },
+    {
+      "key": "MT",
+      "name": "Matera",
+      "zip": "75",
+      "lang": "it"
+    },
+    {
+      "key": "NA",
+      "name": "Napoli",
+      "zip": "80",
+      "lang": "it"
+    },
+    {
+      "key": "NO",
+      "name": "Novara",
+      "zip": "28[01]",
+      "lang": "it"
+    },
+    {
+      "key": "NU",
+      "name": "Nuoro",
+      "zip": "080[1-3]|08100",
+      "lang": "it"
+    },
+    {
+      "key": "OG",
+      "name": "Ogliastra",
+      "zip": "08037|0804[024-9]",
+      "lang": "it"
+    },
+    {
+      "key": "OR",
+      "name": "Oristano",
+      "zip": "090[7-9]|09170|0801[039]|0803[04]",
+      "lang": "it"
+    },
+    {
+      "key": "OT",
+      "name": "Olbia-Tempio",
+      "zip": "08020|0702|0703[08]",
+      "lang": "it"
+    },
+    {
+      "key": "PA",
+      "name": "Palermo",
+      "zip": "90",
+      "lang": "it"
+    },
+    {
+      "key": "PC",
+      "name": "Piacenza",
+      "zip": "29",
+      "lang": "it"
+    },
+    {
+      "key": "PD",
+      "name": "Padova",
+      "zip": "35",
+      "lang": "it"
+    },
+    {
+      "key": "PE",
+      "name": "Pescara",
+      "zip": "65",
+      "lang": "it"
+    },
+    {
+      "key": "PG",
+      "name": "Perugia",
+      "zip": "06",
+      "lang": "it"
+    },
+    {
+      "key": "PI",
+      "name": "Pisa",
+      "zip": "56",
+      "lang": "it"
+    },
+    {
+      "key": "PN",
+      "name": "Pordenone",
+      "zip": "330[7-9]|33170",
+      "lang": "it"
+    },
+    {
+      "key": "PO",
+      "name": "Prato",
+      "zip": "59",
+      "lang": "it"
+    },
+    {
+      "key": "PR",
+      "name": "Parma",
+      "zip": "43",
+      "lang": "it"
+    },
+    {
+      "key": "PT",
+      "name": "Pistoia",
+      "zip": "51",
+      "lang": "it"
+    },
+    {
+      "key": "PU",
+      "name": "Pesaro e Urbino",
+      "zip": "61",
+      "lang": "it"
+    },
+    {
+      "key": "PV",
+      "name": "Pavia",
+      "zip": "27",
+      "lang": "it"
+    },
+    {
+      "key": "PZ",
+      "name": "Potenza",
+      "zip": "85",
+      "lang": "it"
+    },
+    {
+      "key": "RA",
+      "name": "Ravenna",
+      "zip": "48",
+      "lang": "it"
+    },
+    {
+      "key": "RC",
+      "name": "Reggio Calabria",
+      "zip": "89[01]",
+      "lang": "it"
+    },
+    {
+      "key": "RE",
+      "name": "Reggio nell'Emilia",
+      "zip": "42",
+      "lang": "it"
+    },
+    {
+      "key": "RG",
+      "name": "Ragusa",
+      "zip": "97",
+      "lang": "it"
+    },
+    {
+      "key": "RI",
+      "name": "Rieti",
+      "zip": "02",
+      "lang": "it"
+    },
+    {
+      "key": "RM",
+      "name": "Roma",
+      "zip": "00",
+      "lang": "it"
+    },
+    {
+      "key": "RN",
+      "name": "Rimini",
+      "zip": "47[89]",
+      "lang": "it"
+    },
+    {
+      "key": "RO",
+      "name": "Rovigo",
+      "zip": "45",
+      "lang": "it"
+    },
+    {
+      "key": "SA",
+      "name": "Salerno",
+      "zip": "84",
+      "lang": "it"
+    },
+    {
+      "key": "SD",
+      "name": "Sulcis Iglesiente",
+      "zip": "0901",
+      "lang": "it"
+    },
+    {
+      "key": "SI",
+      "name": "Siena",
+      "zip": "53",
+      "lang": "it"
+    },
+    {
+      "key": "SO",
+      "name": "Sondrio",
+      "zip": "23[01]",
+      "lang": "it"
+    },
+    {
+      "key": "SP",
+      "name": "La Spezia",
+      "zip": "19",
+      "lang": "it"
+    },
+    {
+      "key": "SR",
+      "name": "Siracusa",
+      "zip": "96",
+      "lang": "it"
+    },
+    {
+      "key": "SS",
+      "name": "Sassari",
+      "zip": "070[14]|0703[0-79]|07100",
+      "lang": "it"
+    },
+    {
+      "key": "SU",
+      "name": "Sud Sardegna",
+      "zip": "090[1-5][0-9]|0906[0-6]|080[1-4]",
+      "lang": "it"
+    },
+    {
+      "key": "SV",
+      "name": "Savona",
+      "zip": "17|12071",
+      "lang": "it"
+    },
+    {
+      "key": "TA",
+      "name": "Taranto",
+      "zip": "74",
+      "lang": "it"
+    },
+    {
+      "key": "TE",
+      "name": "Teramo",
+      "zip": "64",
+      "lang": "it"
+    },
+    {
+      "key": "TN",
+      "name": "Trento",
+      "zip": "38",
+      "lang": "it"
+    },
+    {
+      "key": "TO",
+      "name": "Torino",
+      "zip": "10",
+      "lang": "it"
+    },
+    {
+      "key": "TP",
+      "name": "Trapani",
+      "zip": "91",
+      "lang": "it"
+    },
+    {
+      "key": "TR",
+      "name": "Terni",
+      "zip": "05",
+      "lang": "it"
+    },
+    {
+      "key": "TS",
+      "name": "Trieste",
+      "zip": "3401|341[0-689]|34062",
+      "lang": "it"
+    },
+    {
+      "key": "TV",
+      "name": "Treviso",
+      "zip": "31",
+      "lang": "it"
+    },
+    {
+      "key": "UD",
+      "name": "Udine",
+      "zip": "330[1-5]|33100",
+      "lang": "it"
+    },
+    {
+      "key": "VA",
+      "name": "Varese",
+      "zip": "21",
+      "lang": "it"
+    },
+    {
+      "key": "VB",
+      "name": "Verbano-Cusio-Ossola",
+      "zip": "28[89]",
+      "lang": "it"
+    },
+    {
+      "key": "VC",
+      "name": "Vercelli",
+      "zip": "13[01]",
+      "lang": "it"
+    },
+    {
+      "key": "VE",
+      "name": "Venezia",
+      "zip": "30",
+      "lang": "it"
+    },
+    {
+      "key": "VI",
+      "name": "Vicenza",
+      "zip": "36",
+      "lang": "it"
+    },
+    {
+      "key": "VR",
+      "name": "Verona",
+      "zip": "37",
+      "lang": "it"
+    },
+    {
+      "key": "VS",
+      "name": "Medio Campidano",
+      "zip": "0902[012579]|0903[015-9]|09040",
+      "lang": "it"
+    },
+    {
+      "key": "VT",
+      "name": "Viterbo",
+      "zip": "01",
+      "lang": "it"
+    },
+    {
+      "key": "VV",
+      "name": "Vibo Valentia",
+      "zip": "89[89]",
+      "lang": "it"
+    }
+  ],
+  "JM": [
+    {
+      "key": "CLARENDON",
+      "name": "Clarendon",
+      "isoid": "13",
+      "lang": "en"
+    },
+    {
+      "key": "HANOVER",
+      "name": "Hanover",
+      "isoid": "09",
+      "lang": "en"
+    },
+    {
+      "key": "KINGSTON",
+      "name": "Kingston",
+      "isoid": "01",
+      "lang": "en"
+    },
+    {
+      "key": "MANCHESTER",
+      "name": "Manchester",
+      "isoid": "12",
+      "lang": "en"
+    },
+    {
+      "key": "PORTLAND",
+      "name": "Portland",
+      "isoid": "04",
+      "lang": "en"
+    },
+    {
+      "key": "ST. ANDREW",
+      "name": "St. Andrew",
+      "isoid": "02",
+      "lang": "en"
+    },
+    {
+      "key": "ST. ANN",
+      "name": "St. Ann",
+      "isoid": "06",
+      "lang": "en"
+    },
+    {
+      "key": "ST. CATHERINE",
+      "name": "St. Catherine",
+      "isoid": "14",
+      "lang": "en"
+    },
+    {
+      "key": "ST. ELIZABETH",
+      "name": "St. Elizabeth",
+      "isoid": "11",
+      "lang": "en"
+    },
+    {
+      "key": "ST. JAMES",
+      "name": "St. James",
+      "isoid": "08",
+      "lang": "en"
+    },
+    {
+      "key": "ST. MARY",
+      "name": "St. Mary",
+      "isoid": "05",
+      "lang": "en"
+    },
+    {
+      "key": "ST. THOMAS",
+      "name": "St. Thomas",
+      "isoid": "03",
+      "lang": "en"
+    },
+    {
+      "key": "TRELAWNY",
+      "name": "Trelawny",
+      "isoid": "07",
+      "lang": "en"
+    },
+    {
+      "key": "WESTMORELAND",
+      "name": "Westmoreland",
+      "isoid": "10",
+      "lang": "en"
+    }
+  ],
+  "JP": [
+    {
+      "key": "三重県",
+      "lname": "MIE",
+      "isoid": "24",
+      "zip": "51|498|647",
+      "lang": "ja"
+    },
+    {
+      "key": "京都府",
+      "lname": "KYOTO",
+      "isoid": "26",
+      "zip": "6[0-2]|520",
+      "lang": "ja"
+    },
+    {
+      "key": "佐賀県",
+      "lname": "SAGA",
+      "isoid": "41",
+      "zip": "84",
+      "lang": "ja"
+    },
+    {
+      "key": "兵庫県",
+      "lname": "HYOGO",
+      "isoid": "28",
+      "zip": "6[5-7]|563",
+      "lang": "ja"
+    },
+    {
+      "key": "北海道",
+      "lname": "HOKKAIDO",
+      "isoid": "01",
+      "zip": "0[4-9]|00[1-7]",
+      "lang": "ja"
+    },
+    {
+      "key": "千葉県",
+      "lname": "CHIBA",
+      "isoid": "12",
+      "zip": "2[6-9]",
+      "lang": "ja"
+    },
+    {
+      "key": "和歌山県",
+      "lname": "WAKAYAMA",
+      "isoid": "30",
+      "zip": "64|519",
+      "lang": "ja"
+    },
+    {
+      "key": "埼玉県",
+      "lname": "SAITAMA",
+      "isoid": "11",
+      "zip": "3[3-6]",
+      "lang": "ja"
+    },
+    {
+      "key": "大分県",
+      "lname": "OITA",
+      "isoid": "44",
+      "zip": "87|839",
+      "lang": "ja"
+    },
+    {
+      "key": "大阪府",
+      "lname": "OSAKA",
+      "isoid": "27",
+      "zip": "5[3-9]|618|630",
+      "lang": "ja"
+    },
+    {
+      "key": "奈良県",
+      "lname": "NARA",
+      "isoid": "29",
+      "zip": "63|64[78]",
+      "lang": "ja"
+    },
+    {
+      "key": "宮城県",
+      "lname": "MIYAGI",
+      "isoid": "04",
+      "zip": "98",
+      "lang": "ja"
+    },
+    {
+      "key": "宮崎県",
+      "lname": "MIYAZAKI",
+      "isoid": "45",
+      "zip": "88",
+      "lang": "ja"
+    },
+    {
+      "key": "富山県",
+      "lname": "TOYAMA",
+      "isoid": "16",
+      "zip": "93",
+      "lang": "ja"
+    },
+    {
+      "key": "山口県",
+      "lname": "YAMAGUCHI",
+      "isoid": "35",
+      "zip": "7[45]",
+      "lang": "ja"
+    },
+    {
+      "key": "山形県",
+      "lname": "YAMAGATA",
+      "isoid": "06",
+      "zip": "99",
+      "lang": "ja"
+    },
+    {
+      "key": "山梨県",
+      "lname": "YAMANASHI",
+      "isoid": "19",
+      "zip": "40",
+      "lang": "ja"
+    },
+    {
+      "key": "岐阜県",
+      "lname": "GIFU",
+      "isoid": "21",
+      "zip": "50",
+      "lang": "ja"
+    },
+    {
+      "key": "岡山県",
+      "lname": "OKAYAMA",
+      "isoid": "33",
+      "zip": "7[01]",
+      "lang": "ja"
+    },
+    {
+      "key": "岩手県",
+      "lname": "IWATE",
+      "isoid": "03",
+      "zip": "02",
+      "lang": "ja"
+    },
+    {
+      "key": "島根県",
+      "lname": "SHIMANE",
+      "isoid": "32",
+      "zip": "69|68[45]",
+      "lang": "ja"
+    },
+    {
+      "key": "広島県",
+      "lname": "HIROSHIMA",
+      "isoid": "34",
+      "zip": "7[23]",
+      "lang": "ja"
+    },
+    {
+      "key": "徳島県",
+      "lname": "TOKUSHIMA",
+      "isoid": "36",
+      "zip": "77",
+      "lang": "ja"
+    },
+    {
+      "key": "愛媛県",
+      "lname": "EHIME",
+      "isoid": "38",
+      "zip": "79",
+      "lang": "ja"
+    },
+    {
+      "key": "愛知県",
+      "lname": "AICHI",
+      "isoid": "23",
+      "zip": "4[4-9]|431",
+      "lang": "ja"
+    },
+    {
+      "key": "新潟県",
+      "lname": "NIIGATA",
+      "isoid": "15",
+      "zip": "9[45]|389",
+      "lang": "ja"
+    },
+    {
+      "key": "東京都",
+      "lname": "TOKYO",
+      "isoid": "13",
+      "zip": "1[0-8]|19[0-8]|20",
+      "lang": "ja"
+    },
+    {
+      "key": "栃木県",
+      "lname": "TOCHIGI",
+      "isoid": "09",
+      "zip": "32|311|349",
+      "lang": "ja"
+    },
+    {
+      "key": "沖縄県",
+      "lname": "OKINAWA",
+      "isoid": "47",
+      "zip": "90",
+      "lang": "ja"
+    },
+    {
+      "key": "滋賀県",
+      "lname": "SHIGA",
+      "isoid": "25",
+      "zip": "52",
+      "lang": "ja"
+    },
+    {
+      "key": "熊本県",
+      "lname": "KUMAMOTO",
+      "isoid": "43",
+      "zip": "86",
+      "lang": "ja"
+    },
+    {
+      "key": "石川県",
+      "lname": "ISHIKAWA",
+      "isoid": "17",
+      "zip": "92|939",
+      "lang": "ja"
+    },
+    {
+      "key": "神奈川県",
+      "lname": "KANAGAWA",
+      "isoid": "14",
+      "zip": "2[1-5]|199",
+      "lang": "ja"
+    },
+    {
+      "key": "福井県",
+      "lname": "FUKUI",
+      "isoid": "18",
+      "zip": "91|922",
+      "lang": "ja"
+    },
+    {
+      "key": "福岡県",
+      "lname": "FUKUOKA",
+      "isoid": "40",
+      "zip": "8[0-3]|871",
+      "lang": "ja"
+    },
+    {
+      "key": "福島県",
+      "lname": "FUKUSHIMA",
+      "isoid": "07",
+      "zip": "9[67]",
+      "lang": "ja"
+    },
+    {
+      "key": "秋田県",
+      "lname": "AKITA",
+      "isoid": "05",
+      "zip": "01",
+      "lang": "ja"
+    },
+    {
+      "key": "群馬県",
+      "lname": "GUNMA",
+      "isoid": "10",
+      "zip": "37|38[49]",
+      "lang": "ja"
+    },
+    {
+      "key": "茨城県",
+      "lname": "IBARAKI",
+      "isoid": "08",
+      "zip": "3[01]",
+      "lang": "ja"
+    },
+    {
+      "key": "長崎県",
+      "lname": "NAGASAKI",
+      "isoid": "42",
+      "zip": "85|81[17]|848",
+      "lang": "ja"
+    },
+    {
+      "key": "長野県",
+      "lname": "NAGANO",
+      "isoid": "20",
+      "zip": "3[89]|949",
+      "lang": "ja"
+    },
+    {
+      "key": "青森県",
+      "lname": "AOMORI",
+      "isoid": "02",
+      "zip": "03|018",
+      "lang": "ja"
+    },
+    {
+      "key": "静岡県",
+      "lname": "SHIZUOKA",
+      "isoid": "22",
+      "zip": "4[1-9]",
+      "lang": "ja"
+    },
+    {
+      "key": "香川県",
+      "lname": "KAGAWA",
+      "isoid": "37",
+      "zip": "76",
+      "lang": "ja"
+    },
+    {
+      "key": "高知県",
+      "lname": "KOCHI",
+      "isoid": "39",
+      "zip": "78",
+      "lang": "ja"
+    },
+    {
+      "key": "鳥取県",
+      "lname": "TOTTORI",
+      "isoid": "31",
+      "zip": "68",
+      "lang": "ja"
+    },
+    {
+      "key": "鹿児島県",
+      "lname": "KAGOSHIMA",
+      "isoid": "46",
+      "zip": "89",
+      "lang": "ja"
+    }
+  ],
+  "KN": [
+    {
+      "key": "NEVIS",
+      "isoid": "N",
+      "lang": "en"
+    },
+    {
+      "key": "ST. KITTS",
+      "isoid": "K",
+      "lang": "en"
+    }
+  ],
+  "KR": [
+    {
+      "key": "강원도",
+      "name": "강원",
+      "lname": "Gangwon",
+      "isoid": "42",
+      "zip": "2[0-6]|487[\\-]839",
+      "zipex": "255-815:210-923",
+      "lang": "ko"
+    },
+    {
+      "key": "경기도",
+      "name": "경기",
+      "lname": "Gyeonggi",
+      "isoid": "41",
+      "zip": "4(?:1[0-6]|[2-8])",
+      "zipex": "427-080:431-088",
+      "lang": "ko"
+    },
+    {
+      "key": "경상남도",
+      "name": "경남",
+      "lname": "Gyeongnam",
+      "isoid": "48",
+      "zip": "6[2-7]",
+      "zipex": "621-759:668-863",
+      "lang": "ko"
+    },
+    {
+      "key": "경상북도",
+      "name": "경북",
+      "lname": "Gyeongbuk",
+      "isoid": "47",
+      "zip": "7(?:1[2-9]|[3-9])",
+      "zipex": "712-861:770-841",
+      "lang": "ko"
+    },
+    {
+      "key": "광주광역시",
+      "name": "광주",
+      "lname": "Gwangju",
+      "isoid": "29",
+      "zip": "50[0-36]",
+      "zipex": "501-805:506-358",
+      "lang": "ko"
+    },
+    {
+      "key": "대구광역시",
+      "name": "대구",
+      "lname": "Daegu",
+      "isoid": "27",
+      "zip": "7(?:0[0-6]|11)",
+      "zipex": "700-441:711-865",
+      "lang": "ko"
+    },
+    {
+      "key": "대전광역시",
+      "name": "대전",
+      "lname": "Daejeon",
+      "isoid": "30",
+      "zip": "30[0-25-6]",
+      "zipex": "300-091:305-504",
+      "lang": "ko"
+    },
+    {
+      "key": "부산광역시",
+      "name": "부산",
+      "lname": "Busan",
+      "isoid": "26",
+      "zip": "6[0-1]",
+      "zipex": "609-311:619-872",
+      "lang": "ko"
+    },
+    {
+      "key": "서울특별시",
+      "name": "서울",
+      "lname": "Seoul",
+      "isoid": "11",
+      "zip": "1[0-5]",
+      "zipex": "100-620:151-832",
+      "lang": "ko"
+    },
+    {
+      "key": "세종특별자치시",
+      "name": "세종",
+      "lname": "Sejong",
+      "zip": "339",
+      "zipex": "339-014",
+      "lang": "ko"
+    },
+    {
+      "key": "울산광역시",
+      "name": "울산",
+      "lname": "Ulsan",
+      "isoid": "31",
+      "zip": "68[0-39]",
+      "zipex": "683-480:689-832",
+      "lang": "ko"
+    },
+    {
+      "key": "인천광역시",
+      "name": "인천",
+      "lname": "Incheon",
+      "isoid": "28",
+      "zip": "4(?:0[0-79]|17)",
+      "zipex": "406-131:417-921",
+      "lang": "ko"
+    },
+    {
+      "key": "전라남도",
+      "name": "전남",
+      "lname": "Jeonnam",
+      "isoid": "46",
+      "zip": "5[1-5]",
+      "zipex": "516-931:556-891",
+      "lang": "ko"
+    },
+    {
+      "key": "전라북도",
+      "name": "전북",
+      "lname": "Jeonbuk",
+      "isoid": "45",
+      "zip": "5[6-9]",
+      "zipex": "568-803:595-871",
+      "lang": "ko"
+    },
+    {
+      "key": "제주특별자치도",
+      "name": "제주",
+      "lname": "Jeju",
+      "isoid": "49",
+      "zip": "69[0579]",
+      "zipex": "690-808:697-370",
+      "lang": "ko"
+    },
+    {
+      "key": "충청남도",
+      "name": "충남",
+      "lname": "Chungnam",
+      "isoid": "44",
+      "zip": "3(?:[1245]|3[0-8])",
+      "zipex": "314-831:355-770",
+      "lang": "ko"
+    },
+    {
+      "key": "충청북도",
+      "name": "충북",
+      "lname": "Chungbuk",
+      "isoid": "43",
+      "zip": "3[6-9]",
+      "zipex": "367-861:395-813",
+      "lang": "ko"
+    }
+  ],
+  "KY": [
+    {
+      "key": "CAYMAN BRAC",
+      "lang": "en"
+    },
+    {
+      "key": "GRAND CAYMAN",
+      "lang": "en"
+    },
+    {
+      "key": "LITTLE CAYMAN",
+      "lang": "en"
+    }
+  ],
+  "MX": [
+    {
+      "key": "AGS",
+      "name": "Aguascalientes",
+      "isoid": "AGU",
+      "zip": "20",
+      "zipex": "20000,20999",
+      "lang": "es"
+    },
+    {
+      "key": "BC",
+      "name": "Baja California",
+      "isoid": "BCN",
+      "zip": "2[12]",
+      "zipex": "21000,22999",
+      "lang": "es"
+    },
+    {
+      "key": "BCS",
+      "name": "Baja California Sur",
+      "isoid": "BCS",
+      "zip": "23",
+      "zipex": "23000,23999",
+      "lang": "es"
+    },
+    {
+      "key": "CAMP",
+      "name": "Campeche",
+      "isoid": "CAM",
+      "zip": "24",
+      "zipex": "24000,24999",
+      "lang": "es"
+    },
+    {
+      "key": "CHIH",
+      "name": "Chihuahua",
+      "isoid": "CHH",
+      "zip": "3[1-3]",
+      "zipex": "31000,33999",
+      "lang": "es"
+    },
+    {
+      "key": "CHIS",
+      "name": "Chiapas",
+      "isoid": "CHP",
+      "zip": "29|30",
+      "zipex": "29000,30999",
+      "lang": "es"
+    },
+    {
+      "key": "COAH",
+      "name": "Coahuila",
+      "isoid": "COA",
+      "zip": "2[5-7]",
+      "zipex": "25000,27999",
+      "lang": "es"
+    },
+    {
+      "key": "COL",
+      "name": "Colima",
+      "isoid": "COL",
+      "zip": "28",
+      "zipex": "28000,28999",
+      "lang": "es"
+    },
+    {
+      "key": "D.F.",
+      "name": "Distrito Federal",
+      "isoid": "DIF",
+      "zip": "0|1[0-6]",
+      "zipex": "00000,16999",
+      "lang": "es"
+    },
+    {
+      "key": "DGO",
+      "name": "Durango",
+      "isoid": "DUR",
+      "zip": "3[45]",
+      "zipex": "34000,35999",
+      "lang": "es"
+    },
+    {
+      "key": "GRO",
+      "name": "Guerrero",
+      "isoid": "GRO",
+      "zip": "39|4[01]",
+      "zipex": "39000,41999",
+      "lang": "es"
+    },
+    {
+      "key": "GTO",
+      "name": "Guanajuato",
+      "isoid": "GUA",
+      "zip": "3[6-8]",
+      "zipex": "36000,38999",
+      "lang": "es"
+    },
+    {
+      "key": "HGO",
+      "name": "Hidalgo",
+      "isoid": "HID",
+      "zip": "4[23]",
+      "zipex": "42000,43999",
+      "lang": "es"
+    },
+    {
+      "key": "JAL",
+      "name": "Jalisco",
+      "isoid": "JAL",
+      "zip": "4[4-9]",
+      "zipex": "44000,49999",
+      "lang": "es"
+    },
+    {
+      "key": "MEX",
+      "name": "Estado de México",
+      "isoid": "MEX",
+      "zip": "5[0-7]",
+      "zipex": "50000,57999",
+      "lang": "es"
+    },
+    {
+      "key": "MICH",
+      "name": "Michoacán",
+      "isoid": "MIC",
+      "zip": "5[89]|6[01]",
+      "zipex": "58000,61999",
+      "lang": "es"
+    },
+    {
+      "key": "MOR",
+      "name": "Morelos",
+      "isoid": "MOR",
+      "zip": "62",
+      "zipex": "62000,62999",
+      "lang": "es"
+    },
+    {
+      "key": "NAY",
+      "name": "Nayarit",
+      "isoid": "NAY",
+      "zip": "63",
+      "zipex": "63000,63999",
+      "lang": "es"
+    },
+    {
+      "key": "NL",
+      "name": "Nuevo León",
+      "isoid": "NLE",
+      "zip": "6[4-7]",
+      "zipex": "64000,67999",
+      "lang": "es"
+    },
+    {
+      "key": "OAX",
+      "name": "Oaxaca",
+      "isoid": "OAX",
+      "zip": "6[89]|7[01]",
+      "zipex": "68000,71999",
+      "lang": "es"
+    },
+    {
+      "key": "PUE",
+      "name": "Puebla",
+      "isoid": "PUE",
+      "zip": "7[2-5]",
+      "zipex": "72000,75999",
+      "lang": "es"
+    },
+    {
+      "key": "QRO",
+      "name": "Querétaro",
+      "isoid": "QUE",
+      "zip": "76",
+      "zipex": "76000,76999",
+      "lang": "es"
+    },
+    {
+      "key": "QROO",
+      "name": "Quintana Roo",
+      "isoid": "ROO",
+      "zip": "77",
+      "zipex": "77000,77999",
+      "lang": "es"
+    },
+    {
+      "key": "SIN",
+      "name": "Sinalóa",
+      "isoid": "SIN",
+      "zip": "8[0-2]",
+      "zipex": "80000,82999",
+      "lang": "es"
+    },
+    {
+      "key": "SLP",
+      "name": "San Luís Potosí",
+      "isoid": "SLP",
+      "zip": "7[89]",
+      "zipex": "78000,79999",
+      "lang": "es"
+    },
+    {
+      "key": "SON",
+      "name": "Sonora",
+      "isoid": "SON",
+      "zip": "8[3-5]",
+      "zipex": "83000,85999",
+      "lang": "es"
+    },
+    {
+      "key": "TAB",
+      "name": "Tabasco",
+      "isoid": "TAB",
+      "zip": "86",
+      "zipex": "86000,86999",
+      "lang": "es"
+    },
+    {
+      "key": "TAMPS",
+      "name": "Tamaulipas",
+      "isoid": "TAM",
+      "zip": "8[7-9]",
+      "zipex": "87000,89999",
+      "lang": "es"
+    },
+    {
+      "key": "TLAX",
+      "name": "Tlaxcala",
+      "isoid": "TLA",
+      "zip": "90",
+      "zipex": "90000,90999",
+      "lang": "es"
+    },
+    {
+      "key": "VER",
+      "name": "Veracruz",
+      "isoid": "VER",
+      "zip": "9[1-6]",
+      "zipex": "91000,96999",
+      "lang": "es"
+    },
+    {
+      "key": "YUC",
+      "name": "Yucatán",
+      "isoid": "YUC",
+      "zip": "97",
+      "zipex": "97000,97999",
+      "lang": "es"
+    },
+    {
+      "key": "ZAC",
+      "name": "Zacatecas",
+      "isoid": "ZAC",
+      "zip": "9[89]",
+      "zipex": "98000,99999",
+      "lang": "es"
+    }
+  ],
+  "MY": [
+    {
+      "key": "JOHOR",
+      "isoid": "01",
+      "zip": "79|8[0-6]",
+      "zipex": "79000:86999",
+      "lang": "ms"
+    },
+    {
+      "key": "KEDAH",
+      "isoid": "02",
+      "zip": "0[5-9]|34950",
+      "zipex": "05000,09999:34950",
+      "lang": "ms"
+    },
+    {
+      "key": "KELANTAN",
+      "isoid": "03",
+      "zip": "1[5-9]",
+      "zipex": "15000,18599",
+      "lang": "ms"
+    },
+    {
+      "key": "KUALA LUMPUR",
+      "isoid": "14",
+      "zip": "[56]0",
+      "zipex": "50000,60000",
+      "lang": "ms"
+    },
+    {
+      "key": "LABUAN",
+      "isoid": "15",
+      "zip": "87",
+      "zipex": "87000,87999",
+      "lang": "ms"
+    },
+    {
+      "key": "MELAKA",
+      "isoid": "04",
+      "zip": "7[5-8]",
+      "zipex": "75000,78399",
+      "lang": "ms"
+    },
+    {
+      "key": "NEGERI SEMBILAN",
+      "isoid": "05",
+      "zip": "7[0-4]",
+      "zipex": "70000,73599",
+      "lang": "ms"
+    },
+    {
+      "key": "PAHANG",
+      "isoid": "06",
+      "zip": "2[5-8]|[346]9",
+      "zipex": "25000,28999:39000,39999:49000:69000",
+      "lang": "ms"
+    },
+    {
+      "key": "PERAK",
+      "isoid": "08",
+      "zip": "3[0-6]|39000",
+      "zipex": "30000,36899:39000",
+      "lang": "ms"
+    },
+    {
+      "key": "PERLIS",
+      "isoid": "09",
+      "zip": "0[12]",
+      "zipex": "01000,02799",
+      "lang": "ms"
+    },
+    {
+      "key": "PULAU PINANG",
+      "isoid": "07",
+      "zip": "1[0-4]",
+      "zipex": "10000,14999",
+      "lang": "ms"
+    },
+    {
+      "key": "PUTRAJAYA",
+      "isoid": "16",
+      "zip": "62",
+      "zipex": "62000,62999",
+      "lang": "ms"
+    },
+    {
+      "key": "SABAH",
+      "isoid": "12",
+      "zip": "8[89]|9[01]",
+      "zipex": "88000,91999",
+      "lang": "ms"
+    },
+    {
+      "key": "SARAWAK",
+      "isoid": "13",
+      "zip": "9[3-8]",
+      "zipex": "93000,98999",
+      "lang": "ms"
+    },
+    {
+      "key": "SELANGOR",
+      "isoid": "10",
+      "zip": "4[0-8]|6[3-8]",
+      "zipex": "40000,48999:63000,68199",
+      "lang": "ms"
+    },
+    {
+      "key": "TERENGGANU",
+      "isoid": "11",
+      "zip": "2[0-4]",
+      "zipex": "20000,24999",
+      "lang": "ms"
+    }
+  ],
+  "NG": [
+    {
+      "key": "ABIA",
+      "isoid": "AB",
+      "lang": "en"
+    },
+    {
+      "key": "ADAMAWA",
+      "isoid": "AD",
+      "lang": "en"
+    },
+    {
+      "key": "AKWA IBOM",
+      "isoid": "AK",
+      "lang": "en"
+    },
+    {
+      "key": "ANAMBRA",
+      "isoid": "AN",
+      "lang": "en"
+    },
+    {
+      "key": "BAUCHI",
+      "isoid": "BA",
+      "lang": "en"
+    },
+    {
+      "key": "BAYELSA",
+      "isoid": "BY",
+      "lang": "en"
+    },
+    {
+      "key": "BENUE",
+      "isoid": "BE",
+      "lang": "en"
+    },
+    {
+      "key": "BORNO",
+      "isoid": "BO",
+      "lang": "en"
+    },
+    {
+      "key": "CROSS RIVER",
+      "isoid": "CR",
+      "lang": "en"
+    },
+    {
+      "key": "DELTA",
+      "isoid": "DE",
+      "lang": "en"
+    },
+    {
+      "key": "EBONYI",
+      "isoid": "EB",
+      "lang": "en"
+    },
+    {
+      "key": "EDO",
+      "isoid": "ED",
+      "lang": "en"
+    },
+    {
+      "key": "EKITI",
+      "isoid": "EK",
+      "lang": "en"
+    },
+    {
+      "key": "ENUGU",
+      "isoid": "EN",
+      "lang": "en"
+    },
+    {
+      "key": "FCT-ABUJA",
+      "isoid": "FC",
+      "lang": "en"
+    },
+    {
+      "key": "GOMBE",
+      "isoid": "GO",
+      "lang": "en"
+    },
+    {
+      "key": "IMO",
+      "isoid": "IM",
+      "lang": "en"
+    },
+    {
+      "key": "JIGAWA",
+      "isoid": "JI",
+      "lang": "en"
+    },
+    {
+      "key": "KADUNA",
+      "isoid": "KD",
+      "lang": "en"
+    },
+    {
+      "key": "KANO",
+      "isoid": "KN",
+      "lang": "en"
+    },
+    {
+      "key": "KATSINA",
+      "isoid": "KT",
+      "lang": "en"
+    },
+    {
+      "key": "KEBBI",
+      "isoid": "KE",
+      "lang": "en"
+    },
+    {
+      "key": "KOGI",
+      "isoid": "KO",
+      "lang": "en"
+    },
+    {
+      "key": "KWARA",
+      "isoid": "KW",
+      "lang": "en"
+    },
+    {
+      "key": "LAGOS",
+      "isoid": "LA",
+      "lang": "en"
+    },
+    {
+      "key": "NASSARAWA",
+      "isoid": "NA",
+      "lang": "en"
+    },
+    {
+      "key": "NIGER",
+      "isoid": "NI",
+      "lang": "en"
+    },
+    {
+      "key": "OGUN",
+      "isoid": "OG",
+      "lang": "en"
+    },
+    {
+      "key": "ONDO",
+      "isoid": "ON",
+      "lang": "en"
+    },
+    {
+      "key": "OSUN",
+      "isoid": "OS",
+      "lang": "en"
+    },
+    {
+      "key": "OYO",
+      "isoid": "OY",
+      "lang": "en"
+    },
+    {
+      "key": "PLATEAU",
+      "isoid": "PL",
+      "lang": "en"
+    },
+    {
+      "key": "RIVERS",
+      "isoid": "RI",
+      "lang": "en"
+    },
+    {
+      "key": "SOKOTO",
+      "isoid": "SO",
+      "lang": "en"
+    },
+    {
+      "key": "TARABA",
+      "isoid": "TA",
+      "lang": "en"
+    },
+    {
+      "key": "YOBE",
+      "isoid": "YO",
+      "lang": "en"
+    },
+    {
+      "key": "ZAMFARA",
+      "isoid": "ZA",
+      "lang": "en"
+    }
+  ],
+  "NI": [
+    {
+      "key": "BOACO",
+      "isoid": "BO",
+      "zip": "5[23]",
+      "lang": "es"
+    },
+    {
+      "key": "CARAZO",
+      "isoid": "CA",
+      "zip": "4[45]",
+      "lang": "es"
+    },
+    {
+      "key": "CHINANDEGA",
+      "isoid": "CI",
+      "zip": "2[23]",
+      "lang": "es"
+    },
+    {
+      "key": "CHONTALES",
+      "isoid": "CO",
+      "zip": "51",
+      "lang": "es"
+    },
+    {
+      "key": "ESTELI",
+      "isoid": "ES",
+      "zip": "3[01]",
+      "lang": "es"
+    },
+    {
+      "key": "GRANADA",
+      "isoid": "GR",
+      "zip": "4[01]",
+      "lang": "es"
+    },
+    {
+      "key": "JINOTEGA",
+      "isoid": "JI",
+      "zip": "6[23]",
+      "lang": "es"
+    },
+    {
+      "key": "LEON",
+      "isoid": "LE",
+      "zip": "2[01]",
+      "lang": "es"
+    },
+    {
+      "key": "MADRIZ",
+      "isoid": "MD",
+      "zip": "3[23]",
+      "lang": "es"
+    },
+    {
+      "key": "MANAGUA",
+      "isoid": "MN",
+      "zip": "1[02-6]|99",
+      "lang": "es"
+    },
+    {
+      "key": "MASAYA",
+      "isoid": "MS",
+      "zip": "4[23]",
+      "lang": "es"
+    },
+    {
+      "key": "MATAGALPA",
+      "isoid": "MT",
+      "zip": "6[01]",
+      "lang": "es"
+    },
+    {
+      "key": "NUEVA SEGOVIA",
+      "isoid": "NS",
+      "zip": "3[45]",
+      "lang": "es"
+    },
+    {
+      "key": "RAAN",
+      "isoid": "AN",
+      "zip": "7[01]",
+      "lang": "es"
+    },
+    {
+      "key": "RAAS",
+      "isoid": "AS",
+      "zip": "8[01]",
+      "lang": "es"
+    },
+    {
+      "key": "RIO SAN JUAN",
+      "isoid": "SJ",
+      "zip": "9[01]",
+      "lang": "es"
+    },
+    {
+      "key": "RIVAS",
+      "isoid": "RI",
+      "zip": "4[67]",
+      "lang": "es"
+    }
+  ],
+  "NR": [
+    {
+      "key": "AIWO DISTRICT",
+      "isoid": "01",
+      "lang": "en"
+    },
+    {
+      "key": "ANABAR DISTRICT",
+      "isoid": "02",
+      "lang": "en"
+    },
+    {
+      "key": "ANETAN DISTRICT",
+      "isoid": "03",
+      "lang": "en"
+    },
+    {
+      "key": "ANIBARE DISTRICT",
+      "isoid": "04",
+      "lang": "en"
+    },
+    {
+      "key": "BAITI DISTRICT",
+      "isoid": "05",
+      "lang": "en"
+    },
+    {
+      "key": "BOE DISTRICT",
+      "isoid": "06",
+      "lang": "en"
+    },
+    {
+      "key": "BUADA DISTRICT",
+      "isoid": "07",
+      "lang": "en"
+    },
+    {
+      "key": "DENIGOMODU DISTRICT",
+      "isoid": "08",
+      "lang": "en"
+    },
+    {
+      "key": "EWA DISTRICT",
+      "isoid": "09",
+      "lang": "en"
+    },
+    {
+      "key": "IJUW DISTRICT",
+      "isoid": "10",
+      "lang": "en"
+    },
+    {
+      "key": "MENENG DISTRICT",
+      "isoid": "11",
+      "lang": "en"
+    },
+    {
+      "key": "NIBOK DISTRICT",
+      "isoid": "12",
+      "lang": "en"
+    },
+    {
+      "key": "UABOE DISTRICT",
+      "isoid": "13",
+      "lang": "en"
+    },
+    {
+      "key": "YAREN DISTRICT",
+      "isoid": "14",
+      "lang": "en"
+    }
+  ],
+  "PH": [
+    {
+      "key": "Abra",
+      "isoid": "ABR",
+      "zip": "28[0-2]",
+      "zipex": "2800,2826",
+      "lang": "en"
+    },
+    {
+      "key": "Agusan del Norte",
+      "isoid": "AGN",
+      "zip": "86[01]",
+      "zipex": "8600,8611",
+      "lang": "en"
+    },
+    {
+      "key": "Agusan del Sur",
+      "isoid": "AGS",
+      "zip": "85[01]",
+      "zipex": "8500,8513",
+      "lang": "en"
+    },
+    {
+      "key": "Aklan",
+      "isoid": "AKL",
+      "zip": "56[01]",
+      "zipex": "5600,5616",
+      "lang": "en"
+    },
+    {
+      "key": "Albay",
+      "isoid": "ALB",
+      "zip": "45[01]",
+      "zipex": "4500,4517",
+      "lang": "en"
+    },
+    {
+      "key": "Antique",
+      "isoid": "ANT",
+      "zip": "57[01]",
+      "zipex": "5700,5717",
+      "lang": "en"
+    },
+    {
+      "key": "Apayao",
+      "isoid": "APA",
+      "zip": "380[0-68]",
+      "zipex": "3800,3806:3808",
+      "lang": "en"
+    },
+    {
+      "key": "Aurora",
+      "isoid": "AUR",
+      "zip": "320",
+      "zipex": "3200,3207",
+      "lang": "en"
+    },
+    {
+      "key": "Basilan",
+      "isoid": "BAS",
+      "zip": "730",
+      "zipex": "7300,7306",
+      "lang": "en"
+    },
+    {
+      "key": "Bataan",
+      "isoid": "BAN",
+      "zip": "21[01]",
+      "zipex": "2100,2114",
+      "lang": "en"
+    },
+    {
+      "key": "Batanes",
+      "isoid": "BTN",
+      "zip": "390",
+      "zipex": "3900,3905",
+      "lang": "en"
+    },
+    {
+      "key": "Batangas",
+      "isoid": "BTG",
+      "zip": "42[0-3]",
+      "zipex": "4200,4234",
+      "lang": "en"
+    },
+    {
+      "key": "Benguet",
+      "isoid": "BEN",
+      "zip": "26(0|1[0-5])",
+      "zipex": "2600,2615",
+      "lang": "en"
+    },
+    {
+      "key": "Biliran",
+      "isoid": "BIL",
+      "zip": "65(4[3-9]|5)",
+      "zipex": "6543,6550",
+      "lang": "en"
+    },
+    {
+      "key": "Bohol",
+      "isoid": "BOH",
+      "zip": "63[0-3]",
+      "zipex": "6300,6347",
+      "lang": "en"
+    },
+    {
+      "key": "Bukidnon",
+      "isoid": "BUK",
+      "zip": "87[0-2]",
+      "zipex": "8700,8723",
+      "lang": "en"
+    },
+    {
+      "key": "Bulacan",
+      "isoid": "BUL",
+      "zip": "30[0-2]",
+      "zipex": "3000,3024",
+      "lang": "en"
+    },
+    {
+      "key": "Cagayan",
+      "isoid": "CAG",
+      "zip": "35[0-2]",
+      "zipex": "3500,3528",
+      "lang": "en"
+    },
+    {
+      "key": "Camarines Norte",
+      "isoid": "CAN",
+      "zip": "46[01]",
+      "zipex": "4600,4612",
+      "lang": "en"
+    },
+    {
+      "key": "Camarines Sur",
+      "isoid": "CAS",
+      "zip": "44[0-3]",
+      "zipex": "4400,4436",
+      "lang": "en"
+    },
+    {
+      "key": "Camiguin",
+      "isoid": "CAM",
+      "zip": "910",
+      "zipex": "9100,9104",
+      "lang": "en"
+    },
+    {
+      "key": "Capiz",
+      "isoid": "CAP",
+      "zip": "58[01]",
+      "zipex": "5800,5816",
+      "lang": "en"
+    },
+    {
+      "key": "Catanduanes",
+      "isoid": "CAT",
+      "zip": "48[01]",
+      "zipex": "4800,4810",
+      "lang": "en"
+    },
+    {
+      "key": "Cavite",
+      "isoid": "CAV",
+      "zip": "41[0-2]",
+      "zipex": "4100,4126",
+      "lang": "en"
+    },
+    {
+      "key": "Cebu",
+      "isoid": "CEB",
+      "zip": "60[0-5]",
+      "zipex": "6000,6053",
+      "lang": "en"
+    },
+    {
+      "key": "Compostela Valley",
+      "isoid": "COM",
+      "zip": "88[01]",
+      "zipex": "8800,8810",
+      "lang": "en"
+    },
+    {
+      "key": "Cotabato",
+      "isoid": "NCO",
+      "zip": "94[01]",
+      "zipex": "9400,9417",
+      "lang": "en"
+    },
+    {
+      "key": "Davao Oriental",
+      "isoid": "DAO",
+      "zip": "82[01]",
+      "zipex": "8200,8210",
+      "lang": "en"
+    },
+    {
+      "key": "Davao del Norte",
+      "isoid": "DAV",
+      "zip": "81[0-2]",
+      "zipex": "8100,8120",
+      "lang": "en"
+    },
+    {
+      "key": "Davao del Sur",
+      "isoid": "DAS",
+      "zip": "80[01]",
+      "zipex": "8000,8015",
+      "lang": "en"
+    },
+    {
+      "key": "Dinagat Islands",
+      "isoid": "DIN",
+      "lang": "en"
+    },
+    {
+      "key": "Eastern Samar",
+      "isoid": "EAS",
+      "zip": "68[0-2]",
+      "zipex": "6800,6822",
+      "lang": "en"
+    },
+    {
+      "key": "Guimaras",
+      "isoid": "GUI",
+      "zip": "504[4-6]",
+      "zipex": "5044,5046",
+      "lang": "en"
+    },
+    {
+      "key": "Ifugao",
+      "isoid": "IFU",
+      "zip": "36[01]",
+      "zipex": "3600,3610",
+      "lang": "en"
+    },
+    {
+      "key": "Ilocos Norte",
+      "isoid": "ILN",
+      "zip": "29[0-2]",
+      "zipex": "2900,2922",
+      "lang": "en"
+    },
+    {
+      "key": "Ilocos Sur",
+      "isoid": "ILS",
+      "zip": "27[0-3]",
+      "zipex": "2700,2733",
+      "lang": "en"
+    },
+    {
+      "key": "Iloilo",
+      "isoid": "ILI",
+      "zip": "50([0-3]|4[0-3])",
+      "zipex": "5000,5043",
+      "lang": "en"
+    },
+    {
+      "key": "Isabela",
+      "isoid": "ISA",
+      "zip": "33[0-3]",
+      "zipex": "3300,3336",
+      "lang": "en"
+    },
+    {
+      "key": "Kalinga",
+      "isoid": "KAL",
+      "zip": "38(0[79]|1[0-4])",
+      "zipex": "3807:3809,3814",
+      "lang": "en"
+    },
+    {
+      "key": "La Union",
+      "isoid": "LUN",
+      "zip": "25[0-2]",
+      "zipex": "2500,2520",
+      "lang": "en"
+    },
+    {
+      "key": "Laguna",
+      "isoid": "LAG",
+      "zip": "40[0-3]",
+      "zipex": "4000,4033",
+      "lang": "en"
+    },
+    {
+      "key": "Lanao del Norte",
+      "isoid": "LAN",
+      "zip": "92[0-2]",
+      "zipex": "9200,9223",
+      "lang": "en"
+    },
+    {
+      "key": "Lanao del Sur",
+      "isoid": "LAS",
+      "zip": "9(3[0-2]|7[01])",
+      "zipex": "9300,9321:9700,9716",
+      "lang": "en"
+    },
+    {
+      "key": "Leyte",
+      "isoid": "LEY",
+      "zip": "65([0-3]|4[0-2])",
+      "zipex": "6500,6542",
+      "lang": "en"
+    },
+    {
+      "key": "Maguindanao",
+      "isoid": "MAG",
+      "zip": "96[01]",
+      "zipex": "9600,9619",
+      "lang": "en"
+    },
+    {
+      "key": "Marinduque",
+      "isoid": "MAD",
+      "zip": "490",
+      "zipex": "4900,4905",
+      "lang": "en"
+    },
+    {
+      "key": "Masbate",
+      "isoid": "MAS",
+      "zip": "54[0-2]",
+      "zipex": "5400,5421",
+      "lang": "en"
+    },
+    {
+      "key": "Metro Manila",
+      "isoid": "00",
+      "lang": "en"
+    },
+    {
+      "key": "Mindoro Occidental",
+      "isoid": "MDC",
+      "zip": "51[01]",
+      "zipex": "5100,5111",
+      "lang": "en"
+    },
+    {
+      "key": "Mindoro Oriental",
+      "isoid": "MDR",
+      "zip": "52[01]",
+      "zipex": "5200,5214",
+      "lang": "en"
+    },
+    {
+      "key": "Misamis Occidental",
+      "isoid": "MSC",
+      "zip": "72[01]",
+      "zipex": "7200,7215",
+      "lang": "en"
+    },
+    {
+      "key": "Misamis Oriental",
+      "isoid": "MSR",
+      "zip": "90[0-2]",
+      "zipex": "9000,9025",
+      "lang": "en"
+    },
+    {
+      "key": "Mountain Province",
+      "isoid": "MOU",
+      "zip": "26(1[6-9]|2[0-5])",
+      "zipex": "2616,2625",
+      "lang": "en"
+    },
+    {
+      "key": "Negros Occidental",
+      "isoid": "NEC",
+      "zip": "61[0-3]",
+      "zipex": "6100,6132",
+      "lang": "en"
+    },
+    {
+      "key": "Negros Oriental",
+      "isoid": "NER",
+      "zip": "62[0-2]",
+      "zipex": "6200,6224",
+      "lang": "en"
+    },
+    {
+      "key": "Northern Samar",
+      "isoid": "NSA",
+      "zip": "64[0-2]",
+      "zipex": "6400,6423",
+      "lang": "en"
+    },
+    {
+      "key": "Nueva Ecija",
+      "isoid": "NUE",
+      "zip": "31[0-3]",
+      "zipex": "3100,3133",
+      "lang": "en"
+    },
+    {
+      "key": "Nueva Vizcaya",
+      "isoid": "NUV",
+      "zip": "37[01]",
+      "zipex": "3700,3714",
+      "lang": "en"
+    },
+    {
+      "key": "Palawan",
+      "isoid": "PLW",
+      "zip": "53[0-2]",
+      "zipex": "5300,5322",
+      "lang": "en"
+    },
+    {
+      "key": "Pampanga",
+      "isoid": "PAM",
+      "zip": "20[0-2]",
+      "zipex": "2000,2022",
+      "lang": "en"
+    },
+    {
+      "key": "Pangasinan",
+      "isoid": "PAN",
+      "zip": "24[0-4]",
+      "zipex": "2400,2447",
+      "lang": "en"
+    },
+    {
+      "key": "Quezon Province",
+      "isoid": "QUE",
+      "zip": "43[0-4]",
+      "zipex": "4300,4342",
+      "lang": "en"
+    },
+    {
+      "key": "Quirino",
+      "isoid": "QUI",
+      "zip": "340",
+      "zipex": "3400,3405",
+      "lang": "en"
+    },
+    {
+      "key": "Rizal",
+      "isoid": "RIZ",
+      "zip": "1[89]",
+      "zipex": "1850,1990",
+      "lang": "en"
+    },
+    {
+      "key": "Romblon",
+      "isoid": "ROM",
+      "zip": "55[01]",
+      "zipex": "5500,5516",
+      "lang": "en"
+    },
+    {
+      "key": "Samar",
+      "isoid": "WSA",
+      "zip": "67[0-2]",
+      "zipex": "6700,6725",
+      "lang": "en"
+    },
+    {
+      "key": "Sarangani",
+      "isoid": "SAR",
+      "zip": "8015",
+      "zipex": "8015",
+      "lang": "en"
+    },
+    {
+      "key": "Siquijor",
+      "isoid": "SIG",
+      "zip": "62(2[5-9]|30)",
+      "zipex": "6225,6230",
+      "lang": "en"
+    },
+    {
+      "key": "Sorsogon",
+      "isoid": "SOR",
+      "zip": "47[01]",
+      "zipex": "4700,4715",
+      "lang": "en"
+    },
+    {
+      "key": "South Cotabato",
+      "isoid": "SCO",
+      "zip": "95[01]",
+      "zipex": "9500,9513",
+      "lang": "en"
+    },
+    {
+      "key": "Southern Leyte",
+      "isoid": "SLE",
+      "lang": "en"
+    },
+    {
+      "key": "Sultan Kudarat",
+      "isoid": "SUK",
+      "zip": "98[01]",
+      "zipex": "9800,9811",
+      "lang": "en"
+    },
+    {
+      "key": "Sulu",
+      "isoid": "SLU",
+      "zip": "74[01]",
+      "zipex": "7400,7416",
+      "lang": "en"
+    },
+    {
+      "key": "Surigao del Norte",
+      "isoid": "SUN",
+      "zip": "84[02]",
+      "zipex": "8400,8427",
+      "lang": "en"
+    },
+    {
+      "key": "Surigao del Sur",
+      "isoid": "SUR",
+      "zip": "83[01]",
+      "zipex": "8300,8319",
+      "lang": "en"
+    },
+    {
+      "key": "Tarlac",
+      "isoid": "TAR",
+      "zip": "23[01]",
+      "zipex": "2300,2318",
+      "lang": "en"
+    },
+    {
+      "key": "Tawi-Tawi",
+      "isoid": "TAW",
+      "zip": "750",
+      "zipex": "7500,7509",
+      "lang": "en"
+    },
+    {
+      "key": "Zambales",
+      "isoid": "ZMB",
+      "zip": "22[01]",
+      "zipex": "2200,2213",
+      "lang": "en"
+    },
+    {
+      "key": "Zamboanga Sibuguey",
+      "isoid": "ZSI",
+      "zip": "70[0-4]",
+      "zipex": "7000,7043",
+      "lang": "en"
+    },
+    {
+      "key": "Zamboanga del Norte",
+      "isoid": "ZAN",
+      "zip": "71[0-2]",
+      "zipex": "7100,7124",
+      "lang": "en"
+    },
+    {
+      "key": "Zamboanga del Sur",
+      "isoid": "ZAS",
+      "zip": "70[0-4]",
+      "zipex": "7000,7043",
+      "lang": "en"
+    }
+  ],
+  "SO": [
+    {
+      "key": "AD",
+      "name": "AWDAL",
+      "isoid": "AW",
+      "lang": "so"
+    },
+    {
+      "key": "BK",
+      "name": "BAKOOL",
+      "isoid": "BK",
+      "lang": "so"
+    },
+    {
+      "key": "BN",
+      "name": "BANAADIR",
+      "isoid": "BN",
+      "lang": "so"
+    },
+    {
+      "key": "BR",
+      "name": "BARI",
+      "isoid": "BR",
+      "lang": "so"
+    },
+    {
+      "key": "BY",
+      "name": "BAY",
+      "isoid": "BY",
+      "lang": "so"
+    },
+    {
+      "key": "GD",
+      "name": "GEDO",
+      "isoid": "GE",
+      "lang": "so"
+    },
+    {
+      "key": "GG",
+      "name": "GALGUDUUD",
+      "isoid": "GA",
+      "lang": "so"
+    },
+    {
+      "key": "HR",
+      "name": "HIIRAAN",
+      "isoid": "HI",
+      "lang": "so"
+    },
+    {
+      "key": "JD",
+      "name": "JUBBADA DHEXE",
+      "isoid": "JD",
+      "lang": "so"
+    },
+    {
+      "key": "JH",
+      "name": "JUBBADA HOOSE",
+      "isoid": "JH",
+      "lang": "so"
+    },
+    {
+      "key": "MD",
+      "name": "MUDUG",
+      "isoid": "MU",
+      "lang": "so"
+    },
+    {
+      "key": "NG",
+      "name": "NUGAAL",
+      "isoid": "NU",
+      "lang": "so"
+    },
+    {
+      "key": "SD",
+      "name": "SHABEELLAHA DHEXE",
+      "isoid": "SD",
+      "lang": "so"
+    },
+    {
+      "key": "SG",
+      "name": "SANAAG",
+      "isoid": "SA",
+      "lang": "so"
+    },
+    {
+      "key": "SH",
+      "name": "SHABEELLAHA HOOSE",
+      "isoid": "SH",
+      "lang": "so"
+    },
+    {
+      "key": "SL",
+      "name": "SOOL",
+      "isoid": "SO",
+      "lang": "so"
+    },
+    {
+      "key": "TG",
+      "name": "TOGDHEER",
+      "isoid": "TO",
+      "lang": "so"
+    },
+    {
+      "key": "WG",
+      "name": "WOQOOYI GALBEED",
+      "isoid": "WO",
+      "lang": "so"
+    }
+  ],
+  "SR": [
+    {
+      "key": "BROKOPONDO",
+      "isoid": "BR",
+      "lang": "nl"
+    },
+    {
+      "key": "COMMEWIJNE",
+      "isoid": "CM",
+      "lang": "nl"
+    },
+    {
+      "key": "CORONIE",
+      "isoid": "CR",
+      "lang": "nl"
+    },
+    {
+      "key": "MAROWIJNE",
+      "isoid": "MA",
+      "lang": "nl"
+    },
+    {
+      "key": "NICKERIE",
+      "isoid": "NI",
+      "lang": "nl"
+    },
+    {
+      "key": "PARA",
+      "isoid": "PR",
+      "lang": "nl"
+    },
+    {
+      "key": "PARAMARIBO",
+      "isoid": "PM",
+      "lang": "nl"
+    },
+    {
+      "key": "SARAMACCA",
+      "isoid": "SA",
+      "lang": "nl"
+    },
+    {
+      "key": "SIPALIWINI",
+      "isoid": "SI",
+      "lang": "nl"
+    },
+    {
+      "key": "WANICA",
+      "isoid": "WA",
+      "lang": "nl"
+    }
+  ],
+  "SV": [
+    {
+      "key": "AHUACHAPAN",
+      "name": "Ahuachapán",
+      "isoid": "AH",
+      "zip": "CP 21",
+      "zipex": "CP 2101",
+      "lang": "es"
+    },
+    {
+      "key": "CABANAS",
+      "name": "Cabañas",
+      "isoid": "CA",
+      "zip": "CP 12",
+      "zipex": "CP 1201",
+      "lang": "es"
+    },
+    {
+      "key": "CALATENANGO",
+      "name": "Chalatenango",
+      "isoid": "CH",
+      "zip": "CP 13",
+      "zipex": "CP 1301",
+      "lang": "es"
+    },
+    {
+      "key": "CUSCATLAN",
+      "name": "Cuscatlán",
+      "isoid": "CU",
+      "zip": "CP 14",
+      "zipex": "CP 1401",
+      "lang": "es"
+    },
+    {
+      "key": "LA LIBERTAD",
+      "name": "La Libertad",
+      "isoid": "LI",
+      "zip": "CP 15",
+      "zipex": "CP 1501",
+      "lang": "es"
+    },
+    {
+      "key": "LA PAZ",
+      "name": "La Paz",
+      "isoid": "PA",
+      "zip": "CP 16",
+      "zipex": "CP 1601",
+      "lang": "es"
+    },
+    {
+      "key": "LA UNION",
+      "name": "La Unión",
+      "isoid": "UN",
+      "zip": "CP 31",
+      "zipex": "CP 3101",
+      "lang": "es"
+    },
+    {
+      "key": "MORAZAN",
+      "name": "Morazán",
+      "isoid": "MO",
+      "zip": "CP 32",
+      "zipex": "CP 3201",
+      "lang": "es"
+    },
+    {
+      "key": "SAN MIGUEL",
+      "name": "San Miguel",
+      "isoid": "SM",
+      "zip": "CP 33",
+      "zipex": "CP 3301",
+      "lang": "es"
+    },
+    {
+      "key": "SAN SALVADOR",
+      "name": "San Salvador",
+      "isoid": "SS",
+      "zip": "CP 11",
+      "zipex": "CP 1101",
+      "lang": "es"
+    },
+    {
+      "key": "SAN VICENTE",
+      "name": "San Vicente",
+      "isoid": "SV",
+      "zip": "CP 17",
+      "zipex": "CP 1701",
+      "lang": "es"
+    },
+    {
+      "key": "SANTA ANA",
+      "name": "Santa Ana",
+      "isoid": "SA",
+      "zip": "CP 22",
+      "zipex": "CP 2201",
+      "lang": "es"
+    },
+    {
+      "key": "SONSONATE",
+      "name": "Sonsonate",
+      "isoid": "SO",
+      "zip": "CP 23",
+      "zipex": "CP 2301",
+      "lang": "es"
+    },
+    {
+      "key": "USULUTAN",
+      "name": "Usulután",
+      "isoid": "US",
+      "zip": "CP 34",
+      "zipex": "CP 3401",
+      "lang": "es"
+    }
+  ],
+  "TH": [
+    {
+      "key": "กระบี่",
+      "lname": "KRABI",
+      "isoid": "81",
+      "zip": "81",
+      "lang": "th"
+    },
+    {
+      "key": "กรุงเทพมหานคร",
+      "lname": "BANGKOK",
+      "isoid": "10",
+      "zip": "10",
+      "lang": "th"
+    },
+    {
+      "key": "กาญจนบุรี",
+      "lname": "KANCHANABURI",
+      "isoid": "71",
+      "zip": "71",
+      "lang": "th"
+    },
+    {
+      "key": "กาฬสินธุ์",
+      "lname": "KALASIN",
+      "isoid": "46",
+      "zip": "46",
+      "lang": "th"
+    },
+    {
+      "key": "กำแพงเพชร",
+      "lname": "KAMPHAENG PHET",
+      "isoid": "62",
+      "zip": "62",
+      "lang": "th"
+    },
+    {
+      "key": "ขอนแก่น",
+      "lname": "KHON KAEN",
+      "isoid": "40",
+      "zip": "40",
+      "lang": "th"
+    },
+    {
+      "key": "จันทบุรี",
+      "lname": "CHANTHABURI",
+      "isoid": "22",
+      "zip": "22",
+      "lang": "th"
+    },
+    {
+      "key": "ฉะเชิงเทรา",
+      "lname": "CHACHOENGSAO",
+      "isoid": "24",
+      "zip": "24",
+      "lang": "th"
+    },
+    {
+      "key": "ชลบุรี",
+      "lname": "CHON BURI",
+      "isoid": "20",
+      "zip": "20",
+      "lang": "th"
+    },
+    {
+      "key": "ชัยนาท",
+      "lname": "CHAI NAT",
+      "isoid": "18",
+      "zip": "17",
+      "lang": "th"
+    },
+    {
+      "key": "ชัยภูมิ",
+      "lname": "CHAIYAPHUM",
+      "isoid": "36",
+      "zip": "36",
+      "lang": "th"
+    },
+    {
+      "key": "ชุมพร",
+      "lname": "CHUMPON",
+      "isoid": "86",
+      "zip": "86",
+      "lang": "th"
+    },
+    {
+      "key": "ตรัง",
+      "lname": "TRANG",
+      "isoid": "92",
+      "zip": "92",
+      "lang": "th"
+    },
+    {
+      "key": "ตราด",
+      "lname": "TRAT",
+      "isoid": "23",
+      "zip": "23",
+      "lang": "th"
+    },
+    {
+      "key": "ตาก",
+      "lname": "TAK",
+      "isoid": "63",
+      "zip": "63",
+      "lang": "th"
+    },
+    {
+      "key": "นครนายก",
+      "lname": "NAKHON NAYOK",
+      "isoid": "26",
+      "zip": "26",
+      "lang": "th"
+    },
+    {
+      "key": "นครปฐม",
+      "lname": "NAKHON PATHOM",
+      "isoid": "73",
+      "zip": "73",
+      "lang": "th"
+    },
+    {
+      "key": "นครพนม",
+      "lname": "NAKHON PHANOM",
+      "isoid": "48",
+      "zip": "48",
+      "lang": "th"
+    },
+    {
+      "key": "นครราชสีมา",
+      "lname": "NAKHON RATCHASIMA",
+      "isoid": "30",
+      "zip": "30",
+      "lang": "th"
+    },
+    {
+      "key": "นครศรีธรรมราช",
+      "lname": "NAKHON SI THAMMARAT",
+      "isoid": "80",
+      "zip": "80",
+      "lang": "th"
+    },
+    {
+      "key": "นครสวรรค์",
+      "lname": "NAKHON SAWAN",
+      "isoid": "60",
+      "zip": "60",
+      "lang": "th"
+    },
+    {
+      "key": "นนทบุรี",
+      "lname": "NONTHABURI",
+      "isoid": "12",
+      "zip": "11",
+      "lang": "th"
+    },
+    {
+      "key": "นราธิวาส",
+      "lname": "NARATHIWAT",
+      "isoid": "96",
+      "zip": "96",
+      "lang": "th"
+    },
+    {
+      "key": "น่าน",
+      "lname": "NAN",
+      "isoid": "55",
+      "zip": "55",
+      "lang": "th"
+    },
+    {
+      "key": "บุรีรัมย์",
+      "lname": "BURI RAM",
+      "isoid": "31",
+      "zip": "31",
+      "lang": "th"
+    },
+    {
+      "key": "ปทุมธานี",
+      "lname": "PATHUM THANI",
+      "isoid": "13",
+      "zip": "12",
+      "lang": "th"
+    },
+    {
+      "key": "ประจวบคีรีขันธ์",
+      "lname": "PRACHUAP KHIRI KHAN",
+      "isoid": "77",
+      "zip": "77",
+      "lang": "th"
+    },
+    {
+      "key": "ปราจีนบุรี",
+      "lname": "PRACHIN BURI",
+      "isoid": "25",
+      "zip": "25",
+      "lang": "th"
+    },
+    {
+      "key": "ปัตตานี",
+      "lname": "PATTANI",
+      "isoid": "94",
+      "zip": "94",
+      "lang": "th"
+    },
+    {
+      "key": "พระนครศรีอยุธยา",
+      "lname": "PHRA NAKHON SI AYUTTHAYA",
+      "isoid": "14",
+      "zip": "13",
+      "lang": "th"
+    },
+    {
+      "key": "พะเยา",
+      "lname": "PHAYAO",
+      "isoid": "56",
+      "zip": "56",
+      "lang": "th"
+    },
+    {
+      "key": "พังงา",
+      "lname": "PHANG NGA",
+      "isoid": "82",
+      "zip": "82",
+      "lang": "th"
+    },
+    {
+      "key": "พัทลุง",
+      "lname": "PHATTALUNG",
+      "isoid": "93",
+      "zip": "93",
+      "lang": "th"
+    },
+    {
+      "key": "พิจิตร",
+      "lname": "PHICHIT",
+      "isoid": "66",
+      "zip": "66",
+      "lang": "th"
+    },
+    {
+      "key": "พิษณุโลก",
+      "lname": "PHITSANULOK",
+      "isoid": "65",
+      "zip": "65",
+      "lang": "th"
+    },
+    {
+      "key": "ภูเก็ต",
+      "lname": "PHUKET",
+      "isoid": "83",
+      "zip": "83",
+      "lang": "th"
+    },
+    {
+      "key": "มหาสารคาม",
+      "lname": "MAHA SARAKHAM",
+      "isoid": "44",
+      "zip": "44",
+      "lang": "th"
+    },
+    {
+      "key": "มุกดาหาร",
+      "lname": "MUKDAHAN",
+      "isoid": "49",
+      "zip": "49",
+      "lang": "th"
+    },
+    {
+      "key": "ยะลา",
+      "lname": "YALA",
+      "isoid": "95",
+      "zip": "95",
+      "lang": "th"
+    },
+    {
+      "key": "ยโสธร",
+      "lname": "YASOTHON",
+      "isoid": "35",
+      "zip": "35",
+      "lang": "th"
+    },
+    {
+      "key": "ระนอง",
+      "lname": "RANONG",
+      "isoid": "85",
+      "zip": "85",
+      "lang": "th"
+    },
+    {
+      "key": "ระยอง",
+      "lname": "RAYONG",
+      "isoid": "21",
+      "zip": "21",
+      "lang": "th"
+    },
+    {
+      "key": "ราชบุรี",
+      "lname": "RATCHABURI",
+      "isoid": "70",
+      "zip": "70",
+      "lang": "th"
+    },
+    {
+      "key": "ร้อยเอ็ด",
+      "lname": "ROI ET",
+      "isoid": "45",
+      "zip": "45",
+      "lang": "th"
+    },
+    {
+      "key": "ลพบุรี",
+      "lname": "LOP BURI",
+      "isoid": "16",
+      "zip": "15",
+      "lang": "th"
+    },
+    {
+      "key": "ลำปาง",
+      "lname": "LAMPANG",
+      "isoid": "52",
+      "zip": "52",
+      "lang": "th"
+    },
+    {
+      "key": "ลำพูน",
+      "lname": "LAMPHUN",
+      "isoid": "51",
+      "zip": "51",
+      "lang": "th"
+    },
+    {
+      "key": "ศรีสะเกษ",
+      "lname": "SI SA KET",
+      "isoid": "33",
+      "zip": "33",
+      "lang": "th"
+    },
+    {
+      "key": "สกลนคร",
+      "lname": "SAKON NAKHON",
+      "isoid": "47",
+      "zip": "47",
+      "lang": "th"
+    },
+    {
+      "key": "สงขลา",
+      "lname": "SONGKHLA",
+      "isoid": "90",
+      "zip": "90",
+      "lang": "th"
+    },
+    {
+      "key": "สตูล",
+      "lname": "SATUN",
+      "isoid": "91",
+      "zip": "91",
+      "lang": "th"
+    },
+    {
+      "key": "สมุทรปราการ",
+      "lname": "SAMUT PRAKAN",
+      "isoid": "11",
+      "zip": "10",
+      "lang": "th"
+    },
+    {
+      "key": "สมุทรสงคราม",
+      "lname": "SAMUT SONGKHRAM",
+      "isoid": "75",
+      "zip": "75",
+      "lang": "th"
+    },
+    {
+      "key": "สมุทรสาคร",
+      "lname": "SAMUT SAKHON",
+      "isoid": "74",
+      "zip": "74",
+      "lang": "th"
+    },
+    {
+      "key": "สระบุรี",
+      "lname": "SARABURI",
+      "isoid": "19",
+      "zip": "18",
+      "lang": "th"
+    },
+    {
+      "key": "สระแก้ว",
+      "lname": "SA KAEO",
+      "isoid": "27",
+      "zip": "27",
+      "lang": "th"
+    },
+    {
+      "key": "สิงห์บุรี",
+      "lname": "SING BURI",
+      "isoid": "17",
+      "zip": "16",
+      "lang": "th"
+    },
+    {
+      "key": "สุพรรณบุรี",
+      "lname": "SUPHANBURI",
+      "isoid": "72",
+      "zip": "72",
+      "lang": "th"
+    },
+    {
+      "key": "สุราษฎร์ธานี",
+      "lname": "SURAT THANI",
+      "isoid": "84",
+      "zip": "84",
+      "lang": "th"
+    },
+    {
+      "key": "สุรินทร์",
+      "lname": "SURIN",
+      "isoid": "32",
+      "zip": "32",
+      "lang": "th"
+    },
+    {
+      "key": "สุโขทัย",
+      "lname": "SUKHOTHAI",
+      "isoid": "64",
+      "zip": "64",
+      "lang": "th"
+    },
+    {
+      "key": "หนองคาย",
+      "lname": "NONG KHAI",
+      "isoid": "43",
+      "zip": "43",
+      "lang": "th"
+    },
+    {
+      "key": "หนองบัวลำภู",
+      "lname": "NONG BUA LAM PHU",
+      "isoid": "39",
+      "zip": "39",
+      "lang": "th"
+    },
+    {
+      "key": "อำนาจเจริญ",
+      "lname": "AMNAT CHAROEN",
+      "isoid": "37",
+      "zip": "37",
+      "lang": "th"
+    },
+    {
+      "key": "อุดรธานี",
+      "lname": "UDON THANI",
+      "isoid": "41",
+      "zip": "41",
+      "lang": "th"
+    },
+    {
+      "key": "อุตรดิตถ์",
+      "lname": "UTTARADIT",
+      "isoid": "53",
+      "zip": "53",
+      "lang": "th"
+    },
+    {
+      "key": "อุทัยธานี",
+      "lname": "UTHAI THANI",
+      "isoid": "61",
+      "zip": "61",
+      "lang": "th"
+    },
+    {
+      "key": "อุบลราชธานี",
+      "lname": "UBON RATCHATHANI",
+      "isoid": "34",
+      "zip": "34",
+      "lang": "th"
+    },
+    {
+      "key": "อ่างทอง",
+      "lname": "ANG THONG",
+      "isoid": "15",
+      "zip": "14",
+      "lang": "th"
+    },
+    {
+      "key": "เชียงราย",
+      "lname": "CHIANG RAI",
+      "isoid": "57",
+      "zip": "57",
+      "lang": "th"
+    },
+    {
+      "key": "เชียงใหม่",
+      "lname": "CHIANG MAI",
+      "isoid": "50",
+      "zip": "50",
+      "lang": "th"
+    },
+    {
+      "key": "เพชรบุรี",
+      "lname": "PHETCHABURI",
+      "isoid": "76",
+      "zip": "76",
+      "lang": "th"
+    },
+    {
+      "key": "เพชรบูรณ์",
+      "lname": "PHETCHABUN",
+      "isoid": "67",
+      "zip": "67",
+      "lang": "th"
+    },
+    {
+      "key": "เลย",
+      "lname": "LOEI",
+      "isoid": "42",
+      "zip": "42",
+      "lang": "th"
+    },
+    {
+      "key": "แพร่",
+      "lname": "PHRAE",
+      "isoid": "54",
+      "zip": "54",
+      "lang": "th"
+    },
+    {
+      "key": "แม่ฮ่องสอน",
+      "lname": "MAE HONG SON",
+      "isoid": "58",
+      "zip": "58",
+      "lang": "th"
+    }
+  ],
+  "TV": [
+    {
+      "key": "FUNAFUTI",
+      "isoid": "FUN",
+      "lang": "tyv"
+    },
+    {
+      "key": "NANUMANGA",
+      "isoid": "NMG",
+      "lang": "tyv"
+    },
+    {
+      "key": "NANUMEA",
+      "isoid": "NMA",
+      "lang": "tyv"
+    },
+    {
+      "key": "NIULAKITA",
+      "lang": "tyv"
+    },
+    {
+      "key": "NIUTAO",
+      "isoid": "NIT",
+      "lang": "tyv"
+    },
+    {
+      "key": "NUI",
+      "isoid": "NUI",
+      "lang": "tyv"
+    },
+    {
+      "key": "NUKUFETAU",
+      "isoid": "NKF",
+      "lang": "tyv"
+    },
+    {
+      "key": "NUKULAELAE",
+      "isoid": "NKL",
+      "lang": "tyv"
+    },
+    {
+      "key": "VAITUPU",
+      "isoid": "VAI",
+      "lang": "tyv"
+    }
+  ],
+  "TW": [
+    {
+      "key": "南投縣",
+      "lname": "Nantou County",
+      "isoid": "NAN",
+      "zip": "5[45]",
+      "zipex": "540,558",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "台中市",
+      "lname": "Taichung City",
+      "isoid": "TXG",
+      "zip": "4[0-3]",
+      "zipex": "400,408:411,439",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "台北市",
+      "lname": "Taipei City",
+      "isoid": "TPE",
+      "zip": "1[01]",
+      "zipex": "100,119",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "台南市",
+      "lname": "Tainan City",
+      "isoid": "TNN",
+      "zip": "7[0-4]",
+      "zipex": "700,745",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "台東縣",
+      "lname": "Taitung County",
+      "isoid": "TTT",
+      "zip": "9[56]",
+      "zipex": "950,966",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "嘉義市",
+      "lname": "Chiayi City",
+      "isoid": "CYI",
+      "zip": "600",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "嘉義縣",
+      "lname": "Chiayi County",
+      "isoid": "CYQ",
+      "zip": "60[1-9]|6[12]",
+      "zipex": "602,625",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "基隆市",
+      "lname": "Keelung City",
+      "isoid": "KEE",
+      "zip": "20[0-6]",
+      "zipex": "200,206",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "宜蘭縣",
+      "lname": "Yilan County",
+      "isoid": "ILA",
+      "zip": "2[67]",
+      "zipex": "260,272",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "屏東縣",
+      "lname": "Pingtung County",
+      "isoid": "PIF",
+      "zip": "9[0-4]",
+      "zipex": "900,947",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "彰化縣",
+      "lname": "Changhua County",
+      "isoid": "CHA",
+      "zip": "5[0123]",
+      "zipex": "500,530",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "新北市",
+      "lname": "New Taipei City",
+      "isoid": "TPQ",
+      "zip": "20[78]|2[2345]",
+      "zipex": "207,208:220,253",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "新竹市",
+      "lname": "Hsinchu City",
+      "isoid": "HSZ",
+      "zip": "300",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "新竹縣",
+      "lname": "Hsinchu County",
+      "isoid": "HSQ",
+      "zip": "30[2-8]|31",
+      "zipex": "302,315",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "桃園縣",
+      "lname": "Taoyuan County",
+      "isoid": "TAO",
+      "zip": "3[23]",
+      "zipex": "320,338",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "澎湖縣",
+      "lname": "Penghu County",
+      "isoid": "PEN",
+      "zip": "88",
+      "zipex": "880,885",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "花蓮縣",
+      "lname": "Hualien County",
+      "isoid": "HUA",
+      "zip": "9[78]",
+      "zipex": "970,983",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "苗栗縣",
+      "lname": "Miaoli County",
+      "isoid": "MIA",
+      "zip": "3[56]",
+      "zipex": "350,369",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "連江縣",
+      "lname": "Lienchiang County",
+      "zip": "209|21[012]",
+      "zipex": "209,212",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "金門縣",
+      "lname": "Kinmen County",
+      "zip": "89",
+      "zipex": "890,896",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "雲林縣",
+      "lname": "Yunlin County",
+      "isoid": "YUN",
+      "zip": "6[3-5]",
+      "zipex": "630,655",
+      "lang": "zh-hant"
+    },
+    {
+      "key": "高雄市",
+      "lname": "Kaohsiung City",
+      "isoid": "KHH",
+      "zip": "8[02-5]|81[1-579]",
+      "zipex": "800,815:817,852",
+      "lang": "zh-hant"
+    }
+  ],
+  "US": [
+    {
+      "key": "AA",
+      "name": "Armed Forces (AA)",
+      "zip": "340",
+      "zipex": "34000,34099",
+      "lang": "en"
+    },
+    {
+      "key": "AE",
+      "name": "Armed Forces (AE)",
+      "zip": "09",
+      "zipex": "09000,09999",
+      "lang": "en"
+    },
+    {
+      "key": "AK",
+      "name": "Alaska",
+      "zip": "99[5-9]",
+      "zipex": "99500,99999",
+      "lang": "en"
+    },
+    {
+      "key": "AL",
+      "name": "Alabama",
+      "zip": "3[56]",
+      "zipex": "35000,36999",
+      "lang": "en"
+    },
+    {
+      "key": "AP",
+      "name": "Armed Forces (AP)",
+      "zip": "96[2-6]",
+      "zipex": "96200,96699",
+      "lang": "en"
+    },
+    {
+      "key": "AR",
+      "name": "Arkansas",
+      "zip": "71[6-9]|72",
+      "zipex": "71600,72999",
+      "lang": "en"
+    },
+    {
+      "key": "AS",
+      "name": "American Samoa",
+      "zip": "96799",
+      "zipex": "96799",
+      "lang": "en"
+    },
+    {
+      "key": "AZ",
+      "name": "Arizona",
+      "zip": "8[56]",
+      "zipex": "85000,86999",
+      "lang": "en"
+    },
+    {
+      "key": "CA",
+      "name": "California",
+      "zip": "9[0-5]|96[01]",
+      "zipex": "90000,96199",
+      "lang": "en"
+    },
+    {
+      "key": "CO",
+      "name": "Colorado",
+      "zip": "8[01]",
+      "zipex": "80000,81999",
+      "lang": "en"
+    },
+    {
+      "key": "CT",
+      "name": "Connecticut",
+      "zip": "06",
+      "zipex": "06000,06999",
+      "lang": "en"
+    },
+    {
+      "key": "DC",
+      "name": "District of Columbia",
+      "zip": "20[02-5]|569",
+      "zipex": "20000,20099:20200,20599:56900,56999",
+      "lang": "en"
+    },
+    {
+      "key": "DE",
+      "name": "Delaware",
+      "zip": "19[7-9]",
+      "zipex": "19700,19999",
+      "lang": "en"
+    },
+    {
+      "key": "FL",
+      "name": "Florida",
+      "zip": "3[23]|34[1-9]",
+      "zipex": "32000,33999:34100,34999",
+      "lang": "en"
+    },
+    {
+      "key": "FM",
+      "name": "Micronesia",
+      "zip": "9694[1-4]",
+      "zipex": "96941,96944",
+      "lang": "en"
+    },
+    {
+      "key": "GA",
+      "name": "Georgia",
+      "zip": "3[01]|398|39901",
+      "zipex": "30000,31999:39800,39899:39901",
+      "lang": "en"
+    },
+    {
+      "key": "GU",
+      "name": "Guam",
+      "zip": "969([1-2]\\d|3[12])",
+      "zipex": "96910,96932",
+      "lang": "en"
+    },
+    {
+      "key": "HI",
+      "name": "Hawaii",
+      "zip": "967[0-8]|9679[0-8]|968",
+      "zipex": "96700,96798:96800,96899",
+      "lang": "en"
+    },
+    {
+      "key": "IA",
+      "name": "Iowa",
+      "zip": "5[0-2]",
+      "zipex": "50000,52999",
+      "lang": "en"
+    },
+    {
+      "key": "ID",
+      "name": "Idaho",
+      "zip": "83[2-9]",
+      "zipex": "83200,83999",
+      "lang": "en"
+    },
+    {
+      "key": "IL",
+      "name": "Illinois",
+      "zip": "6[0-2]",
+      "zipex": "60000,62999",
+      "lang": "en"
+    },
+    {
+      "key": "IN",
+      "name": "Indiana",
+      "zip": "4[67]",
+      "zipex": "46000,47999",
+      "lang": "en"
+    },
+    {
+      "key": "KS",
+      "name": "Kansas",
+      "zip": "6[67]",
+      "zipex": "66000,67999",
+      "lang": "en"
+    },
+    {
+      "key": "KY",
+      "name": "Kentucky",
+      "zip": "4[01]|42[0-7]",
+      "zipex": "40000,42799",
+      "lang": "en"
+    },
+    {
+      "key": "LA",
+      "name": "Louisiana",
+      "zip": "70|71[0-5]",
+      "zipex": "70000,71599",
+      "lang": "en"
+    },
+    {
+      "key": "MA",
+      "name": "Massachusetts",
+      "zip": "01|02[0-7]|05501|05544",
+      "zipex": "01000,02799:05501:05544",
+      "lang": "en"
+    },
+    {
+      "key": "MD",
+      "name": "Maryland",
+      "zip": "20[6-9]|21",
+      "zipex": "20600,21999",
+      "lang": "en"
+    },
+    {
+      "key": "ME",
+      "name": "Maine",
+      "zip": "039|04",
+      "zipex": "03900,04999",
+      "lang": "en"
+    },
+    {
+      "key": "MH",
+      "name": "Marshall Islands",
+      "zip": "969[67]",
+      "zipex": "96960,96979",
+      "lang": "en"
+    },
+    {
+      "key": "MI",
+      "name": "Michigan",
+      "zip": "4[89]",
+      "zipex": "48000,49999",
+      "lang": "en"
+    },
+    {
+      "key": "MN",
+      "name": "Minnesota",
+      "zip": "55|56[0-7]",
+      "zipex": "55000,56799",
+      "lang": "en"
+    },
+    {
+      "key": "MO",
+      "name": "Missouri",
+      "zip": "6[3-5]",
+      "zipex": "63000,65999",
+      "lang": "en"
+    },
+    {
+      "key": "MP",
+      "name": "Northern Mariana Islands",
+      "zip": "9695[0-2]",
+      "zipex": "96950,96952",
+      "lang": "en"
+    },
+    {
+      "key": "MS",
+      "name": "Mississippi",
+      "zip": "38[6-9]|39[0-7]",
+      "zipex": "38600,39799",
+      "lang": "en"
+    },
+    {
+      "key": "MT",
+      "name": "Montana",
+      "zip": "59",
+      "zipex": "59000,59999",
+      "lang": "en"
+    },
+    {
+      "key": "NC",
+      "name": "North Carolina",
+      "zip": "2[78]",
+      "zipex": "27000,28999",
+      "lang": "en"
+    },
+    {
+      "key": "ND",
+      "name": "North Dakota",
+      "zip": "58",
+      "zipex": "58000,58999",
+      "lang": "en"
+    },
+    {
+      "key": "NE",
+      "name": "Nebraska",
+      "zip": "6[89]",
+      "zipex": "68000,69999",
+      "lang": "en"
+    },
+    {
+      "key": "NH",
+      "name": "New Hampshire",
+      "zip": "03[0-8]",
+      "zipex": "03000,03899",
+      "lang": "en"
+    },
+    {
+      "key": "NJ",
+      "name": "New Jersey",
+      "zip": "0[78]",
+      "zipex": "07000,08999",
+      "lang": "en"
+    },
+    {
+      "key": "NM",
+      "name": "New Mexico",
+      "zip": "87|88[0-4]",
+      "zipex": "87000,88499",
+      "lang": "en"
+    },
+    {
+      "key": "NV",
+      "name": "Nevada",
+      "zip": "889|89",
+      "zipex": "88900,89999",
+      "lang": "en"
+    },
+    {
+      "key": "NY",
+      "name": "New York",
+      "zip": "1[0-4]|06390|00501|00544",
+      "zipex": "10000,14999:06390:00501:00544",
+      "lang": "en"
+    },
+    {
+      "key": "OH",
+      "name": "Ohio",
+      "zip": "4[3-5]",
+      "zipex": "43000,45999",
+      "lang": "en"
+    },
+    {
+      "key": "OK",
+      "name": "Oklahoma",
+      "zip": "7[34]",
+      "zipex": "73000,74999",
+      "lang": "en"
+    },
+    {
+      "key": "OR",
+      "name": "Oregon",
+      "zip": "97",
+      "zipex": "97000,97999",
+      "lang": "en"
+    },
+    {
+      "key": "PA",
+      "name": "Pennsylvania",
+      "zip": "1[5-8]|19[0-6]",
+      "zipex": "15000,19699",
+      "lang": "en"
+    },
+    {
+      "key": "PR",
+      "name": "Puerto Rico",
+      "zip": "00[679]",
+      "zipex": "00600,00799:00900,00999",
+      "lang": "en"
+    },
+    {
+      "key": "PW",
+      "name": "Palau",
+      "zip": "969(39|40)",
+      "zipex": "96940",
+      "lang": "en"
+    },
+    {
+      "key": "RI",
+      "name": "Rhode Island",
+      "zip": "02[89]",
+      "zipex": "02800,02999",
+      "lang": "en"
+    },
+    {
+      "key": "SC",
+      "name": "South Carolina",
+      "zip": "29",
+      "zipex": "29000,29999",
+      "lang": "en"
+    },
+    {
+      "key": "SD",
+      "name": "South Dakota",
+      "zip": "57",
+      "zipex": "57000,57999",
+      "lang": "en"
+    },
+    {
+      "key": "TN",
+      "name": "Tennessee",
+      "zip": "37|38[0-5]",
+      "zipex": "37000,38599",
+      "lang": "en"
+    },
+    {
+      "key": "TX",
+      "name": "Texas",
+      "zip": "7[5-9]|885|73301|73344",
+      "zipex": "75000,79999:88500,88599:73301:73344",
+      "lang": "en"
+    },
+    {
+      "key": "UT",
+      "name": "Utah",
+      "zip": "84",
+      "zipex": "84000,84999",
+      "lang": "en"
+    },
+    {
+      "key": "VA",
+      "name": "Virginia",
+      "zip": "201|2[23]|24[0-6]",
+      "zipex": "20100,20199:22000,24699",
+      "lang": "en"
+    },
+    {
+      "key": "VI",
+      "name": "Virgin Islands",
+      "zip": "008",
+      "zipex": "00800,00899",
+      "lang": "en"
+    },
+    {
+      "key": "VT",
+      "name": "Vermont",
+      "zip": "05",
+      "zipex": "05000,05999",
+      "lang": "en"
+    },
+    {
+      "key": "WA",
+      "name": "Washington",
+      "zip": "98|99[0-4]",
+      "zipex": "98000,99499",
+      "lang": "en"
+    },
+    {
+      "key": "WI",
+      "name": "Wisconsin",
+      "zip": "5[34]",
+      "zipex": "53000,54999",
+      "lang": "en"
+    },
+    {
+      "key": "WV",
+      "name": "West Virginia",
+      "zip": "24[7-9]|2[56]",
+      "zipex": "24700,26999",
+      "lang": "en"
+    },
+    {
+      "key": "WY",
+      "name": "Wyoming",
+      "zip": "82|83[01]|83414",
+      "zipex": "82000,83199:83414",
+      "lang": "en"
+    }
+  ],
+  "UY": [
+    {
+      "key": "ARTIGAS",
+      "isoid": "AR",
+      "zip": "55",
+      "lang": "es"
+    },
+    {
+      "key": "CANELONES",
+      "isoid": "CA",
+      "zip": "9[01]|1[456]",
+      "lang": "es"
+    },
+    {
+      "key": "CERRO LARGO",
+      "isoid": "CL",
+      "zip": "37",
+      "lang": "es"
+    },
+    {
+      "key": "COLONIA",
+      "isoid": "CO",
+      "zip": "70|75204",
+      "lang": "es"
+    },
+    {
+      "key": "DURAZNO",
+      "isoid": "DU",
+      "zip": "97",
+      "lang": "es"
+    },
+    {
+      "key": "FLORES",
+      "isoid": "FS",
+      "zip": "85",
+      "lang": "es"
+    },
+    {
+      "key": "FLORIDA",
+      "isoid": "FD",
+      "zip": "94|9060|97005",
+      "lang": "es"
+    },
+    {
+      "key": "LAVALLEJA",
+      "isoid": "LA",
+      "zip": "30",
+      "lang": "es"
+    },
+    {
+      "key": "MALDONADO",
+      "isoid": "MA",
+      "zip": "20",
+      "lang": "es"
+    },
+    {
+      "key": "MONTEVIDEO",
+      "isoid": "MO",
+      "zip": "1|91600",
+      "lang": "es"
+    },
+    {
+      "key": "PAYSANDÚ",
+      "isoid": "PA",
+      "zip": "60",
+      "lang": "es"
+    },
+    {
+      "key": "RIVERA",
+      "isoid": "RV",
+      "zip": "40",
+      "lang": "es"
+    },
+    {
+      "key": "ROCHA",
+      "isoid": "RO",
+      "zip": "27",
+      "lang": "es"
+    },
+    {
+      "key": "RÍO NEGRO",
+      "isoid": "RN",
+      "zip": "65|60002",
+      "lang": "es"
+    },
+    {
+      "key": "SALTO",
+      "isoid": "SA",
+      "zip": "50",
+      "lang": "es"
+    },
+    {
+      "key": "SAN JOSÉ",
+      "isoid": "SJ",
+      "zip": "80",
+      "lang": "es"
+    },
+    {
+      "key": "SORIANO",
+      "isoid": "SO",
+      "zip": "75|70003",
+      "lang": "es"
+    },
+    {
+      "key": "TACUAREMBÓ",
+      "isoid": "TA",
+      "zip": "45",
+      "lang": "es"
+    },
+    {
+      "key": "TREINTA Y TRES",
+      "isoid": "TT",
+      "zip": "33|30203|30204|30302|37007",
+      "lang": "es"
+    }
+  ],
+  "VE": [
+    {
+      "key": "Amazonas",
+      "isoid": "Z",
+      "lang": "es"
+    },
+    {
+      "key": "Anzoátegui",
+      "isoid": "B",
+      "lang": "es"
+    },
+    {
+      "key": "Apure",
+      "isoid": "C",
+      "lang": "es"
+    },
+    {
+      "key": "Aragua",
+      "isoid": "D",
+      "lang": "es"
+    },
+    {
+      "key": "Barinas",
+      "isoid": "E",
+      "lang": "es"
+    },
+    {
+      "key": "Bolívar",
+      "isoid": "F",
+      "lang": "es"
+    },
+    {
+      "key": "Carabobo",
+      "isoid": "G",
+      "lang": "es"
+    },
+    {
+      "key": "Cojedes",
+      "isoid": "H",
+      "lang": "es"
+    },
+    {
+      "key": "Delta Amacuro",
+      "isoid": "Y",
+      "lang": "es"
+    },
+    {
+      "key": "Dependencias Federales",
+      "isoid": "W",
+      "lang": "es"
+    },
+    {
+      "key": "Distrito Federal",
+      "isoid": "A",
+      "lang": "es"
+    },
+    {
+      "key": "Falcón",
+      "isoid": "I",
+      "lang": "es"
+    },
+    {
+      "key": "Guárico",
+      "isoid": "J",
+      "lang": "es"
+    },
+    {
+      "key": "Lara",
+      "isoid": "K",
+      "lang": "es"
+    },
+    {
+      "key": "Miranda",
+      "isoid": "M",
+      "lang": "es"
+    },
+    {
+      "key": "Monagas",
+      "isoid": "N",
+      "lang": "es"
+    },
+    {
+      "key": "Mérida",
+      "isoid": "L",
+      "lang": "es"
+    },
+    {
+      "key": "Nueva Esparta",
+      "isoid": "O",
+      "lang": "es"
+    },
+    {
+      "key": "Portuguesa",
+      "isoid": "P",
+      "lang": "es"
+    },
+    {
+      "key": "Sucre",
+      "isoid": "R",
+      "lang": "es"
+    },
+    {
+      "key": "Trujillo",
+      "isoid": "T",
+      "lang": "es"
+    },
+    {
+      "key": "Táchira",
+      "isoid": "S",
+      "lang": "es"
+    },
+    {
+      "key": "Vargas",
+      "isoid": "X",
+      "lang": "es"
+    },
+    {
+      "key": "Yaracuy",
+      "isoid": "U",
+      "lang": "es"
+    },
+    {
+      "key": "Zulia",
+      "isoid": "V",
+      "lang": "es"
+    }
+  ],
+  "VN": [
+    {
+      "key": "An Giang",
+      "lname": "AN GIANG PROVINCE",
+      "isoid": "44",
+      "lang": "vi"
+    },
+    {
+      "key": "Bà Rịa–Vũng Tàu",
+      "lname": "BA RIA-VUNG TAU PROVINCE",
+      "isoid": "43",
+      "lang": "vi"
+    },
+    {
+      "key": "Bình Dương",
+      "lname": "BINH DUONG PROVINCE",
+      "isoid": "57",
+      "lang": "vi"
+    },
+    {
+      "key": "Bình Phước",
+      "lname": "BINH PHUOC PROVINCE",
+      "isoid": "58",
+      "lang": "vi"
+    },
+    {
+      "key": "Bình Thuận",
+      "lname": "BINH THUAN PROVINCE",
+      "isoid": "40",
+      "lang": "vi"
+    },
+    {
+      "key": "Bình Định",
+      "lname": "BINH DINH PROVINCE",
+      "isoid": "31",
+      "lang": "vi"
+    },
+    {
+      "key": "Bắc Giang",
+      "lname": "BAC GIANG PROVINCE",
+      "isoid": "54",
+      "lang": "vi"
+    },
+    {
+      "key": "Bắc Kạn",
+      "lname": "BAC KAN PROVINCE",
+      "isoid": "53",
+      "lang": "vi"
+    },
+    {
+      "key": "Bắc Lieu",
+      "lname": "BAC LIEU PROVINCE",
+      "isoid": "55",
+      "lang": "vi"
+    },
+    {
+      "key": "Bắc Ninh",
+      "lname": "BAC NINH PROVINCE",
+      "isoid": "56",
+      "lang": "vi"
+    },
+    {
+      "key": "Bến Tre",
+      "lname": "BEN TRE PROVINCE",
+      "isoid": "50",
+      "lang": "vi"
+    },
+    {
+      "key": "Cao Bằng",
+      "lname": "CAO BANG PROVINCE",
+      "isoid": "04",
+      "lang": "vi"
+    },
+    {
+      "key": "Cà Mau",
+      "lname": "CA MAU PROVINCE",
+      "isoid": "59",
+      "lang": "vi"
+    },
+    {
+      "key": "Cần Thơ",
+      "lname": "CAN THO CITY",
+      "isoid": "48",
+      "lang": "vi"
+    },
+    {
+      "key": "Gia Lai",
+      "lname": "GIA LAI PROVINCE",
+      "isoid": "30",
+      "lang": "vi"
+    },
+    {
+      "key": "Hà Giang",
+      "lname": "HA GIANG PROVINCE",
+      "isoid": "03",
+      "lang": "vi"
+    },
+    {
+      "key": "Hà Nam",
+      "lname": "HA NAM PROVINCE",
+      "isoid": "63",
+      "lang": "vi"
+    },
+    {
+      "key": "Hà Nội",
+      "lname": "HANOI CITY",
+      "isoid": "64",
+      "lang": "vi"
+    },
+    {
+      "key": "Hà Tây",
+      "lname": "HA TAY PROVINCE",
+      "isoid": "15",
+      "lang": "vi"
+    },
+    {
+      "key": "Hà Tĩnh",
+      "lname": "HA TINH PROVINCE",
+      "isoid": "23",
+      "lang": "vi"
+    },
+    {
+      "key": "Hòa Bình",
+      "lname": "HOA BINH PROVINCE",
+      "isoid": "14",
+      "lang": "vi"
+    },
+    {
+      "key": "Hưng Yên",
+      "lname": "HUNG YEN PROVINCE",
+      "isoid": "66",
+      "lang": "vi"
+    },
+    {
+      "key": "Hải Dương",
+      "lname": "HAI DUONG PROVINCE",
+      "isoid": "61",
+      "lang": "vi"
+    },
+    {
+      "key": "Hải Phòng",
+      "lname": "HAIPHONG CITY",
+      "isoid": "62",
+      "lang": "vi"
+    },
+    {
+      "key": "Hậu Giang",
+      "lname": "HAU GIANG PROVINCE",
+      "isoid": "73",
+      "lang": "vi"
+    },
+    {
+      "key": "Khánh Hòa",
+      "lname": "KHANH HOA PROVINCE",
+      "isoid": "34",
+      "lang": "vi"
+    },
+    {
+      "key": "Kiên Giang",
+      "lname": "KIEN GIANG PROVINCE",
+      "isoid": "47",
+      "lang": "vi"
+    },
+    {
+      "key": "Kon Tum",
+      "lname": "KON TUM PROVINCE",
+      "isoid": "28",
+      "lang": "vi"
+    },
+    {
+      "key": "Lai Châu",
+      "lname": "LAI CHAU PROVINCE",
+      "isoid": "01",
+      "lang": "vi"
+    },
+    {
+      "key": "Long An",
+      "lname": "LONG AN PROVINCE",
+      "isoid": "41",
+      "lang": "vi"
+    },
+    {
+      "key": "Lào Cai",
+      "lname": "LAO CAI PROVINCE",
+      "isoid": "02",
+      "lang": "vi"
+    },
+    {
+      "key": "Lâm Đồng",
+      "lname": "LAM DONG PROVINCE",
+      "isoid": "35",
+      "lang": "vi"
+    },
+    {
+      "key": "Lạng Sơn",
+      "lname": "LANG SONG PROVINCE",
+      "isoid": "09",
+      "lang": "vi"
+    },
+    {
+      "key": "Nam Định",
+      "lname": "NAM DINH PROVINCE",
+      "isoid": "67",
+      "lang": "vi"
+    },
+    {
+      "key": "Nghệ An",
+      "lname": "NGHE AN PROVINCE",
+      "isoid": "22",
+      "lang": "vi"
+    },
+    {
+      "key": "Ninh Bình",
+      "lname": "NINH BINH PROVINCE",
+      "isoid": "18",
+      "lang": "vi"
+    },
+    {
+      "key": "Ninh Thuận",
+      "lname": "NINH THUAN PROVINCE",
+      "isoid": "36",
+      "lang": "vi"
+    },
+    {
+      "key": "Phú Thọ",
+      "lname": "PHU THO PROVINCE",
+      "isoid": "68",
+      "lang": "vi"
+    },
+    {
+      "key": "Phú Yên",
+      "lname": "PHU YEN PROVINCE",
+      "isoid": "32",
+      "lang": "vi"
+    },
+    {
+      "key": "Quảng Bình",
+      "lname": "QUANG BINH PROVINCE",
+      "isoid": "24",
+      "lang": "vi"
+    },
+    {
+      "key": "Quảng Nam",
+      "lname": "QUANG NAM PROVINCE",
+      "isoid": "27",
+      "lang": "vi"
+    },
+    {
+      "key": "Quảng Ngãi",
+      "lname": "QUANG NGAI PROVINCE",
+      "isoid": "29",
+      "lang": "vi"
+    },
+    {
+      "key": "Quảng Ninh",
+      "lname": "QUANG NINH PROVINCE",
+      "isoid": "13",
+      "lang": "vi"
+    },
+    {
+      "key": "Quảng Trị",
+      "lname": "QUANG TRI PROVINCE",
+      "isoid": "25",
+      "lang": "vi"
+    },
+    {
+      "key": "Sóc Trăng",
+      "lname": "SOC TRANG PROVINCE",
+      "isoid": "52",
+      "lang": "vi"
+    },
+    {
+      "key": "Sơn La",
+      "lname": "SON LA PROVINCE",
+      "isoid": "05",
+      "lang": "vi"
+    },
+    {
+      "key": "Thanh Hóa",
+      "lname": "THANH HOA PROVINCE",
+      "isoid": "21",
+      "lang": "vi"
+    },
+    {
+      "key": "Thành phố Hồ Chí Minh",
+      "lname": "HO CHI MINH CITY",
+      "isoid": "65",
+      "lang": "vi"
+    },
+    {
+      "key": "Thái Bình",
+      "lname": "THAI BINH PROVINCE",
+      "isoid": "20",
+      "lang": "vi"
+    },
+    {
+      "key": "Thái Nguyên",
+      "lname": "THAI NGUYEN PROVINCE",
+      "isoid": "69",
+      "lang": "vi"
+    },
+    {
+      "key": "Thừa Thiên–Huế",
+      "lname": "THUA THIEN-HUE PROVINCE",
+      "isoid": "26",
+      "lang": "vi"
+    },
+    {
+      "key": "Tiền Giang",
+      "lname": "TIEN GIANG PROVINCE",
+      "isoid": "46",
+      "lang": "vi"
+    },
+    {
+      "key": "Trà Vinh",
+      "lname": "TRA VINH PROVINCE",
+      "isoid": "51",
+      "lang": "vi"
+    },
+    {
+      "key": "Tuyên Quang",
+      "lname": "TUYEN QUANG PROVINCE",
+      "isoid": "07",
+      "lang": "vi"
+    },
+    {
+      "key": "Tây Ninh",
+      "lname": "TAY NINH PROVINCE",
+      "isoid": "37",
+      "lang": "vi"
+    },
+    {
+      "key": "Vĩnh Long",
+      "lname": "VINH LONG PROVINCE",
+      "isoid": "49",
+      "lang": "vi"
+    },
+    {
+      "key": "Vĩnh Phúc",
+      "lname": "VINH PHUC PROVINCE",
+      "isoid": "70",
+      "lang": "vi"
+    },
+    {
+      "key": "Yên Bái",
+      "lname": "YEN BAI PROVINCE",
+      "isoid": "06",
+      "lang": "vi"
+    },
+    {
+      "key": "Điện Biên",
+      "lname": "DIEN BIEN PROVINCE",
+      "isoid": "71",
+      "lang": "vi"
+    },
+    {
+      "key": "Đà Nẵng",
+      "lname": "DA NANG CITY",
+      "isoid": "60",
+      "lang": "vi"
+    },
+    {
+      "key": "Đăk Nông",
+      "lname": "DAK NONG PROVINCE",
+      "isoid": "72",
+      "lang": "vi"
+    },
+    {
+      "key": "Đắk Lắk",
+      "lname": "DAK LAK PROVINCE",
+      "isoid": "33",
+      "lang": "vi"
+    },
+    {
+      "key": "Đồng Nai",
+      "lname": "DONG NAI PROVINCE",
+      "isoid": "39",
+      "lang": "vi"
+    },
+    {
+      "key": "Đồng Tháp",
+      "lname": "DONG THAP PROVINCE",
+      "isoid": "45",
+      "lang": "vi"
+    }
+  ]
+}
