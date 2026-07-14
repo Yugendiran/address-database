@@ -1,6 +1,6 @@
 {
   "source": "google/libaddressinput RegionDataConstants.java",
-  "note": "Fields each country collects in a postal address, in display order. Tokens: %N name, %O org, %A street, %D dependent locality, %C locality, %S admin area, %Z postal code, %X sorting code.",
+  "note": "Fields each country collects in a postal address, in display order. Tokens: %N name, %O org, %A street, %D dependent locality, %C locality, %S admin area, %Z postal code, %X sorting code, %T/%F/%L landmark.",
   "count": 252,
   "countries": [
     {

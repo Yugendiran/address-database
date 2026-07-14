@@ -1,5 +1,5 @@
 {
-  "$comment": "One example address per country, stored in the address-schema.json template shape. Only fields each country collects are filled. Curated realistic values for ~18 major countries; synthetic placeholders elsewhere. `formatted` is derived from the country's fmt.",
+  "$comment": "One example address per country, in the address-schema.json template shape. Only collected fields filled. Curated realistic values for ~18 major countries; synthetic placeholders elsewhere. `formatted` derived from each country's fmt.",
   "count": 252,
   "addresses": [
     {
