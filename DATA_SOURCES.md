@@ -85,6 +85,15 @@ Last generated: 2026-07-14.
   (per-country counts), `manifest.js` (tiny counts-only file for the UI), and
   `js/<CC>.js` (228 per-country option bundles, lazy-loaded by the web UI).
 
+### `admin-levels.json` / `admin-levels.js` — what ADM1/2/3 mean per country
+- **Level 1** name derived from **Source B** (libaddressinput `state_name_type`, i.e. the
+  `administrativeArea` field label) where the country's format collects a state field.
+- **Levels 2 & 3** names are **Source E** (authored/curated): real administrative terms for
+  51 significant countries (US: State/County/County-subdivision; IN: State/District/
+  Sub-district; JP: Prefecture/Municipality/Ward…). Countries not curated fall back to
+  generic `Administrative area / District / Sub-district`. Each entry has `curated:true|false`.
+- Used by the web UIs to label the cascading dropdowns and show the meaning chain.
+
 ### Derived / UI files (no external data)
 - `data.js` = `address-fields.json` as a `window.ADDRESS_DATA` script (browser/`file://`).
 - `examples.js` = `address-examples.json` as `window.ADDRESS_EXAMPLES`.
@@ -121,6 +130,9 @@ unzip -p allCountries.zip allCountries.txt \
   | awk -F'\t' '$8=="ADM1"||$8=="ADM2"||$8=="ADM3"{print $9"\t"$8"\t"$11"\t"$12"\t"$13"\t"$2"\t"$3"\t"$1}' > adm.tsv
 python3 build_geonames.py       # -> level1/2/3.json + index.json (keyed by country, parent codes)
 python3 gen_percountry.py       # -> js/<CC>.js (228 lazy-load bundles) + manifest.js
+
+# admin-levels.json/.js  (what ADM1/2/3 mean per country; L1 from libaddressinput, L2/L3 curated)
+python3 gen_admin_levels.py
 ```
 
 **GeoNames dump schema** (tab-separated, the columns we used):

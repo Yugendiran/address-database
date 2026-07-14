@@ -11,6 +11,7 @@
 */
 (function () {
   const MAN = window.SUBREG_MANIFEST || {};
+  const LEVELS = window.ADMIN_LEVELS || {};   // per-country meaning of ADM1/2/3
   const META = {};
   ((window.ADDRESS_DATA || {}).countries || []).forEach(c => (META[c.code] = c));
 
@@ -42,10 +43,16 @@
     3: { formKey: "dependentLocality",  fallback: "Sub-district" },
   };
 
-  function labelFor(cc, level) {
+  // Semantic name of this admin level FOR THIS COUNTRY (State, Prefecture, District…)
+  function levelName(cc, level) {
+    const lv = LEVELS[cc];
+    if (lv && lv["l" + level]) return lv["l" + level];
     const m = META[cc];
     const f = m && m.fields.find(x => x.key === MAP[level].formKey);
-    return "Level " + level + " · " + (f ? f.label : MAP[level].fallback);
+    return f ? f.label : MAP[level].fallback;
+  }
+  function labelFor(cc, level) {
+    return levelName(cc, level) + ' <span class="ac-lv">L' + level + "</span>";
   }
 
   // Decide what to render for each level. Returns [{level,control,label}]
@@ -72,12 +79,18 @@
       mount.innerHTML = '<div class="ac-empty">No administrative divisions for this country — free text only.</div>';
       return;
     }
+    // meaning chain, e.g. "State → District → Sub-district"
+    const chain = document.createElement("div");
+    chain.className = "ac-chain";
+    chain.innerHTML = spec.map(s => "<b>" + levelName(cc, s.level) + "</b>").join(" <i>→</i> ");
+    mount.appendChild(chain);
+
     const els = {};
     spec.forEach(s => {
       const wrap = document.createElement("div");
       wrap.className = "ac-field";
       const lab = document.createElement("label");
-      lab.textContent = s.label;
+      lab.innerHTML = s.label;
       const badge = document.createElement("span");
       badge.className = "ac-badge " + s.control;
       badge.textContent = s.control === "select" ? "dropdown · " + s.count : "text input";

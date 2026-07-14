@@ -1,0 +1,1397 @@
+{
+  "$comment": "What ADM level 1/2/3 mean per country. l1 = libaddressinput state_name_type or curated; l2/l3 = curated real administrative terms, else generic District/Sub-district. `curated`=true means human-verified names; false means generic fallback.",
+  "levels": {
+    "AD": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "AE": {
+      "l1": "Emirate",
+      "l2": "Region",
+      "l3": "District",
+      "curated": true
+    },
+    "AF": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "AG": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "AI": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "AL": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "AM": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "AO": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "AR": {
+      "l1": "Province",
+      "l2": "Department",
+      "l3": "Municipality",
+      "curated": true
+    },
+    "AS": {
+      "l1": "State",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "AT": {
+      "l1": "State (Land)",
+      "l2": "District (Bezirk)",
+      "l3": "Municipality",
+      "curated": true
+    },
+    "AU": {
+      "l1": "State / Territory",
+      "l2": "Local government area",
+      "l3": "Locality",
+      "curated": true
+    },
+    "AX": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "AZ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BA": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BB": {
+      "l1": "Parish",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BD": {
+      "l1": "Division",
+      "l2": "District",
+      "l3": "Upazila",
+      "curated": true
+    },
+    "BE": {
+      "l1": "Region",
+      "l2": "Province",
+      "l3": "Municipality",
+      "curated": true
+    },
+    "BF": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BG": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BH": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BI": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BJ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BM": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BN": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BO": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BQ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BR": {
+      "l1": "State",
+      "l2": "Municipality",
+      "l3": "District",
+      "curated": true
+    },
+    "BS": {
+      "l1": "Island",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BT": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BW": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BY": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "BZ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "CA": {
+      "l1": "Province / Territory",
+      "l2": "Census division",
+      "l3": "Municipality",
+      "curated": true
+    },
+    "CC": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "CD": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "CF": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "CG": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "CH": {
+      "l1": "Canton",
+      "l2": "District",
+      "l3": "Municipality",
+      "curated": true
+    },
+    "CI": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "CK": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "CL": {
+      "l1": "Region",
+      "l2": "Province",
+      "l3": "Commune",
+      "curated": true
+    },
+    "CM": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "CN": {
+      "l1": "Province",
+      "l2": "Prefecture",
+      "l3": "County / District",
+      "curated": true
+    },
+    "CO": {
+      "l1": "Department",
+      "l2": "Municipality",
+      "l3": "Locality",
+      "curated": true
+    },
+    "CR": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "CU": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "CV": {
+      "l1": "Island",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "CX": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "CY": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "CZ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "DE": {
+      "l1": "State (Land)",
+      "l2": "District (Kreis)",
+      "l3": "Municipality (Gemeinde)",
+      "curated": true
+    },
+    "DJ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "DK": {
+      "l1": "Region",
+      "l2": "Municipality",
+      "l3": "Parish",
+      "curated": true
+    },
+    "DM": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "DO": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "DZ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "EC": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "EE": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "EG": {
+      "l1": "Governorate",
+      "l2": "Region",
+      "l3": "District",
+      "curated": true
+    },
+    "ER": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "ES": {
+      "l1": "Autonomous community",
+      "l2": "Province",
+      "l3": "Comarca / Municipality",
+      "curated": true
+    },
+    "ET": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "FI": {
+      "l1": "Region",
+      "l2": "Sub-region",
+      "l3": "Municipality",
+      "curated": true
+    },
+    "FJ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "FM": {
+      "l1": "State",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "FO": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "FR": {
+      "l1": "Region",
+      "l2": "Department",
+      "l3": "Arrondissement / Commune",
+      "curated": true
+    },
+    "GA": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GB": {
+      "l1": "Nation",
+      "l2": "County / Council area",
+      "l3": "District",
+      "curated": true
+    },
+    "GD": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GE": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GF": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GG": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GH": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GL": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GM": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GN": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GP": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GQ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GR": {
+      "l1": "Region",
+      "l2": "Regional unit",
+      "l3": "Municipality",
+      "curated": true
+    },
+    "GT": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GU": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GW": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "GY": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "HK": {
+      "l1": "Region",
+      "l2": "District",
+      "l3": "Area",
+      "curated": true
+    },
+    "HM": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "HN": {
+      "l1": "Department",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "HR": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "HT": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "HU": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "ID": {
+      "l1": "Province",
+      "l2": "Regency / City",
+      "l3": "District (Kecamatan)",
+      "curated": true
+    },
+    "IE": {
+      "l1": "Province",
+      "l2": "County",
+      "l3": "Electoral division",
+      "curated": true
+    },
+    "IL": {
+      "l1": "District",
+      "l2": "Sub-district",
+      "l3": "Locality",
+      "curated": true
+    },
+    "IM": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "IN": {
+      "l1": "State",
+      "l2": "District",
+      "l3": "Sub-district (Taluk)",
+      "curated": true
+    },
+    "IQ": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "IR": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "IS": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "IT": {
+      "l1": "Region",
+      "l2": "Province",
+      "l3": "Comune",
+      "curated": true
+    },
+    "JE": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "JM": {
+      "l1": "Parish",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "JO": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "JP": {
+      "l1": "Prefecture",
+      "l2": "Municipality",
+      "l3": "Ward / Town",
+      "curated": true
+    },
+    "KE": {
+      "l1": "County",
+      "l2": "Sub-county",
+      "l3": "Ward",
+      "curated": true
+    },
+    "KG": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "KH": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "KI": {
+      "l1": "Island",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "KM": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "KN": {
+      "l1": "Island",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "KP": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "KR": {
+      "l1": "Province",
+      "l2": "Municipality",
+      "l3": "District (Gu)",
+      "curated": true
+    },
+    "KW": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "KY": {
+      "l1": "Island",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "KZ": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "LA": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "LB": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "LC": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "LI": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "LK": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "LR": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "LS": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "LT": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "LU": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "LV": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "LY": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MA": {
+      "l1": "Region",
+      "l2": "Province / Prefecture",
+      "l3": "Municipality",
+      "curated": true
+    },
+    "MC": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MD": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "ME": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MG": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MH": {
+      "l1": "State",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MK": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "ML": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MM": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MN": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MO": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MP": {
+      "l1": "State",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MQ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MR": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MS": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MT": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MU": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MV": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MW": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "MX": {
+      "l1": "State",
+      "l2": "Municipality",
+      "l3": "Locality",
+      "curated": true
+    },
+    "MY": {
+      "l1": "State",
+      "l2": "District",
+      "l3": "Mukim",
+      "curated": true
+    },
+    "MZ": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "NA": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "NC": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "NE": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "NF": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "NG": {
+      "l1": "State",
+      "l2": "Local government area",
+      "l3": "Ward",
+      "curated": true
+    },
+    "NI": {
+      "l1": "Department",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "NL": {
+      "l1": "Province",
+      "l2": "Municipality",
+      "l3": "Locality",
+      "curated": true
+    },
+    "NO": {
+      "l1": "County (Fylke)",
+      "l2": "Municipality",
+      "l3": "District",
+      "curated": true
+    },
+    "NP": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "NR": {
+      "l1": "District",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "NZ": {
+      "l1": "Region",
+      "l2": "District",
+      "l3": "Locality",
+      "curated": true
+    },
+    "OM": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "PA": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "PE": {
+      "l1": "Region",
+      "l2": "Province",
+      "l3": "District",
+      "curated": true
+    },
+    "PF": {
+      "l1": "Island",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "PG": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "PH": {
+      "l1": "Province",
+      "l2": "Municipality / City",
+      "l3": "Barangay",
+      "curated": true
+    },
+    "PK": {
+      "l1": "Province",
+      "l2": "Division",
+      "l3": "District",
+      "curated": true
+    },
+    "PL": {
+      "l1": "Voivodeship",
+      "l2": "County (Powiat)",
+      "l3": "Commune (Gmina)",
+      "curated": true
+    },
+    "PM": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "PR": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "PS": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "PT": {
+      "l1": "District",
+      "l2": "Municipality",
+      "l3": "Parish (Freguesia)",
+      "curated": true
+    },
+    "PW": {
+      "l1": "State",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "PY": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "QA": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "RE": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "RO": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "RS": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "RU": {
+      "l1": "Federal subject",
+      "l2": "District (Raion)",
+      "l3": "Settlement",
+      "curated": true
+    },
+    "RW": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SA": {
+      "l1": "Region",
+      "l2": "Governorate",
+      "l3": "District",
+      "curated": true
+    },
+    "SB": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SC": {
+      "l1": "Island",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SD": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SE": {
+      "l1": "County (Lan)",
+      "l2": "Municipality",
+      "l3": "District",
+      "curated": true
+    },
+    "SH": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SI": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SJ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SK": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SL": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SM": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SN": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SO": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SR": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SS": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "ST": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SV": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SY": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "SZ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "TD": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "TF": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "TG": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "TH": {
+      "l1": "Province",
+      "l2": "District (Amphoe)",
+      "l3": "Subdistrict (Tambon)",
+      "curated": true
+    },
+    "TJ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "TK": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "TL": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "TM": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "TN": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "TO": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "TR": {
+      "l1": "Province (Il)",
+      "l2": "District (Ilce)",
+      "l3": "Locality",
+      "curated": true
+    },
+    "TT": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "TV": {
+      "l1": "Island",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "TW": {
+      "l1": "County / City",
+      "l2": "Township / District",
+      "l3": "Village",
+      "curated": true
+    },
+    "TZ": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "UA": {
+      "l1": "Oblast",
+      "l2": "Raion",
+      "l3": "Hromada",
+      "curated": true
+    },
+    "UG": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "UM": {
+      "l1": "State",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "US": {
+      "l1": "State",
+      "l2": "County",
+      "l3": "County subdivision",
+      "curated": true
+    },
+    "UY": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "UZ": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "VC": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "VE": {
+      "l1": "State",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "VI": {
+      "l1": "State",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "VN": {
+      "l1": "Province",
+      "l2": "District",
+      "l3": "Commune",
+      "curated": true
+    },
+    "VU": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "WF": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "WS": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "XK": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "YE": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "YT": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "ZA": {
+      "l1": "Province",
+      "l2": "District municipality",
+      "l3": "Local municipality",
+      "curated": true
+    },
+    "ZM": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    },
+    "ZW": {
+      "l1": "Administrative area",
+      "l2": "District",
+      "l3": "Sub-district",
+      "curated": false
+    }
+  }
+}

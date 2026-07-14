@@ -96,6 +96,10 @@
   .ac-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
   .ac-input:disabled{opacity:.5;cursor:not-allowed}
   .ac-empty{font-size:12px;color:var(--ink-soft);font-style:italic}
+  .ac-chain{font-size:12px;color:var(--ink-soft);margin-bottom:14px}
+  .ac-chain b{color:var(--ink);font-weight:600}
+  .ac-chain i{color:var(--accent);font-style:normal;margin:0 2px}
+  .ac-lv{font-family:var(--mono);font-size:9px;font-weight:700;color:var(--ink-soft);background:var(--chip);padding:1px 4px;border-radius:4px;margin-left:5px;vertical-align:1px}
 
   /* formatted address block */
   .addr-block{font-family:var(--mono);font-size:13px;line-height:1.7;white-space:pre-wrap;background:var(--panel-2);border:1px dashed var(--line-strong);border-radius:10px;padding:16px 18px;color:var(--ink)}
@@ -155,6 +159,7 @@
 
 <script src="data.js"></script>
 <script src="subregions-geonames/manifest.js"></script>
+<script src="admin-levels.js"></script>
 <script src="admin-control.js"></script>
 <script>
 (function(){
